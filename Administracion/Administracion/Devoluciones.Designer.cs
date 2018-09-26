@@ -240,7 +240,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Devoluciones";
-            this.Text = "Devoluciones";
+            this.Text = "309_Devoluciones";
             this.Load += new System.EventHandler(this.Devoluciones_Load);
             this.Gpb_cantidades.ResumeLayout(false);
             this.Gpb_cantidades.PerformLayout();

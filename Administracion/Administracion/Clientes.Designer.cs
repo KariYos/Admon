@@ -308,7 +308,7 @@
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Clientes";
-            this.Text = "Clientes";
+            this.Text = "306_Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
             this.Dgv_contacto.ResumeLayout(false);
             this.Dgv_contacto.PerformLayout();
