@@ -129,7 +129,7 @@
             this.Txt_nombref.BackColor = System.Drawing.Color.White;
             this.Txt_nombref.Enabled = false;
             this.Txt_nombref.Font = new System.Drawing.Font("Perpetua", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nombref.Location = new System.Drawing.Point(124, 24);
+            this.Txt_nombref.Location = new System.Drawing.Point(134, 24);
             this.Txt_nombref.Multiline = true;
             this.Txt_nombref.Name = "Txt_nombref";
             this.Txt_nombref.Size = new System.Drawing.Size(379, 20);
