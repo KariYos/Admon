@@ -221,7 +221,7 @@
             // Dtp_fecha
             // 
             this.Dtp_fecha.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dtp_fecha.Location = new System.Drawing.Point(550, 30);
+            this.Dtp_fecha.Location = new System.Drawing.Point(550, 26);
             this.Dtp_fecha.Name = "Dtp_fecha";
             this.Dtp_fecha.Size = new System.Drawing.Size(200, 23);
             this.Dtp_fecha.TabIndex = 22;
