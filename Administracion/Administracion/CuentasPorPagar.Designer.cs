@@ -30,8 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CuentasPorPagar));
             this.navegador1 = new CapaDiseno.Navegador();
-            this.Pnl_Enca = new System.Windows.Forms.Panel();
-            this.Label_Enca = new System.Windows.Forms.Label();
             this.Gbp_grupo = new System.Windows.Forms.GroupBox();
             this.Dtp_Final = new System.Windows.Forms.DateTimePicker();
             this.Dtp_Inicio = new System.Windows.Forms.DateTimePicker();
@@ -45,7 +43,6 @@
             this.Label_Abonado = new System.Windows.Forms.Label();
             this.Label_Total = new System.Windows.Forms.Label();
             this.Label_Proveedor = new System.Windows.Forms.Label();
-            this.Pnl_Enca.SuspendLayout();
             this.Gbp_grupo.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,26 +56,6 @@
             this.navegador1.Procedimiento = null;
             this.navegador1.Size = new System.Drawing.Size(857, 60);
             this.navegador1.TabIndex = 0;
-            // 
-            // Pnl_Enca
-            // 
-            this.Pnl_Enca.BackColor = System.Drawing.Color.Gray;
-            this.Pnl_Enca.Controls.Add(this.Label_Enca);
-            this.Pnl_Enca.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Pnl_Enca.Location = new System.Drawing.Point(0, 0);
-            this.Pnl_Enca.Name = "Pnl_Enca";
-            this.Pnl_Enca.Size = new System.Drawing.Size(917, 32);
-            this.Pnl_Enca.TabIndex = 4;
-            // 
-            // Label_Enca
-            // 
-            this.Label_Enca.AutoSize = true;
-            this.Label_Enca.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Enca.Location = new System.Drawing.Point(3, 0);
-            this.Label_Enca.Name = "Label_Enca";
-            this.Label_Enca.Size = new System.Drawing.Size(232, 29);
-            this.Label_Enca.TabIndex = 0;
-            this.Label_Enca.Text = "Cuentas Por Pagar";
             // 
             // Gbp_grupo
             // 
@@ -215,14 +192,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
             this.ClientSize = new System.Drawing.Size(917, 661);
             this.Controls.Add(this.Gbp_grupo);
-            this.Controls.Add(this.Pnl_Enca);
             this.Controls.Add(this.navegador1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CuentasPorPagar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "304-Cuentas Por Pagar";
-            this.Pnl_Enca.ResumeLayout(false);
-            this.Pnl_Enca.PerformLayout();
             this.Gbp_grupo.ResumeLayout(false);
             this.Gbp_grupo.PerformLayout();
             this.ResumeLayout(false);
@@ -232,8 +206,6 @@
         #endregion
 
         private CapaDiseno.Navegador navegador1;
-        private System.Windows.Forms.Panel Pnl_Enca;
-        private System.Windows.Forms.Label Label_Enca;
         private System.Windows.Forms.GroupBox Gbp_grupo;
         private System.Windows.Forms.DateTimePicker Dtp_Final;
         private System.Windows.Forms.DateTimePicker Dtp_Inicio;

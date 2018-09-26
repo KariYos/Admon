@@ -195,6 +195,7 @@
             this.Controls.Add(this.Gpb_encabezado);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Devoluciones";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "309_Devoluciones";
             this.Load += new System.EventHandler(this.Devoluciones_Load);
             this.Gpb_cantidades.ResumeLayout(false);

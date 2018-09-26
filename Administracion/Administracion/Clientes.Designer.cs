@@ -262,6 +262,7 @@
             this.Controls.Add(this.Dgv_basico);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Clientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "306_Clientes";
             this.Load += new System.EventHandler(this.Clientes_Load);
             this.Dgv_contacto.ResumeLayout(false);
