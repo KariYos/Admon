@@ -33,18 +33,18 @@
             this.Pnl_Enca = new System.Windows.Forms.Panel();
             this.Label_Enca = new System.Windows.Forms.Label();
             this.Gbp_grupo = new System.Windows.Forms.GroupBox();
-            this.Label_Proveedor = new System.Windows.Forms.Label();
-            this.Label_Total = new System.Windows.Forms.Label();
-            this.Label_Abonado = new System.Windows.Forms.Label();
-            this.Label_Saldo = new System.Windows.Forms.Label();
-            this.Label_Inicio = new System.Windows.Forms.Label();
-            this.Label_Final = new System.Windows.Forms.Label();
-            this.Cbo_Proveedores = new System.Windows.Forms.ComboBox();
-            this.Txt_Total = new System.Windows.Forms.TextBox();
-            this.Txt_Abonado = new System.Windows.Forms.TextBox();
-            this.Txt_Saldo = new System.Windows.Forms.TextBox();
-            this.Dtp_Inicio = new System.Windows.Forms.DateTimePicker();
             this.Dtp_Final = new System.Windows.Forms.DateTimePicker();
+            this.Dtp_Inicio = new System.Windows.Forms.DateTimePicker();
+            this.Txt_Saldo = new System.Windows.Forms.TextBox();
+            this.Txt_Abonado = new System.Windows.Forms.TextBox();
+            this.Txt_Total = new System.Windows.Forms.TextBox();
+            this.Cbo_Proveedores = new System.Windows.Forms.ComboBox();
+            this.Label_Final = new System.Windows.Forms.Label();
+            this.Label_Inicio = new System.Windows.Forms.Label();
+            this.Label_Saldo = new System.Windows.Forms.Label();
+            this.Label_Abonado = new System.Windows.Forms.Label();
+            this.Label_Total = new System.Windows.Forms.Label();
+            this.Label_Proveedor = new System.Windows.Forms.Label();
             this.Pnl_Enca.SuspendLayout();
             this.Gbp_grupo.SuspendLayout();
             this.SuspendLayout();
@@ -103,92 +103,14 @@
             this.Gbp_grupo.TabIndex = 5;
             this.Gbp_grupo.TabStop = false;
             // 
-            // Label_Proveedor
+            // Dtp_Final
             // 
-            this.Label_Proveedor.AutoSize = true;
-            this.Label_Proveedor.Location = new System.Drawing.Point(80, 92);
-            this.Label_Proveedor.Name = "Label_Proveedor";
-            this.Label_Proveedor.Size = new System.Drawing.Size(111, 25);
-            this.Label_Proveedor.TabIndex = 0;
-            this.Label_Proveedor.Text = "Proveedor";
-            // 
-            // Label_Total
-            // 
-            this.Label_Total.AutoSize = true;
-            this.Label_Total.Location = new System.Drawing.Point(80, 142);
-            this.Label_Total.Name = "Label_Total";
-            this.Label_Total.Size = new System.Drawing.Size(139, 25);
-            this.Label_Total.TabIndex = 1;
-            this.Label_Total.Text = "Total a pagar";
-            // 
-            // Label_Abonado
-            // 
-            this.Label_Abonado.AutoSize = true;
-            this.Label_Abonado.Location = new System.Drawing.Point(80, 198);
-            this.Label_Abonado.Name = "Label_Abonado";
-            this.Label_Abonado.Size = new System.Drawing.Size(98, 25);
-            this.Label_Abonado.TabIndex = 2;
-            this.Label_Abonado.Text = "Abonado";
-            // 
-            // Label_Saldo
-            // 
-            this.Label_Saldo.AutoSize = true;
-            this.Label_Saldo.Location = new System.Drawing.Point(80, 242);
-            this.Label_Saldo.Name = "Label_Saldo";
-            this.Label_Saldo.Size = new System.Drawing.Size(151, 25);
-            this.Label_Saldo.TabIndex = 3;
-            this.Label_Saldo.Text = "Saldo Faltante";
-            // 
-            // Label_Inicio
-            // 
-            this.Label_Inicio.AutoSize = true;
-            this.Label_Inicio.Location = new System.Drawing.Point(80, 297);
-            this.Label_Inicio.Name = "Label_Inicio";
-            this.Label_Inicio.Size = new System.Drawing.Size(128, 25);
-            this.Label_Inicio.TabIndex = 4;
-            this.Label_Inicio.Text = "Fecha Inicio";
-            // 
-            // Label_Final
-            // 
-            this.Label_Final.AutoSize = true;
-            this.Label_Final.Location = new System.Drawing.Point(80, 343);
-            this.Label_Final.Name = "Label_Final";
-            this.Label_Final.Size = new System.Drawing.Size(125, 25);
-            this.Label_Final.TabIndex = 5;
-            this.Label_Final.Text = "Fecha Final";
-            // 
-            // Cbo_Proveedores
-            // 
-            this.Cbo_Proveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cbo_Proveedores.FormattingEnabled = true;
-            this.Cbo_Proveedores.Location = new System.Drawing.Point(298, 92);
-            this.Cbo_Proveedores.Name = "Cbo_Proveedores";
-            this.Cbo_Proveedores.Size = new System.Drawing.Size(200, 28);
-            this.Cbo_Proveedores.TabIndex = 6;
-            // 
-            // Txt_Total
-            // 
-            this.Txt_Total.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Total.Location = new System.Drawing.Point(298, 142);
-            this.Txt_Total.Name = "Txt_Total";
-            this.Txt_Total.Size = new System.Drawing.Size(100, 26);
-            this.Txt_Total.TabIndex = 7;
-            // 
-            // Txt_Abonado
-            // 
-            this.Txt_Abonado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Abonado.Location = new System.Drawing.Point(298, 192);
-            this.Txt_Abonado.Name = "Txt_Abonado";
-            this.Txt_Abonado.Size = new System.Drawing.Size(100, 26);
-            this.Txt_Abonado.TabIndex = 8;
-            // 
-            // Txt_Saldo
-            // 
-            this.Txt_Saldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_Saldo.Location = new System.Drawing.Point(298, 242);
-            this.Txt_Saldo.Name = "Txt_Saldo";
-            this.Txt_Saldo.Size = new System.Drawing.Size(100, 26);
-            this.Txt_Saldo.TabIndex = 9;
+            this.Dtp_Final.CustomFormat = "";
+            this.Dtp_Final.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dtp_Final.Location = new System.Drawing.Point(298, 343);
+            this.Dtp_Final.Name = "Dtp_Final";
+            this.Dtp_Final.Size = new System.Drawing.Size(200, 22);
+            this.Dtp_Final.TabIndex = 11;
             // 
             // Dtp_Inicio
             // 
@@ -199,14 +121,92 @@
             this.Dtp_Inicio.Size = new System.Drawing.Size(200, 22);
             this.Dtp_Inicio.TabIndex = 10;
             // 
-            // Dtp_Final
+            // Txt_Saldo
             // 
-            this.Dtp_Final.CustomFormat = "";
-            this.Dtp_Final.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dtp_Final.Location = new System.Drawing.Point(298, 343);
-            this.Dtp_Final.Name = "Dtp_Final";
-            this.Dtp_Final.Size = new System.Drawing.Size(200, 22);
-            this.Dtp_Final.TabIndex = 11;
+            this.Txt_Saldo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Saldo.Location = new System.Drawing.Point(298, 242);
+            this.Txt_Saldo.Name = "Txt_Saldo";
+            this.Txt_Saldo.Size = new System.Drawing.Size(100, 26);
+            this.Txt_Saldo.TabIndex = 9;
+            // 
+            // Txt_Abonado
+            // 
+            this.Txt_Abonado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Abonado.Location = new System.Drawing.Point(298, 192);
+            this.Txt_Abonado.Name = "Txt_Abonado";
+            this.Txt_Abonado.Size = new System.Drawing.Size(100, 26);
+            this.Txt_Abonado.TabIndex = 8;
+            // 
+            // Txt_Total
+            // 
+            this.Txt_Total.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Total.Location = new System.Drawing.Point(298, 142);
+            this.Txt_Total.Name = "Txt_Total";
+            this.Txt_Total.Size = new System.Drawing.Size(100, 26);
+            this.Txt_Total.TabIndex = 7;
+            // 
+            // Cbo_Proveedores
+            // 
+            this.Cbo_Proveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cbo_Proveedores.FormattingEnabled = true;
+            this.Cbo_Proveedores.Location = new System.Drawing.Point(298, 92);
+            this.Cbo_Proveedores.Name = "Cbo_Proveedores";
+            this.Cbo_Proveedores.Size = new System.Drawing.Size(200, 28);
+            this.Cbo_Proveedores.TabIndex = 6;
+            // 
+            // Label_Final
+            // 
+            this.Label_Final.AutoSize = true;
+            this.Label_Final.Location = new System.Drawing.Point(80, 343);
+            this.Label_Final.Name = "Label_Final";
+            this.Label_Final.Size = new System.Drawing.Size(125, 25);
+            this.Label_Final.TabIndex = 5;
+            this.Label_Final.Text = "Fecha Final";
+            // 
+            // Label_Inicio
+            // 
+            this.Label_Inicio.AutoSize = true;
+            this.Label_Inicio.Location = new System.Drawing.Point(80, 297);
+            this.Label_Inicio.Name = "Label_Inicio";
+            this.Label_Inicio.Size = new System.Drawing.Size(128, 25);
+            this.Label_Inicio.TabIndex = 4;
+            this.Label_Inicio.Text = "Fecha Inicio";
+            // 
+            // Label_Saldo
+            // 
+            this.Label_Saldo.AutoSize = true;
+            this.Label_Saldo.Location = new System.Drawing.Point(80, 242);
+            this.Label_Saldo.Name = "Label_Saldo";
+            this.Label_Saldo.Size = new System.Drawing.Size(151, 25);
+            this.Label_Saldo.TabIndex = 3;
+            this.Label_Saldo.Text = "Saldo Faltante";
+            // 
+            // Label_Abonado
+            // 
+            this.Label_Abonado.AutoSize = true;
+            this.Label_Abonado.Location = new System.Drawing.Point(80, 198);
+            this.Label_Abonado.Name = "Label_Abonado";
+            this.Label_Abonado.Size = new System.Drawing.Size(98, 25);
+            this.Label_Abonado.TabIndex = 2;
+            this.Label_Abonado.Text = "Abonado";
+            // 
+            // Label_Total
+            // 
+            this.Label_Total.AutoSize = true;
+            this.Label_Total.Location = new System.Drawing.Point(80, 142);
+            this.Label_Total.Name = "Label_Total";
+            this.Label_Total.Size = new System.Drawing.Size(139, 25);
+            this.Label_Total.TabIndex = 1;
+            this.Label_Total.Text = "Total a pagar";
+            // 
+            // Label_Proveedor
+            // 
+            this.Label_Proveedor.AutoSize = true;
+            this.Label_Proveedor.Location = new System.Drawing.Point(80, 92);
+            this.Label_Proveedor.Name = "Label_Proveedor";
+            this.Label_Proveedor.Size = new System.Drawing.Size(111, 25);
+            this.Label_Proveedor.TabIndex = 0;
+            this.Label_Proveedor.Text = "Proveedor";
             // 
             // CuentasPorPagar
             // 
@@ -220,6 +220,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CuentasPorPagar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "304-Cuentas Por Pagar";
             this.Pnl_Enca.ResumeLayout(false);
             this.Pnl_Enca.PerformLayout();
             this.Gbp_grupo.ResumeLayout(false);
