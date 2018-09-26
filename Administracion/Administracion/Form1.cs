@@ -38,5 +38,28 @@ namespace Administracion
             _303_Proveedor abrir = new _303_Proveedor();
             abrir.Show();
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Clientes abrir = new Clientes();
+            abrir.Show();
+        }
+
+        private void cuentasPorPagarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CuentasPorPagar abrir = new CuentasPorPagar();
+            abrir.Show();
+        }
+
+        private void cuentasPorCobrarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+     
+        }
+
+        private void devolucionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Devoluciones abrir = new Devoluciones();
+            abrir.Show();
+        }
     }
 }
