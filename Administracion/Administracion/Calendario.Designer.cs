@@ -76,7 +76,7 @@
             // Pic_calendario
             // 
             this.Pic_calendario.Image = global::Administracion.Properties.Resources.caalendario;
-            this.Pic_calendario.Location = new System.Drawing.Point(47, 26);
+            this.Pic_calendario.Location = new System.Drawing.Point(46, 44);
             this.Pic_calendario.Name = "Pic_calendario";
             this.Pic_calendario.Size = new System.Drawing.Size(825, 548);
             this.Pic_calendario.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;

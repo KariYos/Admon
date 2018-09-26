@@ -152,7 +152,7 @@
             // 
             this.Cbo_producto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cbo_producto.FormattingEnabled = true;
-            this.Cbo_producto.Location = new System.Drawing.Point(179, 73);
+            this.Cbo_producto.Location = new System.Drawing.Point(179, 70);
             this.Cbo_producto.Name = "Cbo_producto";
             this.Cbo_producto.Size = new System.Drawing.Size(236, 29);
             this.Cbo_producto.TabIndex = 16;
@@ -160,7 +160,7 @@
             // Txt_codproducto
             // 
             this.Txt_codproducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_codproducto.Location = new System.Drawing.Point(258, 37);
+            this.Txt_codproducto.Location = new System.Drawing.Point(258, 30);
             this.Txt_codproducto.Name = "Txt_codproducto";
             this.Txt_codproducto.Size = new System.Drawing.Size(157, 27);
             this.Txt_codproducto.TabIndex = 13;
