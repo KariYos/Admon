@@ -44,11 +44,11 @@
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuentasPorPagarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cuentasPorCobrarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -120,6 +120,7 @@
             this.proveedorToolStripMenuItem.Name = "proveedorToolStripMenuItem";
             this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.proveedorToolStripMenuItem.Text = "Proveedor";
+            this.proveedorToolStripMenuItem.Click += new System.EventHandler(this.proveedorToolStripMenuItem_Click);
             // 
             // calendarioToolStripMenuItem
             // 
@@ -130,13 +131,13 @@
             // pedidoToolStripMenuItem
             // 
             this.pedidoToolStripMenuItem.Name = "pedidoToolStripMenuItem";
-            this.pedidoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.pedidoToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.pedidoToolStripMenuItem.Text = "Pedidos";
             // 
             // ventasToolStripMenuItem
             // 
             this.ventasToolStripMenuItem.Name = "ventasToolStripMenuItem";
-            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ventasToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.ventasToolStripMenuItem.Text = "Ventas";
             // 
             // clienteToolStripMenuItem
@@ -156,16 +157,6 @@
             this.cuentasPorCobrarToolStripMenuItem.Name = "cuentasPorCobrarToolStripMenuItem";
             this.cuentasPorCobrarToolStripMenuItem.Size = new System.Drawing.Size(221, 22);
             this.cuentasPorCobrarToolStripMenuItem.Text = "Cuentas por Cobrar";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(497, 165);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(275, 275);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
             // 
             // label1
             // 
@@ -203,6 +194,16 @@
             this.label3.Size = new System.Drawing.Size(83, 18);
             this.label3.TabIndex = 4;
             this.label3.Text = "\"USUARIO\"";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(497, 165);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(275, 275);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 

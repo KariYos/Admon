@@ -36,3 +36,4 @@ C:\Users\KaRi\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Adminis
 C:\Users\KaRi\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.Devoluciones.resources
 C:\Users\KaRi\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.Properties.Resources.resources
 C:\Users\KaRi\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.csproj.GenerateResource.Cache
+C:\Users\KaRi\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion._303_Proveedor.resources

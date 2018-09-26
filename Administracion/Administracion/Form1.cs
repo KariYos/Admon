@@ -32,5 +32,11 @@ namespace Administracion
 
 
         }
+
+        private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _303_Proveedor abrir = new _303_Proveedor();
+            abrir.Show();
+        }
     }
 }
