@@ -17,17 +17,11 @@ namespace Administracion
             InitializeComponent();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            label1.Text = DateTime.Now.ToLongTimeString();
-            timer1.Start();
-        }
+
 
         private void Devoluciones_Load(object sender, EventArgs e)
         {
-            timer1.Start();
-            label2.Text = DateTime.Now.ToLongDateString();
-            label1.Text = DateTime.Now.ToLongTimeString();
+      
         }
     }
 }

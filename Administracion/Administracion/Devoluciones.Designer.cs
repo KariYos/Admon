@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Devoluciones));
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Gpb_cantidades = new System.Windows.Forms.GroupBox();
             this.Txt_total = new System.Windows.Forms.TextBox();
             this.Lbl_descripcion = new System.Windows.Forms.Label();
@@ -49,10 +47,6 @@
             this.Gpb_datosCliente.SuspendLayout();
             this.Gpb_encabezado.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Gpb_cantidades
             // 
@@ -213,7 +207,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.GroupBox Gpb_cantidades;
         private System.Windows.Forms.TextBox Txt_total;
         private System.Windows.Forms.Label Lbl_descripcion;

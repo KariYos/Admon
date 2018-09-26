@@ -36,19 +36,22 @@ namespace Administracion
         private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             _303_Proveedor abrir = new _303_Proveedor();
-            abrir.Show();
+            abrir.ShowDialog();
+            this.Show();
         }
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Clientes abrir = new Clientes();
-            abrir.Show();
+            abrir.ShowDialog();
+            this.Show();
         }
 
         private void cuentasPorPagarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             CuentasPorPagar abrir = new CuentasPorPagar();
-            abrir.Show();
+            abrir.ShowDialog();
+            this.Show();
         }
 
         private void cuentasPorCobrarToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,7 +62,15 @@ namespace Administracion
         private void devolucionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Devoluciones abrir = new Devoluciones();
-            abrir.Show();
+            abrir.ShowDialog();
+            this.Show();
+        }
+
+        private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Ventas abrir = new Ventas();
+            abrir.ShowDialog();
+            this.Show();
         }
     }
 }

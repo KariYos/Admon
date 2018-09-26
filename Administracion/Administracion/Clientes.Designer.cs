@@ -28,9 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Clientes));
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.Dgv_contacto = new System.Windows.Forms.GroupBox();
             this.Txt_correo = new System.Windows.Forms.TextBox();
             this.Lbl_tel = new System.Windows.Forms.Label();
@@ -55,10 +53,6 @@
             this.Dgv_info.SuspendLayout();
             this.Dgv_basico.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // Dgv_contacto
             // 
@@ -281,7 +275,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.GroupBox Dgv_contacto;
         private System.Windows.Forms.TextBox Txt_correo;
         private System.Windows.Forms.Label Lbl_tel;
