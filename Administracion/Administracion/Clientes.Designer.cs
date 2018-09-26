@@ -53,6 +53,7 @@
             this.Lbl_codigo = new System.Windows.Forms.Label();
             this.Txt_codigo = new System.Windows.Forms.TextBox();
             this.Lbl_tipoCliente = new System.Windows.Forms.Label();
+            this.navegador1 = new CapaDiseno.Navegador();
             this.Dgv_contacto.SuspendLayout();
             this.Dgv_info.SuspendLayout();
             this.Dgv_basico.SuspendLayout();
@@ -102,7 +103,7 @@
             this.Dgv_contacto.Controls.Add(this.Lbl_tel);
             this.Dgv_contacto.Controls.Add(this.Lbl_correo);
             this.Dgv_contacto.Controls.Add(this.Txt_tel);
-            this.Dgv_contacto.Location = new System.Drawing.Point(56, 443);
+            this.Dgv_contacto.Location = new System.Drawing.Point(60, 478);
             this.Dgv_contacto.Name = "Dgv_contacto";
             this.Dgv_contacto.Size = new System.Drawing.Size(790, 116);
             this.Dgv_contacto.TabIndex = 28;
@@ -154,7 +155,7 @@
             this.Dgv_info.Controls.Add(this.Lbl_dire);
             this.Dgv_info.Controls.Add(this.Txt_apellido);
             this.Dgv_info.Controls.Add(this.Txt_dpi);
-            this.Dgv_info.Location = new System.Drawing.Point(56, 204);
+            this.Dgv_info.Location = new System.Drawing.Point(60, 239);
             this.Dgv_info.Name = "Dgv_info";
             this.Dgv_info.Size = new System.Drawing.Size(790, 219);
             this.Dgv_info.TabIndex = 27;
@@ -238,7 +239,7 @@
             this.Dgv_basico.Controls.Add(this.Lbl_codigo);
             this.Dgv_basico.Controls.Add(this.Txt_codigo);
             this.Dgv_basico.Controls.Add(this.Lbl_tipoCliente);
-            this.Dgv_basico.Location = new System.Drawing.Point(56, 74);
+            this.Dgv_basico.Location = new System.Drawing.Point(60, 109);
             this.Dgv_basico.Name = "Dgv_basico";
             this.Dgv_basico.Size = new System.Drawing.Size(790, 118);
             this.Dgv_basico.TabIndex = 26;
@@ -281,12 +282,24 @@
             this.Lbl_tipoCliente.TabIndex = 5;
             this.Lbl_tipoCliente.Text = "Tipo Cliente";
             // 
+            // navegador1
+            // 
+            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.navegador1.DataGr = null;
+            this.navegador1.Forma = null;
+            this.navegador1.Location = new System.Drawing.Point(33, 12);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Procedimiento = null;
+            this.navegador1.Size = new System.Drawing.Size(857, 60);
+            this.navegador1.TabIndex = 18;
+            // 
             // Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(180)))), ((int)(((byte)(94)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
             this.ClientSize = new System.Drawing.Size(917, 661);
+            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.Dgv_contacto);
             this.Controls.Add(this.Dgv_info);
             this.Controls.Add(this.Dgv_basico);
@@ -333,5 +346,6 @@
         private System.Windows.Forms.Label Lbl_codigo;
         private System.Windows.Forms.TextBox Txt_codigo;
         private System.Windows.Forms.Label Lbl_tipoCliente;
+        private CapaDiseno.Navegador navegador1;
     }
 }
