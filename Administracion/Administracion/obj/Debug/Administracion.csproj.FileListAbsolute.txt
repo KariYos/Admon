@@ -8,3 +8,6 @@ C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administ
 C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.csproj.GenerateResource.Cache
 C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.exe
 C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.pdb
+C:\Users\Julio\Source\Repos\Admon\Administracion\Administracion\bin\Debug\Administracion.exe.config
+C:\Users\Julio\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.exe
+C:\Users\Julio\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.pdb
