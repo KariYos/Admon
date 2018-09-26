@@ -168,7 +168,7 @@
             this.Dtp_fechaf.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(216)))), ((int)(((byte)(246)))));
             this.Dtp_fechaf.CustomFormat = "dd-MM-yy";
             this.Dtp_fechaf.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.Dtp_fechaf.Location = new System.Drawing.Point(599, 9);
+            this.Dtp_fechaf.Location = new System.Drawing.Point(597, 10);
             this.Dtp_fechaf.Name = "Dtp_fechaf";
             this.Dtp_fechaf.Size = new System.Drawing.Size(104, 29);
             this.Dtp_fechaf.TabIndex = 22;
@@ -807,7 +807,7 @@
             // 
             this.Dgb_busProd.BackgroundColor = System.Drawing.Color.White;
             this.Dgb_busProd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgb_busProd.Location = new System.Drawing.Point(123, 21);
+            this.Dgb_busProd.Location = new System.Drawing.Point(127, 7);
             this.Dgb_busProd.Name = "Dgb_busProd";
             this.Dgb_busProd.Size = new System.Drawing.Size(424, 59);
             this.Dgb_busProd.TabIndex = 12;
