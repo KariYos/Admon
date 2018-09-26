@@ -160,7 +160,7 @@
             // Txt_codproducto
             // 
             this.Txt_codproducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_codproducto.Location = new System.Drawing.Point(258, 37);
+            this.Txt_codproducto.Location = new System.Drawing.Point(258, 30);
             this.Txt_codproducto.Name = "Txt_codproducto";
             this.Txt_codproducto.Size = new System.Drawing.Size(157, 27);
             this.Txt_codproducto.TabIndex = 13;

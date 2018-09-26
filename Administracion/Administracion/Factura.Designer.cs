@@ -46,6 +46,7 @@
             this.Lbl_nombref = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Gpb_detallef = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.Txt_credit = new System.Windows.Forms.TextBox();
             this.Lbl_credit = new System.Windows.Forms.Label();
             this.Cmb_formaPago = new System.Windows.Forms.ComboBox();
@@ -80,15 +81,6 @@
             this.Txt_descripcion = new System.Windows.Forms.TextBox();
             this.Txt_cantidadf = new System.Windows.Forms.TextBox();
             this.Dgb_facturaf = new System.Windows.Forms.DataGridView();
-            this.Gpb_laboratoriof = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.Dgb_busProd = new System.Windows.Forms.DataGridView();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -96,6 +88,14 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Gpb_laboratoriof = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.Dgb_busProd = new System.Windows.Forms.DataGridView();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.Gpb_datosf.SuspendLayout();
             this.Gpb_detallef.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -168,7 +168,7 @@
             this.Dtp_fechaf.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(216)))), ((int)(((byte)(246)))));
             this.Dtp_fechaf.CustomFormat = "dd-MM-yy";
             this.Dtp_fechaf.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.Dtp_fechaf.Location = new System.Drawing.Point(596, 21);
+            this.Dtp_fechaf.Location = new System.Drawing.Point(597, 18);
             this.Dtp_fechaf.Name = "Dtp_fechaf";
             this.Dtp_fechaf.Size = new System.Drawing.Size(104, 29);
             this.Dtp_fechaf.TabIndex = 22;
@@ -295,6 +295,18 @@
             this.Gpb_detallef.TabIndex = 8;
             this.Gpb_detallef.TabStop = false;
             this.Gpb_detallef.Text = "Detalle factura";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label6.Location = new System.Drawing.Point(27, 68);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(40, 13);
+            this.label6.TabIndex = 57;
+            this.label6.Text = "Buscar";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Txt_credit
             // 
@@ -726,111 +738,6 @@
             this.Dgb_facturaf.Size = new System.Drawing.Size(768, 130);
             this.Dgb_facturaf.TabIndex = 34;
             // 
-            // Gpb_laboratoriof
-            // 
-            this.Gpb_laboratoriof.BackColor = System.Drawing.Color.Transparent;
-            this.Gpb_laboratoriof.Controls.Add(this.label1);
-            this.Gpb_laboratoriof.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_laboratoriof.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Gpb_laboratoriof.Location = new System.Drawing.Point(24, 121);
-            this.Gpb_laboratoriof.Name = "Gpb_laboratoriof";
-            this.Gpb_laboratoriof.Size = new System.Drawing.Size(881, 26);
-            this.Gpb_laboratoriof.TabIndex = 7;
-            this.Gpb_laboratoriof.TabStop = false;
-            this.Gpb_laboratoriof.Text = "COLCHONERIA";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Perpetua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(119, 34);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 28);
-            this.label1.TabIndex = 0;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(27, 68);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 57;
-            this.label6.Text = "Buscar";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // Dgb_busProd
-            // 
-            this.Dgb_busProd.BackgroundColor = System.Drawing.Color.White;
-            this.Dgb_busProd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.Dgb_busProd.Location = new System.Drawing.Point(123, 21);
-            this.Dgb_busProd.Name = "Dgb_busProd";
-            this.Dgb_busProd.Size = new System.Drawing.Size(424, 59);
-            this.Dgb_busProd.TabIndex = 12;
-            this.Dgb_busProd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.radioButton3);
-            this.groupBox2.Controls.Add(this.radioButton2);
-            this.groupBox2.Controls.Add(this.radioButton1);
-            this.groupBox2.Controls.Add(this.Dgb_busProd);
-            this.groupBox2.Controls.Add(this.textBox5);
-            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox2.Location = new System.Drawing.Point(348, 247);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(557, 93);
-            this.groupBox2.TabIndex = 13;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Buscar Producto";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(218, 167);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 26);
-            this.textBox5.TabIndex = 0;
-            // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton1.Location = new System.Drawing.Point(39, 28);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(64, 19);
-            this.radioButton1.TabIndex = 15;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Codigo";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton2.Location = new System.Drawing.Point(39, 47);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(68, 19);
-            this.radioButton2.TabIndex = 16;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Nombre";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton3.Location = new System.Drawing.Point(39, 67);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(84, 19);
-            this.radioButton3.TabIndex = 17;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Existencias";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
             // Column6
             // 
             this.Column6.HeaderText = "Codigo";
@@ -872,6 +779,99 @@
             // 
             this.Column5.HeaderText = "Total";
             this.Column5.Name = "Column5";
+            // 
+            // Gpb_laboratoriof
+            // 
+            this.Gpb_laboratoriof.BackColor = System.Drawing.Color.Transparent;
+            this.Gpb_laboratoriof.Controls.Add(this.label1);
+            this.Gpb_laboratoriof.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_laboratoriof.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Gpb_laboratoriof.Location = new System.Drawing.Point(24, 121);
+            this.Gpb_laboratoriof.Name = "Gpb_laboratoriof";
+            this.Gpb_laboratoriof.Size = new System.Drawing.Size(881, 26);
+            this.Gpb_laboratoriof.TabIndex = 7;
+            this.Gpb_laboratoriof.TabStop = false;
+            this.Gpb_laboratoriof.Text = "COLCHONERIA";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Perpetua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(119, 34);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 28);
+            this.label1.TabIndex = 0;
+            // 
+            // Dgb_busProd
+            // 
+            this.Dgb_busProd.BackgroundColor = System.Drawing.Color.White;
+            this.Dgb_busProd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Dgb_busProd.Location = new System.Drawing.Point(123, 21);
+            this.Dgb_busProd.Name = "Dgb_busProd";
+            this.Dgb_busProd.Size = new System.Drawing.Size(424, 59);
+            this.Dgb_busProd.TabIndex = 12;
+            this.Dgb_busProd.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox2.Controls.Add(this.radioButton3);
+            this.groupBox2.Controls.Add(this.radioButton2);
+            this.groupBox2.Controls.Add(this.radioButton1);
+            this.groupBox2.Controls.Add(this.Dgb_busProd);
+            this.groupBox2.Controls.Add(this.textBox5);
+            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox2.Location = new System.Drawing.Point(348, 247);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(557, 93);
+            this.groupBox2.TabIndex = 13;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Buscar Producto";
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton3.Location = new System.Drawing.Point(39, 67);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(84, 19);
+            this.radioButton3.TabIndex = 17;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Existencias";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton2.Location = new System.Drawing.Point(39, 47);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(68, 19);
+            this.radioButton2.TabIndex = 16;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Nombre";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton1.Location = new System.Drawing.Point(39, 28);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(64, 19);
+            this.radioButton1.TabIndex = 15;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Codigo";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(218, 167);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 26);
+            this.textBox5.TabIndex = 0;
             // 
             // Factura
             // 
