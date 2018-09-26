@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace Administracion
 {
-    public partial class CuentasPorPagar : Form
+    public partial class Factura : Form
     {
-        public CuentasPorPagar()
+        public Factura()
         {
             InitializeComponent();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
