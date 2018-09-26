@@ -16,5 +16,27 @@ namespace Administracion
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+            label2.Text = DateTime.Now.ToLongDateString();
+            label1.Text = DateTime.Now.ToLongTimeString();
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongTimeString();
+            timer1.Start();
+
+
+        }
+
+        private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            _303_Proveedor abrir = new _303_Proveedor();
+            abrir.Show();
+        }
     }
 }
