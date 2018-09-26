@@ -1,1 +1,10 @@
 C:\Users\max\Source\Repos\Admon\Administracion\Administracion\bin\Debug\Administracion.exe.config
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\bin\Debug\Administracion.exe
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\bin\Debug\Administracion.pdb
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.csprojResolveAssemblyReference.cache
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.Clientes.resources
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.Devoluciones.resources
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.Properties.Resources.resources
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.csproj.GenerateResource.Cache
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.exe
+C:\Users\max\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.pdb
