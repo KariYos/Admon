@@ -49,11 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calendario.cs">
+    <Compile Include="303_Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Calendario.Designer.cs">
-      <DependentUpon>Calendario.cs</DependentUpon>
+    <Compile Include="303_Proveedor.Designer.cs">
+      <DependentUpon>303_Proveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Clientes.cs">
       <SubType>Form</SubType>
@@ -61,17 +61,23 @@
     <Compile Include="Clientes.Designer.cs">
       <DependentUpon>Clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="CuentasPorPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuentasPorPagar.Designer.cs">
+      <DependentUpon>CuentasPorPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventas.Designer.cs">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Devoluciones.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Devoluciones.Designer.cs">
       <DependentUpon>Devoluciones.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Factura.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Factura.Designer.cs">
-      <DependentUpon>Factura.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -79,28 +85,25 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pedidos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pedidos.Designer.cs">
-      <DependentUpon>Pedidos.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Calendario.resx">
-      <DependentUpon>Calendario.cs</DependentUpon>
+    <EmbeddedResource Include="303_Proveedor.resx">
+      <DependentUpon>303_Proveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CuentasPorPagar.resx">
+      <DependentUpon>CuentasPorPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventas.resx">
+      <DependentUpon>Ventas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Devoluciones.resx">
       <DependentUpon>Devoluciones.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Factura.resx">
-      <DependentUpon>Factura.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Pedidos.resx">
-      <DependentUpon>Pedidos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -110,7 +113,6 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -124,9 +126,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="caalendario.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
