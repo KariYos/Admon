@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Administracion
 {
-    public partial class Devoluciones : Form
+    public partial class CuentasPorPagar : Form
     {
-        public Devoluciones()
+        public CuentasPorPagar()
         {
             InitializeComponent();
-        }
-
-
-
-        private void Devoluciones_Load(object sender, EventArgs e)
-        {
-      
         }
     }
 }
