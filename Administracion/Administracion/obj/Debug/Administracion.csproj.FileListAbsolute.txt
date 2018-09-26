@@ -14,3 +14,6 @@ C:\Users\Julio\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Admini
 C:\Users\Usuario\Desktop\Administracion\Admon\Administracion\Administracion\bin\Debug\Administracion.exe.config
 C:\Users\Usuario\Desktop\Administracion\Admon\Administracion\Administracion\obj\Debug\Administracion.exe
 C:\Users\Usuario\Desktop\Administracion\Admon\Administracion\Administracion\obj\Debug\Administracion.pdb
+C:\Users\monik\Source\Repos\Admon\Administracion\Administracion\bin\Debug\Administracion.exe.config
+C:\Users\monik\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.exe
+C:\Users\monik\Source\Repos\Admon\Administracion\Administracion\obj\Debug\Administracion.pdb
