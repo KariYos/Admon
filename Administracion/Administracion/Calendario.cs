@@ -16,19 +16,5 @@ namespace Administracion
         {
             InitializeComponent();
         }
-
-        private void Calendario_Load(object sender, EventArgs e)
-        {
-            Tmr_tiempo.Start();
-            Lbl_fecha.Text = DateTime.Now.ToLongDateString();
-            Lbl_hora.Text = DateTime.Now.ToLongTimeString();
-
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            Lbl_hora.Text = DateTime.Now.ToLongTimeString();
-            Tmr_tiempo.Start();
-        }
     }
 }

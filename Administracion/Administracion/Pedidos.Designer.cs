@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.Lbl_Usuario = new System.Windows.Forms.Label();
-            this.Lbl_fecha = new System.Windows.Forms.Label();
-            this.Lbl_hora = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.Gpb_datosdepedido = new System.Windows.Forms.GroupBox();
             this.Dtp_fechaemision = new System.Windows.Forms.DateTimePicker();
             this.Cbo_formaenvio = new System.Windows.Forms.ComboBox();
@@ -61,47 +60,46 @@
             this.Lbl_cliente = new System.Windows.Forms.Label();
             this.Txt_codcliente = new System.Windows.Forms.TextBox();
             this.Lbl_codigocliente = new System.Windows.Forms.Label();
-            this.Tmr_tiempo = new System.Windows.Forms.Timer(this.components);
             this.Gpb_datosdepedido.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.Gpb_datosCliente.SuspendLayout();
             this.SuspendLayout();
             // 
-            // Lbl_Usuario
+            // label1
             // 
-            this.Lbl_Usuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Lbl_Usuario.AutoSize = true;
-            this.Lbl_Usuario.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Usuario.Location = new System.Drawing.Point(794, 632);
-            this.Lbl_Usuario.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.Lbl_Usuario.Name = "Lbl_Usuario";
-            this.Lbl_Usuario.Size = new System.Drawing.Size(62, 18);
-            this.Lbl_Usuario.TabIndex = 38;
-            this.Lbl_Usuario.Text = "Usuario";
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(794, 632);
+            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 18);
+            this.label1.TabIndex = 38;
+            this.label1.Text = "Usuario";
             // 
-            // Lbl_fecha
+            // label2
             // 
-            this.Lbl_fecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.Lbl_fecha.AutoSize = true;
-            this.Lbl_fecha.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_fecha.Location = new System.Drawing.Point(29, 632);
-            this.Lbl_fecha.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.Lbl_fecha.Name = "Lbl_fecha";
-            this.Lbl_fecha.Size = new System.Drawing.Size(54, 18);
-            this.Lbl_fecha.TabIndex = 37;
-            this.Lbl_fecha.Text = "Fecha";
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(29, 632);
+            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(54, 18);
+            this.label2.TabIndex = 37;
+            this.label2.Text = "Fecha";
             // 
-            // Lbl_hora
+            // label3
             // 
-            this.Lbl_hora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.Lbl_hora.AutoSize = true;
-            this.Lbl_hora.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_hora.Location = new System.Drawing.Point(29, 611);
-            this.Lbl_hora.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.Lbl_hora.Name = "Lbl_hora";
-            this.Lbl_hora.Size = new System.Drawing.Size(43, 18);
-            this.Lbl_hora.TabIndex = 36;
-            this.Lbl_hora.Text = "Hora";
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(29, 611);
+            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(43, 18);
+            this.label3.TabIndex = 36;
+            this.label3.Text = "Hora";
             // 
             // Gpb_datosdepedido
             // 
@@ -411,26 +409,20 @@
             this.Lbl_codigocliente.TabIndex = 1;
             this.Lbl_codigocliente.Text = "Cod. Cliente";
             // 
-            // Tmr_tiempo
-            // 
-            this.Tmr_tiempo.Enabled = true;
-            this.Tmr_tiempo.Tick += new System.EventHandler(this.Tmr_tiempo_Tick);
-            // 
             // Pedidos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(180)))), ((int)(((byte)(94)))));
             this.ClientSize = new System.Drawing.Size(917, 661);
-            this.Controls.Add(this.Lbl_Usuario);
-            this.Controls.Add(this.Lbl_fecha);
-            this.Controls.Add(this.Lbl_hora);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.Gpb_datosdepedido);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Gpb_datosCliente);
             this.Name = "Pedidos";
             this.Text = "Pedidos";
-            this.Load += new System.EventHandler(this.Pedidos_Load);
             this.Gpb_datosdepedido.ResumeLayout(false);
             this.Gpb_datosdepedido.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -444,9 +436,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label Lbl_Usuario;
-        private System.Windows.Forms.Label Lbl_fecha;
-        private System.Windows.Forms.Label Lbl_hora;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.GroupBox Gpb_datosdepedido;
         private System.Windows.Forms.DateTimePicker Dtp_fechaemision;
         private System.Windows.Forms.ComboBox Cbo_formaenvio;
@@ -476,6 +468,5 @@
         private System.Windows.Forms.Label Lbl_cliente;
         private System.Windows.Forms.TextBox Txt_codcliente;
         private System.Windows.Forms.Label Lbl_codigocliente;
-        private System.Windows.Forms.Timer Tmr_tiempo;
     }
 }
