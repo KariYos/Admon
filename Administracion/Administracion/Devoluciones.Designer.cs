@@ -193,7 +193,7 @@
             // 
             this.Cbo_tipoDevolucion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Cbo_tipoDevolucion.FormattingEnabled = true;
-            this.Cbo_tipoDevolucion.Location = new System.Drawing.Point(172, 35);
+            this.Cbo_tipoDevolucion.Location = new System.Drawing.Point(172, 28);
             this.Cbo_tipoDevolucion.Name = "Cbo_tipoDevolucion";
             this.Cbo_tipoDevolucion.Size = new System.Drawing.Size(121, 25);
             this.Cbo_tipoDevolucion.TabIndex = 20;
