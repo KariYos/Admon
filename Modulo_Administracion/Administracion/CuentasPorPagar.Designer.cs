@@ -164,7 +164,7 @@
             // 
             this.Label_Total.AutoSize = true;
             this.Label_Total.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Total.Location = new System.Drawing.Point(232, 129);
+            this.Label_Total.Location = new System.Drawing.Point(117, 131);
             this.Label_Total.Name = "Label_Total";
             this.Label_Total.Size = new System.Drawing.Size(105, 18);
             this.Label_Total.TabIndex = 1;
