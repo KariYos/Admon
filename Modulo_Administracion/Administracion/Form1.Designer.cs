@@ -194,29 +194,29 @@
             this.Lbl_Hora.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Lbl_Hora.AutoSize = true;
             this.Lbl_Hora.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Hora.Location = new System.Drawing.Point(32, 583);
+            this.Lbl_Hora.Location = new System.Drawing.Point(21, 589);
             this.Lbl_Hora.Name = "Lbl_Hora";
-            this.Lbl_Hora.Size = new System.Drawing.Size(54, 18);
+            this.Lbl_Hora.Size = new System.Drawing.Size(43, 18);
             this.Lbl_Hora.TabIndex = 3;
-            this.Lbl_Hora.Text = "label1";
+            this.Lbl_Hora.Text = "Hora";
             // 
             // Lbl_Fecha
             // 
             this.Lbl_Fecha.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Lbl_Fecha.AutoSize = true;
             this.Lbl_Fecha.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Fecha.Location = new System.Drawing.Point(32, 612);
+            this.Lbl_Fecha.Location = new System.Drawing.Point(21, 623);
             this.Lbl_Fecha.Name = "Lbl_Fecha";
             this.Lbl_Fecha.Size = new System.Drawing.Size(54, 18);
             this.Lbl_Fecha.TabIndex = 4;
-            this.Lbl_Fecha.Text = "label2";
+            this.Lbl_Fecha.Text = "Fecha";
             // 
             // Lbl_Usuario
             // 
             this.Lbl_Usuario.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Lbl_Usuario.AutoSize = true;
             this.Lbl_Usuario.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_Usuario.Location = new System.Drawing.Point(826, 612);
+            this.Lbl_Usuario.Location = new System.Drawing.Point(806, 623);
             this.Lbl_Usuario.Name = "Lbl_Usuario";
             this.Lbl_Usuario.Size = new System.Drawing.Size(83, 18);
             this.Lbl_Usuario.TabIndex = 5;
