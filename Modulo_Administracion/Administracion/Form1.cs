@@ -30,7 +30,26 @@ namespace Administracion
             Tmr_tiempo.Start();
             Lbl_Fecha.Text = DateTime.Now.ToLongDateString();
             Lbl_Hora.Text = DateTime.Now.ToLongTimeString();
-            AbrirReporte(new Logo());
+            Logo ventana = new Logo();
+            ventana.MdiParent = this;
+            ventana.Show();
+
+            MdiClient ctlMDI;
+            foreach (Control ctl in this.Controls)
+            {
+                try
+                {
+                    ctlMDI = (MdiClient)ctl;
+
+                    // Poner color al MDI
+                    ctlMDI.BackColor = this.BackColor;
+                }
+                catch (InvalidCastException exc)
+                {
+                    //Ignorar todo lo demas
+                }
+            }
+
 
         }
 
@@ -89,17 +108,16 @@ namespace Administracion
             abrir.ShowDialog();
             this.Show();
         }
-        private void AbrirReporte(object formReport)
+
+
+        private void button1_Click(object sender, EventArgs e)
         {
-            //Para abrir un form dentro un panel
-            if (this.Pnl_Contenedor.Controls.Count > 0)
-                this.Pnl_Contenedor.Controls.RemoveAt(0);
-            Form fh = formReport as Form;
-            fh.TopLevel = false;
-            fh.Dock = DockStyle.Fill;
-            this.Pnl_Contenedor.Controls.Add(fh);
-            this.Pnl_Contenedor.Tag = fh;
-            fh.Show();
+           
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

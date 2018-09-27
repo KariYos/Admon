@@ -51,7 +51,6 @@
             this.Lbl_Fecha = new System.Windows.Forms.Label();
             this.Lbl_Usuario = new System.Windows.Forms.Label();
             this.Tmr_tiempo = new System.Windows.Forms.Timer(this.components);
-            this.Pnl_Contenedor = new System.Windows.Forms.Panel();
             this.Ms_MDI.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -186,6 +185,7 @@
             // ayudaToolStripMenuItem
             // 
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
+            this.ayudaToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
@@ -226,25 +226,18 @@
             // 
             this.Tmr_tiempo.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Pnl_Contenedor
-            // 
-            this.Pnl_Contenedor.Location = new System.Drawing.Point(339, 57);
-            this.Pnl_Contenedor.Name = "Pnl_Contenedor";
-            this.Pnl_Contenedor.Size = new System.Drawing.Size(338, 338);
-            this.Pnl_Contenedor.TabIndex = 6;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(180)))), ((int)(((byte)(94)))));
             this.ClientSize = new System.Drawing.Size(917, 661);
-            this.Controls.Add(this.Pnl_Contenedor);
             this.Controls.Add(this.Lbl_Usuario);
             this.Controls.Add(this.Lbl_Fecha);
             this.Controls.Add(this.Lbl_Hora);
             this.Controls.Add(this.Ms_MDI);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.IsMdiContainer = true;
             this.Name = "Form1";
             this.Text = "301_MenuAdministración";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -279,7 +272,6 @@
         private System.Windows.Forms.Timer Tmr_tiempo;
         private System.Windows.Forms.ToolStripMenuItem seguridadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cambioDeContraseñaToolStripMenuItem;
-        private System.Windows.Forms.Panel Pnl_Contenedor;
     }
 }
 
