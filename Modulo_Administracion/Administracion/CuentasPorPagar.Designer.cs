@@ -164,7 +164,7 @@
             // 
             this.Label_Total.AutoSize = true;
             this.Label_Total.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Total.Location = new System.Drawing.Point(232, 127);
+            this.Label_Total.Location = new System.Drawing.Point(232, 129);
             this.Label_Total.Name = "Label_Total";
             this.Label_Total.Size = new System.Drawing.Size(105, 18);
             this.Label_Total.TabIndex = 1;
@@ -188,6 +188,8 @@
             this.navegador1.Location = new System.Drawing.Point(31, 21);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
+            this.navegador1.pubNombrechm = null;
+            this.navegador1.pubNombreHtml = null;
             this.navegador1.Size = new System.Drawing.Size(857, 60);
             this.navegador1.TabIndex = 7;
             // 
