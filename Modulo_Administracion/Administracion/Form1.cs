@@ -90,16 +90,13 @@ namespace Administracion
 
         private void cuentasPorPagarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CuentasPorPagar abrir = new CuentasPorPagar();
-            abrir.ShowDialog();
-            this.Show();
+            new Tabla("Cuentas por Pagar", 2).Show();
         }
 
         private void cuentasPorCobrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CuentasPorCobrar abrir = new CuentasPorCobrar();
-            abrir.ShowDialog();
-            this.Show();
+            new Tabla("Cuentas por Cobrar", 1).Show();
+
         }
 
         private void ventasToolStripMenuItem_Click(object sender, EventArgs e)
