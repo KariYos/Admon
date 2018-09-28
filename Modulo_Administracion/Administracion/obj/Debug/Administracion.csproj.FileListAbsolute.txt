@@ -114,3 +114,4 @@ C:\Users\Julio\source\repos\Admon\Modulo_Administracion\Administracion\bin\Debug
 C:\Users\Julio\source\repos\Admon\Modulo_Administracion\Administracion\bin\Debug\CapaLogica.pdb
 C:\Users\Julio\source\repos\Admon\Modulo_Administracion\Administracion\bin\Debug\CapaDatos.pdb
 C:\Users\Julio\Source\Repos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.Tabla.resources
+C:\Users\max\Source\Repos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.Tabla.resources
