@@ -188,6 +188,7 @@
             this.ayudaToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F1;
             this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(69, 22);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.ayudaToolStripMenuItem.Click += new System.EventHandler(this.ayudaToolStripMenuItem_Click);
             // 
             // Lbl_Hora
             // 
