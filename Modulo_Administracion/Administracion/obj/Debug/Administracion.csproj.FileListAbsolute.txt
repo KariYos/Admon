@@ -132,6 +132,12 @@ C:\Users\KaRi\Source\Repos\Admon\Modulo_Administracion\Administracion\obj\Debug\
 C:\Users\KaRi\Source\Repos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.Tabla.resources
 C:\Users\KaRi\Source\Repos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.Ventas.resources
 C:\Users\KaRi\Source\Repos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 C:\Users\max\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\bin\Debug\Administracion.exe.config
 C:\Users\max\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.exe
 C:\Users\max\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.pdb
+=======
+C:\Users\kekimoto\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\bin\Debug\Administracion.exe.config
+C:\Users\kekimoto\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.exe
+C:\Users\kekimoto\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.pdb
+>>>>>>> 931e9a9c747167b12fbbe34b073470ed0668a0de
