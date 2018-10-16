@@ -28,5 +28,10 @@ namespace KarinaYos_Administracion
             abrir.ShowDialog();
           
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
