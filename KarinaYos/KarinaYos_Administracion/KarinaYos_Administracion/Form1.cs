@@ -33,5 +33,10 @@ namespace KarinaYos_Administracion
         {
 
         }
+
+        private void diseño1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

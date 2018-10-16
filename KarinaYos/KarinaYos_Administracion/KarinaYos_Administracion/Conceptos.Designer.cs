@@ -31,16 +31,16 @@
             this.diseño1 = new DiseñoVentana.Diseño();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.Txt_GenConcepto = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.Txt_CuentaConcepto = new System.Windows.Forms.TextBox();
+            this.Txt_DesConcepto = new System.Windows.Forms.TextBox();
+            this.Txt_NumConcepto = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -71,16 +71,16 @@
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.Txt_GenConcepto);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.radioButton5);
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.Txt_CuentaConcepto);
+            this.groupBox1.Controls.Add(this.Txt_DesConcepto);
+            this.groupBox1.Controls.Add(this.Txt_NumConcepto);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
@@ -92,13 +92,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Detalle de Conceptos";
             // 
-            // textBox4
+            // Txt_GenConcepto
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(236, 244);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(155, 26);
-            this.textBox4.TabIndex = 12;
+            this.Txt_GenConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_GenConcepto.Location = new System.Drawing.Point(236, 244);
+            this.Txt_GenConcepto.Name = "Txt_GenConcepto";
+            this.Txt_GenConcepto.Size = new System.Drawing.Size(155, 26);
+            this.Txt_GenConcepto.TabIndex = 12;
             // 
             // label4
             // 
@@ -165,29 +165,29 @@
             this.radioButton1.Text = "Cargo";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // textBox3
+            // Txt_CuentaConcepto
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(209, 104);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(182, 26);
-            this.textBox3.TabIndex = 5;
+            this.Txt_CuentaConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_CuentaConcepto.Location = new System.Drawing.Point(209, 104);
+            this.Txt_CuentaConcepto.Name = "Txt_CuentaConcepto";
+            this.Txt_CuentaConcepto.Size = new System.Drawing.Size(182, 26);
+            this.Txt_CuentaConcepto.TabIndex = 5;
             // 
-            // textBox2
+            // Txt_DesConcepto
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(209, 71);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(182, 26);
-            this.textBox2.TabIndex = 4;
+            this.Txt_DesConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_DesConcepto.Location = new System.Drawing.Point(209, 71);
+            this.Txt_DesConcepto.Name = "Txt_DesConcepto";
+            this.Txt_DesConcepto.Size = new System.Drawing.Size(182, 26);
+            this.Txt_DesConcepto.TabIndex = 4;
             // 
-            // textBox1
+            // Txt_NumConcepto
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(291, 34);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 26);
-            this.textBox1.TabIndex = 3;
+            this.Txt_NumConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_NumConcepto.Location = new System.Drawing.Point(291, 34);
+            this.Txt_NumConcepto.Name = "Txt_NumConcepto";
+            this.Txt_NumConcepto.Size = new System.Drawing.Size(100, 26);
+            this.Txt_NumConcepto.TabIndex = 3;
             // 
             // label3
             // 
@@ -242,16 +242,16 @@
         private DiseñoVentana.Diseño diseño1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox Txt_GenConcepto;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RadioButton radioButton5;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox Txt_CuentaConcepto;
+        private System.Windows.Forms.TextBox Txt_DesConcepto;
+        private System.Windows.Forms.TextBox Txt_NumConcepto;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
