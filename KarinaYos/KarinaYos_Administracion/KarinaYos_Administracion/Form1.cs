@@ -38,5 +38,11 @@ namespace KarinaYos_Administracion
         {
 
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            new AltaCxP().Show();
+
+        }
     }
 }

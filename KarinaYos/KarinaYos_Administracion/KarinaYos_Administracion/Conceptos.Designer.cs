@@ -28,69 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.diseño1 = new DiseñoVentana.Diseño();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Diseño_ConceptosCxP = new DiseñoVentana.Diseño();
+            this.Pic_Navegador = new System.Windows.Forms.PictureBox();
+            this.Gpb_DetalleConceptos = new System.Windows.Forms.GroupBox();
             this.Txt_GenConcepto = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.Lbl_GeneraConcepto = new System.Windows.Forms.Label();
+            this.Rdb_Autorizacion = new System.Windows.Forms.RadioButton();
+            this.Rdb_Referencia = new System.Windows.Forms.RadioButton();
+            this.Rdb_FormaPago = new System.Windows.Forms.RadioButton();
+            this.Rdb_Abono = new System.Windows.Forms.RadioButton();
+            this.Rdb_Cargo = new System.Windows.Forms.RadioButton();
             this.Txt_CuentaConcepto = new System.Windows.Forms.TextBox();
             this.Txt_DesConcepto = new System.Windows.Forms.TextBox();
             this.Txt_NumConcepto = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
+            this.Lbl_CuentaConcepto = new System.Windows.Forms.Label();
+            this.Lbl_DescripcionConcepto = new System.Windows.Forms.Label();
+            this.Lbl_NumeroConcepto = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Navegador)).BeginInit();
+            this.Gpb_DetalleConceptos.SuspendLayout();
             this.SuspendLayout();
             // 
-            // diseño1
+            // Diseño_ConceptosCxP
             // 
-            this.diseño1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diseño1.Forma = this;
-            this.diseño1.Location = new System.Drawing.Point(0, 0);
-            this.diseño1.Name = "diseño1";
-            this.diseño1.Size = new System.Drawing.Size(933, 700);
-            this.diseño1.TabIndex = 0;
-            this.diseño1.Titulo = "ConceptosCxP";
+            this.Diseño_ConceptosCxP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Diseño_ConceptosCxP.Forma = this;
+            this.Diseño_ConceptosCxP.Location = new System.Drawing.Point(0, 0);
+            this.Diseño_ConceptosCxP.Name = "Diseño_ConceptosCxP";
+            this.Diseño_ConceptosCxP.Size = new System.Drawing.Size(933, 700);
+            this.Diseño_ConceptosCxP.TabIndex = 0;
+            this.Diseño_ConceptosCxP.Titulo = "ConceptosCxP";
             // 
-            // pictureBox1
+            // Pic_Navegador
             // 
-            this.pictureBox1.Image = global::KarinaYos_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_9_01_02_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(34, 101);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(859, 63);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.Pic_Navegador.Image = global::KarinaYos_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_9_01_02_PM;
+            this.Pic_Navegador.Location = new System.Drawing.Point(34, 101);
+            this.Pic_Navegador.Name = "Pic_Navegador";
+            this.Pic_Navegador.Size = new System.Drawing.Size(859, 63);
+            this.Pic_Navegador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pic_Navegador.TabIndex = 2;
+            this.Pic_Navegador.TabStop = false;
             // 
-            // groupBox1
+            // Gpb_DetalleConceptos
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox1.Controls.Add(this.Txt_GenConcepto);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Controls.Add(this.radioButton4);
-            this.groupBox1.Controls.Add(this.radioButton3);
-            this.groupBox1.Controls.Add(this.radioButton2);
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.Txt_CuentaConcepto);
-            this.groupBox1.Controls.Add(this.Txt_DesConcepto);
-            this.groupBox1.Controls.Add(this.Txt_NumConcepto);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(245, 226);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(408, 326);
-            this.groupBox1.TabIndex = 3;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Detalle de Conceptos";
+            this.Gpb_DetalleConceptos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_DetalleConceptos.Controls.Add(this.Txt_GenConcepto);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Lbl_GeneraConcepto);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Rdb_Autorizacion);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Rdb_Referencia);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Rdb_FormaPago);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Rdb_Abono);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Rdb_Cargo);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Txt_CuentaConcepto);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Txt_DesConcepto);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Txt_NumConcepto);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Lbl_CuentaConcepto);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Lbl_DescripcionConcepto);
+            this.Gpb_DetalleConceptos.Controls.Add(this.Lbl_NumeroConcepto);
+            this.Gpb_DetalleConceptos.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_DetalleConceptos.Location = new System.Drawing.Point(245, 226);
+            this.Gpb_DetalleConceptos.Name = "Gpb_DetalleConceptos";
+            this.Gpb_DetalleConceptos.Size = new System.Drawing.Size(408, 326);
+            this.Gpb_DetalleConceptos.TabIndex = 3;
+            this.Gpb_DetalleConceptos.TabStop = false;
+            this.Gpb_DetalleConceptos.Text = "Detalle de Conceptos";
             // 
             // Txt_GenConcepto
             // 
@@ -100,70 +100,70 @@
             this.Txt_GenConcepto.Size = new System.Drawing.Size(155, 26);
             this.Txt_GenConcepto.TabIndex = 12;
             // 
-            // label4
+            // Lbl_GeneraConcepto
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(27, 247);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(203, 18);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Genera concepto número";
+            this.Lbl_GeneraConcepto.AutoSize = true;
+            this.Lbl_GeneraConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_GeneraConcepto.Location = new System.Drawing.Point(27, 247);
+            this.Lbl_GeneraConcepto.Name = "Lbl_GeneraConcepto";
+            this.Lbl_GeneraConcepto.Size = new System.Drawing.Size(203, 18);
+            this.Lbl_GeneraConcepto.TabIndex = 11;
+            this.Lbl_GeneraConcepto.Text = "Genera concepto número";
             // 
-            // radioButton5
+            // Rdb_Autorizacion
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(200, 205);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(124, 23);
-            this.radioButton5.TabIndex = 10;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Text = "Autorización";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.Rdb_Autorizacion.AutoSize = true;
+            this.Rdb_Autorizacion.Location = new System.Drawing.Point(200, 205);
+            this.Rdb_Autorizacion.Name = "Rdb_Autorizacion";
+            this.Rdb_Autorizacion.Size = new System.Drawing.Size(124, 23);
+            this.Rdb_Autorizacion.TabIndex = 10;
+            this.Rdb_Autorizacion.TabStop = true;
+            this.Rdb_Autorizacion.Text = "Autorización";
+            this.Rdb_Autorizacion.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // Rdb_Referencia
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(200, 176);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(142, 23);
-            this.radioButton4.TabIndex = 9;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Con referencia";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.Rdb_Referencia.AutoSize = true;
+            this.Rdb_Referencia.Location = new System.Drawing.Point(200, 176);
+            this.Rdb_Referencia.Name = "Rdb_Referencia";
+            this.Rdb_Referencia.Size = new System.Drawing.Size(142, 23);
+            this.Rdb_Referencia.TabIndex = 9;
+            this.Rdb_Referencia.TabStop = true;
+            this.Rdb_Referencia.Text = "Con referencia";
+            this.Rdb_Referencia.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // Rdb_FormaPago
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(200, 147);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(163, 23);
-            this.radioButton3.TabIndex = 8;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Es forma de pago";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.Rdb_FormaPago.AutoSize = true;
+            this.Rdb_FormaPago.Location = new System.Drawing.Point(200, 147);
+            this.Rdb_FormaPago.Name = "Rdb_FormaPago";
+            this.Rdb_FormaPago.Size = new System.Drawing.Size(163, 23);
+            this.Rdb_FormaPago.TabIndex = 8;
+            this.Rdb_FormaPago.TabStop = true;
+            this.Rdb_FormaPago.Text = "Es forma de pago";
+            this.Rdb_FormaPago.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // Rdb_Abono
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(30, 196);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(80, 23);
-            this.radioButton2.TabIndex = 7;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Abono";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.Rdb_Abono.AutoSize = true;
+            this.Rdb_Abono.Location = new System.Drawing.Point(30, 196);
+            this.Rdb_Abono.Name = "Rdb_Abono";
+            this.Rdb_Abono.Size = new System.Drawing.Size(80, 23);
+            this.Rdb_Abono.TabIndex = 7;
+            this.Rdb_Abono.TabStop = true;
+            this.Rdb_Abono.Text = "Abono";
+            this.Rdb_Abono.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // Rdb_Cargo
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(30, 158);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(76, 23);
-            this.radioButton1.TabIndex = 6;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Cargo";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.Rdb_Cargo.AutoSize = true;
+            this.Rdb_Cargo.Location = new System.Drawing.Point(30, 158);
+            this.Rdb_Cargo.Name = "Rdb_Cargo";
+            this.Rdb_Cargo.Size = new System.Drawing.Size(76, 23);
+            this.Rdb_Cargo.TabIndex = 6;
+            this.Rdb_Cargo.TabStop = true;
+            this.Rdb_Cargo.Text = "Cargo";
+            this.Rdb_Cargo.UseVisualStyleBackColor = true;
             // 
             // Txt_CuentaConcepto
             // 
@@ -189,71 +189,71 @@
             this.Txt_NumConcepto.Size = new System.Drawing.Size(100, 26);
             this.Txt_NumConcepto.TabIndex = 3;
             // 
-            // label3
+            // Lbl_CuentaConcepto
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(27, 104);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(135, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Cuenta Contable";
+            this.Lbl_CuentaConcepto.AutoSize = true;
+            this.Lbl_CuentaConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_CuentaConcepto.Location = new System.Drawing.Point(27, 104);
+            this.Lbl_CuentaConcepto.Name = "Lbl_CuentaConcepto";
+            this.Lbl_CuentaConcepto.Size = new System.Drawing.Size(135, 18);
+            this.Lbl_CuentaConcepto.TabIndex = 2;
+            this.Lbl_CuentaConcepto.Text = "Cuenta Contable";
             // 
-            // label2
+            // Lbl_DescripcionConcepto
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 74);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Descripción";
+            this.Lbl_DescripcionConcepto.AutoSize = true;
+            this.Lbl_DescripcionConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_DescripcionConcepto.Location = new System.Drawing.Point(27, 74);
+            this.Lbl_DescripcionConcepto.Name = "Lbl_DescripcionConcepto";
+            this.Lbl_DescripcionConcepto.Size = new System.Drawing.Size(97, 18);
+            this.Lbl_DescripcionConcepto.TabIndex = 1;
+            this.Lbl_DescripcionConcepto.Text = "Descripción";
             // 
-            // label1
+            // Lbl_NumeroConcepto
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(27, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Número de concepto";
+            this.Lbl_NumeroConcepto.AutoSize = true;
+            this.Lbl_NumeroConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_NumeroConcepto.Location = new System.Drawing.Point(27, 42);
+            this.Lbl_NumeroConcepto.Name = "Lbl_NumeroConcepto";
+            this.Lbl_NumeroConcepto.Size = new System.Drawing.Size(168, 18);
+            this.Lbl_NumeroConcepto.TabIndex = 0;
+            this.Lbl_NumeroConcepto.Text = "Número de concepto";
             // 
             // Conceptos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 700);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.diseño1);
+            this.Controls.Add(this.Gpb_DetalleConceptos);
+            this.Controls.Add(this.Pic_Navegador);
+            this.Controls.Add(this.Diseño_ConceptosCxP);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Conceptos";
             this.Text = "Conceptos";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Navegador)).EndInit();
+            this.Gpb_DetalleConceptos.ResumeLayout(false);
+            this.Gpb_DetalleConceptos.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DiseñoVentana.Diseño diseño1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private DiseñoVentana.Diseño Diseño_ConceptosCxP;
+        private System.Windows.Forms.PictureBox Pic_Navegador;
+        private System.Windows.Forms.GroupBox Gpb_DetalleConceptos;
         private System.Windows.Forms.TextBox Txt_GenConcepto;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RadioButton radioButton5;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label Lbl_GeneraConcepto;
+        private System.Windows.Forms.RadioButton Rdb_Autorizacion;
+        private System.Windows.Forms.RadioButton Rdb_Referencia;
+        private System.Windows.Forms.RadioButton Rdb_FormaPago;
+        private System.Windows.Forms.RadioButton Rdb_Abono;
+        private System.Windows.Forms.RadioButton Rdb_Cargo;
         private System.Windows.Forms.TextBox Txt_CuentaConcepto;
         private System.Windows.Forms.TextBox Txt_DesConcepto;
         private System.Windows.Forms.TextBox Txt_NumConcepto;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Lbl_CuentaConcepto;
+        private System.Windows.Forms.Label Lbl_DescripcionConcepto;
+        private System.Windows.Forms.Label Lbl_NumeroConcepto;
     }
 }
