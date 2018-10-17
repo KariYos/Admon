@@ -55,7 +55,7 @@
             // diseño1
             // 
             this.diseño1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diseño1.Forma = null;
+            this.diseño1.Forma = this;
             this.diseño1.Location = new System.Drawing.Point(0, 0);
             this.diseño1.Name = "diseño1";
             this.diseño1.Size = new System.Drawing.Size(933, 700);

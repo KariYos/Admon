@@ -52,25 +52,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="4050_Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4050_Clientes.Designer.cs">
+      <DependentUpon>4050_Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4051_mantenimientoProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4051_mantenimientoProveedores.Designer.cs">
+      <DependentUpon>4051_mantenimientoProveedores.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos.cs">
+    <Compile Include="menumantenimientos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Mantenimientos.Designer.cs">
-      <DependentUpon>Mantenimientos.cs</DependentUpon>
+    <Compile Include="menumantenimientos.Designer.cs">
+      <DependentUpon>menumantenimientos.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_4052_Vendedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_4052_Vendedor.Designer.cs">
+      <DependentUpon>_4052_Vendedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="_4053_Cobradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="_4053_Cobradores.Designer.cs">
+      <DependentUpon>_4053_Cobradores.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="4050_Clientes.resx">
+      <DependentUpon>4050_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4051_mantenimientoProveedores.resx">
+      <DependentUpon>4051_mantenimientoProveedores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos.resx">
-      <DependentUpon>Mantenimientos.cs</DependentUpon>
+    <EmbeddedResource Include="menumantenimientos.resx">
+      <DependentUpon>menumantenimientos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -82,6 +112,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="_4052_Vendedor.resx">
+      <DependentUpon>_4052_Vendedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="_4053_Cobradores.resx">
+      <DependentUpon>_4053_Cobradores.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -109,6 +145,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="WhatsApp Image 2018-10-15 at 21.01.16.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="desk-1456142_960_720.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="mapa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vende.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cob.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dinero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cobro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cobro %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ven.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

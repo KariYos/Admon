@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MonicaGarcia_Administracion
 {
-    public partial class Mantenimientos : Form
+    public partial class _4052_Vendedor : Form
     {
-        public Mantenimientos()
+        public _4052_Vendedor()
         {
             InitializeComponent();
         }
