@@ -28,97 +28,157 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.diseño1 = new DiseñoVentana.Diseño();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Diseño_AltaCxP = new DiseñoVentana.Diseño();
+            this.Pic_Navegador = new System.Windows.Forms.PictureBox();
+            this.Gpb_Proveedor = new System.Windows.Forms.GroupBox();
+            this.Txt_TipoConceptoProv = new System.Windows.Forms.TextBox();
+            this.Lbl_TipoConcepto = new System.Windows.Forms.Label();
+            this.Txt_ConceptoProv = new System.Windows.Forms.TextBox();
+            this.Txt_ConceptoBProv = new System.Windows.Forms.TextBox();
+            this.Lbl_ConceptoProv = new System.Windows.Forms.Label();
+            this.Txt_CodigoProv = new System.Windows.Forms.TextBox();
+            this.Txt_CodigoBProv = new System.Windows.Forms.TextBox();
+            this.Lbl_CodigoProv = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.Lbl_NumFactura = new System.Windows.Forms.Label();
+            this.Txt_NumReferencia = new System.Windows.Forms.TextBox();
+            this.Lbl_NumDoc = new System.Windows.Forms.Label();
+            this.Lbl_NumReferencia = new System.Windows.Forms.Label();
+            this.Lbl_Moneda = new System.Windows.Forms.Label();
+            this.Lbl_FechaAplicacion = new System.Windows.Forms.Label();
+            this.Lbl_Monto = new System.Windows.Forms.Label();
+            this.Txt_NumFactura = new System.Windows.Forms.TextBox();
+            this.Txt_NumDoc = new System.Windows.Forms.TextBox();
+            this.Txt_MonedaBuscar = new System.Windows.Forms.TextBox();
+            this.Txt_Monto = new System.Windows.Forms.TextBox();
+            this.Lbl_FechaVencimiento = new System.Windows.Forms.Label();
+            this.Dtp_FechaAplicacion = new System.Windows.Forms.DateTimePicker();
+            this.Dtp_FechaVencimiento = new System.Windows.Forms.DateTimePicker();
+            this.Txt_TipoMoneda = new System.Windows.Forms.TextBox();
+            this.Lbl_TipoCambio = new System.Windows.Forms.Label();
+            this.Lbl_MontoMoneda = new System.Windows.Forms.Label();
+            this.Txt_TipoCambio = new System.Windows.Forms.TextBox();
+            this.Txt_MontoMoneda = new System.Windows.Forms.TextBox();
+            this.Gpb_Observaciones = new System.Windows.Forms.GroupBox();
+            this.Txt_Observasiones = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.Txt_NumCargo = new System.Windows.Forms.TextBox();
+            this.Txt_Concepto = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Navegador)).BeginInit();
+            this.Gpb_Proveedor.SuspendLayout();
+            this.Gpb_Observaciones.SuspendLayout();
             this.SuspendLayout();
             // 
-            // diseño1
+            // Diseño_AltaCxP
             // 
-            this.diseño1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diseño1.Forma = this;
-            this.diseño1.Location = new System.Drawing.Point(0, 0);
-            this.diseño1.Name = "diseño1";
-            this.diseño1.Size = new System.Drawing.Size(933, 700);
-            this.diseño1.TabIndex = 0;
-            this.diseño1.Titulo = "AltaCxP";
+            this.Diseño_AltaCxP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Diseño_AltaCxP.Forma = this;
+            this.Diseño_AltaCxP.Location = new System.Drawing.Point(0, 0);
+            this.Diseño_AltaCxP.Name = "Diseño_AltaCxP";
+            this.Diseño_AltaCxP.Size = new System.Drawing.Size(933, 700);
+            this.Diseño_AltaCxP.TabIndex = 0;
+            this.Diseño_AltaCxP.Titulo = "4000_AltaCxP";
             // 
-            // pictureBox1
+            // Pic_Navegador
             // 
-            this.pictureBox1.Image = global::KarinaYos_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_9_01_02_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(37, 53);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(859, 63);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.Pic_Navegador.Image = global::KarinaYos_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_9_01_02_PM;
+            this.Pic_Navegador.Location = new System.Drawing.Point(37, 53);
+            this.Pic_Navegador.Name = "Pic_Navegador";
+            this.Pic_Navegador.Size = new System.Drawing.Size(859, 63);
+            this.Pic_Navegador.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.Pic_Navegador.TabIndex = 1;
+            this.Pic_Navegador.TabStop = false;
             // 
-            // groupBox1
+            // Gpb_Proveedor
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox1.Controls.Add(this.textBox5);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(82, 151);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(718, 118);
-            this.groupBox1.TabIndex = 2;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Datos del Proveedor";
+            this.Gpb_Proveedor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_Proveedor.Controls.Add(this.Txt_TipoConceptoProv);
+            this.Gpb_Proveedor.Controls.Add(this.Lbl_TipoConcepto);
+            this.Gpb_Proveedor.Controls.Add(this.Txt_ConceptoProv);
+            this.Gpb_Proveedor.Controls.Add(this.Txt_ConceptoBProv);
+            this.Gpb_Proveedor.Controls.Add(this.Lbl_ConceptoProv);
+            this.Gpb_Proveedor.Controls.Add(this.Txt_CodigoProv);
+            this.Gpb_Proveedor.Controls.Add(this.Txt_CodigoBProv);
+            this.Gpb_Proveedor.Controls.Add(this.Lbl_CodigoProv);
+            this.Gpb_Proveedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_Proveedor.Location = new System.Drawing.Point(82, 151);
+            this.Gpb_Proveedor.Name = "Gpb_Proveedor";
+            this.Gpb_Proveedor.Size = new System.Drawing.Size(718, 118);
+            this.Gpb_Proveedor.TabIndex = 2;
+            this.Gpb_Proveedor.TabStop = false;
+            this.Gpb_Proveedor.Text = "Datos del Proveedor";
             // 
-            // label1
+            // Txt_TipoConceptoProv
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(30, 38);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(64, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Código";
+            this.Txt_TipoConceptoProv.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_TipoConceptoProv.Location = new System.Drawing.Point(565, 68);
+            this.Txt_TipoConceptoProv.Name = "Txt_TipoConceptoProv";
+            this.Txt_TipoConceptoProv.Size = new System.Drawing.Size(131, 26);
+            this.Txt_TipoConceptoProv.TabIndex = 9;
+            // 
+            // Lbl_TipoConcepto
+            // 
+            this.Lbl_TipoConcepto.AutoSize = true;
+            this.Lbl_TipoConcepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_TipoConcepto.Location = new System.Drawing.Point(521, 71);
+            this.Lbl_TipoConcepto.Name = "Lbl_TipoConcepto";
+            this.Lbl_TipoConcepto.Size = new System.Drawing.Size(38, 18);
+            this.Lbl_TipoConcepto.TabIndex = 8;
+            this.Lbl_TipoConcepto.Text = "Tipo";
+            // 
+            // Txt_ConceptoProv
+            // 
+            this.Txt_ConceptoProv.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_ConceptoProv.Location = new System.Drawing.Point(230, 68);
+            this.Txt_ConceptoProv.Name = "Txt_ConceptoProv";
+            this.Txt_ConceptoProv.Size = new System.Drawing.Size(285, 26);
+            this.Txt_ConceptoProv.TabIndex = 7;
+            // 
+            // Txt_ConceptoBProv
+            // 
+            this.Txt_ConceptoBProv.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_ConceptoBProv.Location = new System.Drawing.Point(103, 68);
+            this.Txt_ConceptoBProv.Name = "Txt_ConceptoBProv";
+            this.Txt_ConceptoBProv.Size = new System.Drawing.Size(111, 26);
+            this.Txt_ConceptoBProv.TabIndex = 6;
+            // 
+            // Lbl_ConceptoProv
+            // 
+            this.Lbl_ConceptoProv.AutoSize = true;
+            this.Lbl_ConceptoProv.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_ConceptoProv.Location = new System.Drawing.Point(19, 71);
+            this.Lbl_ConceptoProv.Name = "Lbl_ConceptoProv";
+            this.Lbl_ConceptoProv.Size = new System.Drawing.Size(83, 18);
+            this.Lbl_ConceptoProv.TabIndex = 5;
+            this.Lbl_ConceptoProv.Text = "Concepto";
+            // 
+            // Txt_CodigoProv
+            // 
+            this.Txt_CodigoProv.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_CodigoProv.Location = new System.Drawing.Point(230, 35);
+            this.Txt_CodigoProv.Name = "Txt_CodigoProv";
+            this.Txt_CodigoProv.Size = new System.Drawing.Size(466, 26);
+            this.Txt_CodigoProv.TabIndex = 4;
+            // 
+            // Txt_CodigoBProv
+            // 
+            this.Txt_CodigoBProv.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_CodigoBProv.Location = new System.Drawing.Point(103, 35);
+            this.Txt_CodigoBProv.Name = "Txt_CodigoBProv";
+            this.Txt_CodigoBProv.Size = new System.Drawing.Size(111, 26);
+            this.Txt_CodigoBProv.TabIndex = 3;
+            // 
+            // Lbl_CodigoProv
+            // 
+            this.Lbl_CodigoProv.AutoSize = true;
+            this.Lbl_CodigoProv.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_CodigoProv.Location = new System.Drawing.Point(30, 38);
+            this.Lbl_CodigoProv.Name = "Lbl_CodigoProv";
+            this.Lbl_CodigoProv.Size = new System.Drawing.Size(64, 18);
+            this.Lbl_CodigoProv.TabIndex = 0;
+            this.Lbl_CodigoProv.Text = "Código";
             // 
             // label2
             // 
@@ -138,263 +198,203 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "label3";
             // 
-            // textBox1
+            // Lbl_NumFactura
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(103, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(111, 26);
-            this.textBox1.TabIndex = 3;
+            this.Lbl_NumFactura.AutoSize = true;
+            this.Lbl_NumFactura.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_NumFactura.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_NumFactura.Location = new System.Drawing.Point(92, 295);
+            this.Lbl_NumFactura.Name = "Lbl_NumFactura";
+            this.Lbl_NumFactura.Size = new System.Drawing.Size(92, 18);
+            this.Lbl_NumFactura.TabIndex = 3;
+            this.Lbl_NumFactura.Text = "No. Factura";
             // 
-            // textBox2
+            // Txt_NumReferencia
             // 
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(230, 35);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(466, 26);
-            this.textBox2.TabIndex = 4;
+            this.Txt_NumReferencia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_NumReferencia.Location = new System.Drawing.Point(249, 361);
+            this.Txt_NumReferencia.Name = "Txt_NumReferencia";
+            this.Txt_NumReferencia.Size = new System.Drawing.Size(283, 26);
+            this.Txt_NumReferencia.TabIndex = 4;
             // 
-            // textBox3
+            // Lbl_NumDoc
             // 
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(230, 68);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(285, 26);
-            this.textBox3.TabIndex = 7;
+            this.Lbl_NumDoc.AutoSize = true;
+            this.Lbl_NumDoc.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_NumDoc.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_NumDoc.Location = new System.Drawing.Point(92, 327);
+            this.Lbl_NumDoc.Name = "Lbl_NumDoc";
+            this.Lbl_NumDoc.Size = new System.Drawing.Size(124, 18);
+            this.Lbl_NumDoc.TabIndex = 5;
+            this.Lbl_NumDoc.Text = "No. Documento";
             // 
-            // textBox4
+            // Lbl_NumReferencia
             // 
-            this.textBox4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(103, 68);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(111, 26);
-            this.textBox4.TabIndex = 6;
+            this.Lbl_NumReferencia.AutoSize = true;
+            this.Lbl_NumReferencia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_NumReferencia.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_NumReferencia.Location = new System.Drawing.Point(92, 364);
+            this.Lbl_NumReferencia.Name = "Lbl_NumReferencia";
+            this.Lbl_NumReferencia.Size = new System.Drawing.Size(118, 18);
+            this.Lbl_NumReferencia.TabIndex = 7;
+            this.Lbl_NumReferencia.Text = "No. Referencia";
             // 
-            // label4
+            // Lbl_Moneda
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(19, 71);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 18);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Concepto";
+            this.Lbl_Moneda.AutoSize = true;
+            this.Lbl_Moneda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_Moneda.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Moneda.Location = new System.Drawing.Point(92, 433);
+            this.Lbl_Moneda.Name = "Lbl_Moneda";
+            this.Lbl_Moneda.Size = new System.Drawing.Size(71, 18);
+            this.Lbl_Moneda.TabIndex = 8;
+            this.Lbl_Moneda.Text = "Moneda";
             // 
-            // textBox5
+            // Lbl_FechaAplicacion
             // 
-            this.textBox5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(565, 68);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(131, 26);
-            this.textBox5.TabIndex = 9;
+            this.Lbl_FechaAplicacion.AutoSize = true;
+            this.Lbl_FechaAplicacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_FechaAplicacion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_FechaAplicacion.Location = new System.Drawing.Point(92, 403);
+            this.Lbl_FechaAplicacion.Name = "Lbl_FechaAplicacion";
+            this.Lbl_FechaAplicacion.Size = new System.Drawing.Size(139, 18);
+            this.Lbl_FechaAplicacion.TabIndex = 9;
+            this.Lbl_FechaAplicacion.Text = "Fecha aplicación";
             // 
-            // label5
+            // Lbl_Monto
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(521, 71);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 18);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Tipo";
+            this.Lbl_Monto.AutoSize = true;
+            this.Lbl_Monto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_Monto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Monto.Location = new System.Drawing.Point(92, 475);
+            this.Lbl_Monto.Name = "Lbl_Monto";
+            this.Lbl_Monto.Size = new System.Drawing.Size(55, 18);
+            this.Lbl_Monto.TabIndex = 10;
+            this.Lbl_Monto.Text = "Monto";
             // 
-            // label6
+            // Txt_NumFactura
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(92, 295);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(92, 18);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "No. Factura";
+            this.Txt_NumFactura.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_NumFactura.Location = new System.Drawing.Point(249, 295);
+            this.Txt_NumFactura.Name = "Txt_NumFactura";
+            this.Txt_NumFactura.Size = new System.Drawing.Size(283, 26);
+            this.Txt_NumFactura.TabIndex = 11;
             // 
-            // textBox6
+            // Txt_NumDoc
             // 
-            this.textBox6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(249, 361);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(283, 26);
-            this.textBox6.TabIndex = 4;
+            this.Txt_NumDoc.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_NumDoc.Location = new System.Drawing.Point(249, 327);
+            this.Txt_NumDoc.Name = "Txt_NumDoc";
+            this.Txt_NumDoc.Size = new System.Drawing.Size(283, 26);
+            this.Txt_NumDoc.TabIndex = 12;
             // 
-            // label7
+            // Txt_MonedaBuscar
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(92, 327);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 18);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "No. Documento";
+            this.Txt_MonedaBuscar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_MonedaBuscar.Location = new System.Drawing.Point(249, 430);
+            this.Txt_MonedaBuscar.Name = "Txt_MonedaBuscar";
+            this.Txt_MonedaBuscar.Size = new System.Drawing.Size(47, 26);
+            this.Txt_MonedaBuscar.TabIndex = 13;
             // 
-            // label8
+            // Txt_Monto
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(92, 364);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(118, 18);
-            this.label8.TabIndex = 7;
-            this.label8.Text = "No. Referencia";
+            this.Txt_Monto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Monto.Location = new System.Drawing.Point(249, 465);
+            this.Txt_Monto.Name = "Txt_Monto";
+            this.Txt_Monto.Size = new System.Drawing.Size(183, 26);
+            this.Txt_Monto.TabIndex = 14;
             // 
-            // label9
+            // Lbl_FechaVencimiento
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(92, 433);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(71, 18);
-            this.label9.TabIndex = 8;
-            this.label9.Text = "Moneda";
+            this.Lbl_FechaVencimiento.AutoSize = true;
+            this.Lbl_FechaVencimiento.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_FechaVencimiento.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_FechaVencimiento.Location = new System.Drawing.Point(453, 401);
+            this.Lbl_FechaVencimiento.Name = "Lbl_FechaVencimiento";
+            this.Lbl_FechaVencimiento.Size = new System.Drawing.Size(150, 18);
+            this.Lbl_FechaVencimiento.TabIndex = 15;
+            this.Lbl_FechaVencimiento.Text = "Fecha vencimiento";
             // 
-            // label10
+            // Dtp_FechaAplicacion
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(92, 403);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(139, 18);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "Fecha aplicación";
+            this.Dtp_FechaAplicacion.Location = new System.Drawing.Point(249, 401);
+            this.Dtp_FechaAplicacion.Name = "Dtp_FechaAplicacion";
+            this.Dtp_FechaAplicacion.Size = new System.Drawing.Size(198, 20);
+            this.Dtp_FechaAplicacion.TabIndex = 16;
             // 
-            // label11
+            // Dtp_FechaVencimiento
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(92, 475);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(55, 18);
-            this.label11.TabIndex = 10;
-            this.label11.Text = "Monto";
+            this.Dtp_FechaVencimiento.Location = new System.Drawing.Point(606, 399);
+            this.Dtp_FechaVencimiento.Name = "Dtp_FechaVencimiento";
+            this.Dtp_FechaVencimiento.Size = new System.Drawing.Size(198, 20);
+            this.Dtp_FechaVencimiento.TabIndex = 17;
             // 
-            // textBox8
+            // Txt_TipoMoneda
             // 
-            this.textBox8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(249, 295);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(283, 26);
-            this.textBox8.TabIndex = 11;
+            this.Txt_TipoMoneda.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_TipoMoneda.Location = new System.Drawing.Point(307, 430);
+            this.Txt_TipoMoneda.Name = "Txt_TipoMoneda";
+            this.Txt_TipoMoneda.Size = new System.Drawing.Size(125, 26);
+            this.Txt_TipoMoneda.TabIndex = 18;
             // 
-            // textBox9
+            // Lbl_TipoCambio
             // 
-            this.textBox9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(249, 327);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(283, 26);
-            this.textBox9.TabIndex = 12;
+            this.Lbl_TipoCambio.AutoSize = true;
+            this.Lbl_TipoCambio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_TipoCambio.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_TipoCambio.Location = new System.Drawing.Point(473, 433);
+            this.Lbl_TipoCambio.Name = "Lbl_TipoCambio";
+            this.Lbl_TipoCambio.Size = new System.Drawing.Size(124, 18);
+            this.Lbl_TipoCambio.TabIndex = 19;
+            this.Lbl_TipoCambio.Text = "Tipo de cambio";
             // 
-            // textBox10
+            // Lbl_MontoMoneda
             // 
-            this.textBox10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(249, 430);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(47, 26);
-            this.textBox10.TabIndex = 13;
+            this.Lbl_MontoMoneda.AutoSize = true;
+            this.Lbl_MontoMoneda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Lbl_MontoMoneda.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_MontoMoneda.Location = new System.Drawing.Point(438, 468);
+            this.Lbl_MontoMoneda.Name = "Lbl_MontoMoneda";
+            this.Lbl_MontoMoneda.Size = new System.Drawing.Size(159, 18);
+            this.Lbl_MontoMoneda.TabIndex = 20;
+            this.Lbl_MontoMoneda.Text = "Monto en mon. base";
             // 
-            // textBox11
+            // Txt_TipoCambio
             // 
-            this.textBox11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(249, 465);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(183, 26);
-            this.textBox11.TabIndex = 14;
+            this.Txt_TipoCambio.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_TipoCambio.Location = new System.Drawing.Point(606, 425);
+            this.Txt_TipoCambio.Name = "Txt_TipoCambio";
+            this.Txt_TipoCambio.Size = new System.Drawing.Size(198, 26);
+            this.Txt_TipoCambio.TabIndex = 21;
             // 
-            // label12
+            // Txt_MontoMoneda
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(453, 401);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(150, 18);
-            this.label12.TabIndex = 15;
-            this.label12.Text = "Fecha vencimiento";
+            this.Txt_MontoMoneda.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_MontoMoneda.Location = new System.Drawing.Point(606, 467);
+            this.Txt_MontoMoneda.Name = "Txt_MontoMoneda";
+            this.Txt_MontoMoneda.Size = new System.Drawing.Size(198, 26);
+            this.Txt_MontoMoneda.TabIndex = 22;
             // 
-            // dateTimePicker1
+            // Gpb_Observaciones
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(249, 401);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(198, 20);
-            this.dateTimePicker1.TabIndex = 16;
+            this.Gpb_Observaciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_Observaciones.Controls.Add(this.Txt_Observasiones);
+            this.Gpb_Observaciones.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_Observaciones.Location = new System.Drawing.Point(82, 524);
+            this.Gpb_Observaciones.Name = "Gpb_Observaciones";
+            this.Gpb_Observaciones.Size = new System.Drawing.Size(718, 118);
+            this.Gpb_Observaciones.TabIndex = 23;
+            this.Gpb_Observaciones.TabStop = false;
+            this.Gpb_Observaciones.Text = "Observaciones";
             // 
-            // dateTimePicker2
+            // Txt_Observasiones
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(606, 399);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(198, 20);
-            this.dateTimePicker2.TabIndex = 17;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(307, 430);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(125, 26);
-            this.textBox7.TabIndex = 18;
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(473, 433);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(124, 18);
-            this.label13.TabIndex = 19;
-            this.label13.Text = "Tipo de cambio";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.label14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(438, 468);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(159, 18);
-            this.label14.TabIndex = 20;
-            this.label14.Text = "Monto en mon. base";
-            // 
-            // textBox12
-            // 
-            this.textBox12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(606, 425);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(198, 26);
-            this.textBox12.TabIndex = 21;
-            // 
-            // textBox13
-            // 
-            this.textBox13.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(606, 467);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(198, 26);
-            this.textBox13.TabIndex = 22;
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox2.Controls.Add(this.textBox17);
-            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(82, 524);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(718, 118);
-            this.groupBox2.TabIndex = 23;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Observaciones";
-            // 
-            // textBox17
-            // 
-            this.textBox17.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox17.Location = new System.Drawing.Point(13, 26);
-            this.textBox17.Multiline = true;
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(683, 75);
-            this.textBox17.TabIndex = 4;
+            this.Txt_Observasiones.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Observasiones.Location = new System.Drawing.Point(13, 26);
+            this.Txt_Observasiones.Multiline = true;
+            this.Txt_Observasiones.Name = "Txt_Observasiones";
+            this.Txt_Observasiones.Size = new System.Drawing.Size(683, 75);
+            this.Txt_Observasiones.TabIndex = 4;
             // 
             // label15
             // 
@@ -418,65 +418,65 @@
             this.label16.TabIndex = 25;
             this.label16.Text = "Concepto";
             // 
-            // textBox14
+            // Txt_NumCargo
             // 
-            this.textBox14.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(628, 324);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(176, 26);
-            this.textBox14.TabIndex = 26;
+            this.Txt_NumCargo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_NumCargo.Location = new System.Drawing.Point(628, 324);
+            this.Txt_NumCargo.Name = "Txt_NumCargo";
+            this.Txt_NumCargo.Size = new System.Drawing.Size(176, 26);
+            this.Txt_NumCargo.TabIndex = 26;
             // 
-            // textBox15
+            // Txt_Concepto
             // 
-            this.textBox15.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox15.Location = new System.Drawing.Point(628, 361);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(176, 26);
-            this.textBox15.TabIndex = 27;
+            this.Txt_Concepto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Concepto.Location = new System.Drawing.Point(628, 361);
+            this.Txt_Concepto.Name = "Txt_Concepto";
+            this.Txt_Concepto.Size = new System.Drawing.Size(176, 26);
+            this.Txt_Concepto.TabIndex = 27;
             // 
             // AltaCxP
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 700);
-            this.Controls.Add(this.textBox15);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.Txt_Concepto);
+            this.Controls.Add(this.Txt_NumCargo);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.diseño1);
+            this.Controls.Add(this.Gpb_Observaciones);
+            this.Controls.Add(this.Txt_MontoMoneda);
+            this.Controls.Add(this.Txt_TipoCambio);
+            this.Controls.Add(this.Lbl_MontoMoneda);
+            this.Controls.Add(this.Lbl_TipoCambio);
+            this.Controls.Add(this.Txt_TipoMoneda);
+            this.Controls.Add(this.Dtp_FechaVencimiento);
+            this.Controls.Add(this.Dtp_FechaAplicacion);
+            this.Controls.Add(this.Lbl_FechaVencimiento);
+            this.Controls.Add(this.Txt_Monto);
+            this.Controls.Add(this.Txt_MonedaBuscar);
+            this.Controls.Add(this.Txt_NumDoc);
+            this.Controls.Add(this.Txt_NumFactura);
+            this.Controls.Add(this.Lbl_Monto);
+            this.Controls.Add(this.Lbl_FechaAplicacion);
+            this.Controls.Add(this.Lbl_Moneda);
+            this.Controls.Add(this.Lbl_NumReferencia);
+            this.Controls.Add(this.Lbl_NumDoc);
+            this.Controls.Add(this.Txt_NumReferencia);
+            this.Controls.Add(this.Lbl_NumFactura);
+            this.Controls.Add(this.Gpb_Proveedor);
+            this.Controls.Add(this.Pic_Navegador);
+            this.Controls.Add(this.Diseño_AltaCxP);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label3);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AltaCxP";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AltaCxP";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_Navegador)).EndInit();
+            this.Gpb_Proveedor.ResumeLayout(false);
+            this.Gpb_Proveedor.PerformLayout();
+            this.Gpb_Observaciones.ResumeLayout(false);
+            this.Gpb_Observaciones.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -484,42 +484,42 @@
 
         #endregion
 
-        private DiseñoVentana.Diseño diseño1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox17;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private DiseñoVentana.Diseño Diseño_AltaCxP;
+        private System.Windows.Forms.PictureBox Pic_Navegador;
+        private System.Windows.Forms.GroupBox Gpb_Observaciones;
+        private System.Windows.Forms.TextBox Txt_Observasiones;
+        private System.Windows.Forms.TextBox Txt_MontoMoneda;
+        private System.Windows.Forms.TextBox Txt_TipoCambio;
+        private System.Windows.Forms.Label Lbl_MontoMoneda;
+        private System.Windows.Forms.Label Lbl_TipoCambio;
+        private System.Windows.Forms.TextBox Txt_TipoMoneda;
+        private System.Windows.Forms.DateTimePicker Dtp_FechaVencimiento;
+        private System.Windows.Forms.DateTimePicker Dtp_FechaAplicacion;
+        private System.Windows.Forms.Label Lbl_FechaVencimiento;
+        private System.Windows.Forms.TextBox Txt_Monto;
+        private System.Windows.Forms.TextBox Txt_MonedaBuscar;
+        private System.Windows.Forms.TextBox Txt_NumDoc;
+        private System.Windows.Forms.TextBox Txt_NumFactura;
+        private System.Windows.Forms.Label Lbl_Monto;
+        private System.Windows.Forms.Label Lbl_FechaAplicacion;
+        private System.Windows.Forms.Label Lbl_Moneda;
+        private System.Windows.Forms.Label Lbl_NumReferencia;
+        private System.Windows.Forms.Label Lbl_NumDoc;
+        private System.Windows.Forms.TextBox Txt_NumReferencia;
+        private System.Windows.Forms.Label Lbl_NumFactura;
+        private System.Windows.Forms.GroupBox Gpb_Proveedor;
+        private System.Windows.Forms.TextBox Txt_TipoConceptoProv;
+        private System.Windows.Forms.Label Lbl_TipoConcepto;
+        private System.Windows.Forms.TextBox Txt_ConceptoProv;
+        private System.Windows.Forms.TextBox Txt_ConceptoBProv;
+        private System.Windows.Forms.Label Lbl_ConceptoProv;
+        private System.Windows.Forms.TextBox Txt_CodigoProv;
+        private System.Windows.Forms.TextBox Txt_CodigoBProv;
+        private System.Windows.Forms.Label Lbl_CodigoProv;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox Txt_Concepto;
+        private System.Windows.Forms.TextBox Txt_NumCargo;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label15;
     }

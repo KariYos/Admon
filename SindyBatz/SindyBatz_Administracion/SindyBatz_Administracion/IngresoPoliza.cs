@@ -165,5 +165,10 @@ namespace SindyBatz_Administracion
         {
 
         }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

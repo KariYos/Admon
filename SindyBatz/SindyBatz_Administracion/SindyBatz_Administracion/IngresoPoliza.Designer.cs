@@ -28,251 +28,87 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.diseño1 = new DiseñoVentana.Diseño();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.Pnl_ingresoPoliza = new DiseñoVentana.Diseño();
+            this.Pic_nav = new System.Windows.Forms.PictureBox();
+            this.Gpb_partida = new System.Windows.Forms.GroupBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
-            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.Lbl_date = new System.Windows.Forms.Label();
+            this.Dtp_partida = new System.Windows.Forms.DateTimePicker();
+            this.Lbl_part = new System.Windows.Forms.Label();
+            this.Gpb_no = new System.Windows.Forms.GroupBox();
+            this.Txt_no3 = new System.Windows.Forms.TextBox();
+            this.Txt_no2 = new System.Windows.Forms.TextBox();
+            this.Txt_no1 = new System.Windows.Forms.TextBox();
+            this.Gpb_encabezado = new System.Windows.Forms.GroupBox();
+            this.Lbl_Habeer = new System.Windows.Forms.Label();
+            this.Lbl_Debee = new System.Windows.Forms.Label();
+            this.Lbl_Codigo = new System.Windows.Forms.Label();
+            this.Lbl_no = new System.Windows.Forms.Label();
+            this.Lbl_Cuent = new System.Windows.Forms.Label();
+            this.Gpb_codigo = new System.Windows.Forms.GroupBox();
+            this.Txt_cod3 = new System.Windows.Forms.TextBox();
+            this.Txt_cod2 = new System.Windows.Forms.TextBox();
+            this.Txt_cod1 = new System.Windows.Forms.TextBox();
+            this.Gpb_cuenta = new System.Windows.Forms.GroupBox();
+            this.Txt_cuenta3 = new System.Windows.Forms.TextBox();
+            this.Txt_cuenta2 = new System.Windows.Forms.TextBox();
+            this.Txt_cuenta1 = new System.Windows.Forms.TextBox();
+            this.Gpb_debe = new System.Windows.Forms.GroupBox();
+            this.Txt_total1 = new System.Windows.Forms.TextBox();
+            this.Txt_db3 = new System.Windows.Forms.TextBox();
+            this.Txt_db2 = new System.Windows.Forms.TextBox();
+            this.Txt_db1 = new System.Windows.Forms.TextBox();
+            this.Gpb_Haber = new System.Windows.Forms.GroupBox();
+            this.Txt_total2 = new System.Windows.Forms.TextBox();
+            this.Txt_hr3 = new System.Windows.Forms.TextBox();
+            this.Txt_hr2 = new System.Windows.Forms.TextBox();
+            this.Txt_hr1 = new System.Windows.Forms.TextBox();
             this.textBox16 = new System.Windows.Forms.TextBox();
-            this.textBox17 = new System.Windows.Forms.TextBox();
-            this.textBox18 = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox7.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox5.SuspendLayout();
-            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_nav)).BeginInit();
+            this.Gpb_partida.SuspendLayout();
+            this.Gpb_no.SuspendLayout();
+            this.Gpb_encabezado.SuspendLayout();
+            this.Gpb_codigo.SuspendLayout();
+            this.Gpb_cuenta.SuspendLayout();
+            this.Gpb_debe.SuspendLayout();
+            this.Gpb_Haber.SuspendLayout();
             this.SuspendLayout();
             // 
-            // diseño1
+            // Pnl_ingresoPoliza
             // 
-            this.diseño1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diseño1.Forma = this;
-            this.diseño1.Location = new System.Drawing.Point(0, 0);
-            this.diseño1.Name = "diseño1";
-            this.diseño1.Size = new System.Drawing.Size(933, 700);
-            this.diseño1.TabIndex = 0;
-            this.diseño1.Titulo = "4012_IngresoPoliza";
-            this.diseño1.Load += new System.EventHandler(this.diseño1_Load);
+            this.Pnl_ingresoPoliza.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Pnl_ingresoPoliza.Forma = this;
+            this.Pnl_ingresoPoliza.Location = new System.Drawing.Point(0, 0);
+            this.Pnl_ingresoPoliza.Name = "Pnl_ingresoPoliza";
+            this.Pnl_ingresoPoliza.Size = new System.Drawing.Size(933, 700);
+            this.Pnl_ingresoPoliza.TabIndex = 0;
+            this.Pnl_ingresoPoliza.Titulo = "4012_IngresoPoliza";
+            this.Pnl_ingresoPoliza.Load += new System.EventHandler(this.diseño1_Load);
             // 
-            // pictureBox1
+            // Pic_nav
             // 
-            this.pictureBox1.Image = global::SindyBatz_Administracion.Properties.Resources.navv;
-            this.pictureBox1.Location = new System.Drawing.Point(36, 66);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(858, 61);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.Pic_nav.Image = global::SindyBatz_Administracion.Properties.Resources.navv;
+            this.Pic_nav.Location = new System.Drawing.Point(36, 66);
+            this.Pic_nav.Name = "Pic_nav";
+            this.Pic_nav.Size = new System.Drawing.Size(858, 61);
+            this.Pic_nav.TabIndex = 2;
+            this.Pic_nav.TabStop = false;
+            this.Pic_nav.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // groupBox1
+            // Gpb_partida
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(116, 183);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(681, 75);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(613, 17);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(58, 19);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Fecha";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(479, 42);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 4;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(141, 33);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(203, 25);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Partida Contable #";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox2.Controls.Add(this.textBox11);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Controls.Add(this.textBox2);
-            this.groupBox2.Location = new System.Drawing.Point(116, 258);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(86, 144);
-            this.groupBox2.TabIndex = 10;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
-            // 
-            // groupBox7
-            // 
-            this.groupBox7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox7.Controls.Add(this.label12);
-            this.groupBox7.Controls.Add(this.label11);
-            this.groupBox7.Controls.Add(this.label9);
-            this.groupBox7.Controls.Add(this.label8);
-            this.groupBox7.Controls.Add(this.label10);
-            this.groupBox7.Location = new System.Drawing.Point(116, 258);
-            this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(681, 40);
-            this.groupBox7.TabIndex = 15;
-            this.groupBox7.TabStop = false;
-            this.groupBox7.Enter += new System.EventHandler(this.groupBox7_Enter);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox3.Controls.Add(this.textBox12);
-            this.groupBox3.Controls.Add(this.textBox7);
-            this.groupBox3.Controls.Add(this.textBox3);
-            this.groupBox3.Location = new System.Drawing.Point(206, 258);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(86, 144);
-            this.groupBox3.TabIndex = 11;
-            this.groupBox3.TabStop = false;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox4.Controls.Add(this.textBox13);
-            this.groupBox4.Controls.Add(this.textBox8);
-            this.groupBox4.Controls.Add(this.textBox1);
-            this.groupBox4.Location = new System.Drawing.Point(298, 258);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(315, 144);
-            this.groupBox4.TabIndex = 12;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Enter += new System.EventHandler(this.groupBox4_Enter);
-            // 
-            // groupBox5
-            // 
-            this.groupBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox5.Controls.Add(this.textBox17);
-            this.groupBox5.Controls.Add(this.textBox14);
-            this.groupBox5.Controls.Add(this.textBox9);
-            this.groupBox5.Controls.Add(this.textBox4);
-            this.groupBox5.Location = new System.Drawing.Point(619, 258);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(86, 189);
-            this.groupBox5.TabIndex = 13;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Enter += new System.EventHandler(this.groupBox5_Enter);
-            // 
-            // groupBox6
-            // 
-            this.groupBox6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
-            this.groupBox6.Controls.Add(this.textBox18);
-            this.groupBox6.Controls.Add(this.textBox15);
-            this.groupBox6.Controls.Add(this.textBox10);
-            this.groupBox6.Controls.Add(this.textBox5);
-            this.groupBox6.Location = new System.Drawing.Point(711, 258);
-            this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(86, 189);
-            this.groupBox6.TabIndex = 14;
-            this.groupBox6.TabStop = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(21, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(33, 18);
-            this.label8.TabIndex = 18;
-            this.label8.Text = "No.";
-            this.label8.Click += new System.EventHandler(this.label8_Click_1);
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(106, 16);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(64, 18);
-            this.label9.TabIndex = 19;
-            this.label9.Text = "Código";
-            this.label9.Click += new System.EventHandler(this.label9_Click_2);
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(304, 16);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(62, 18);
-            this.label10.TabIndex = 20;
-            this.label10.Text = "Cuenta";
-            this.label10.Click += new System.EventHandler(this.label10_Click_1);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(523, 16);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 18);
-            this.label11.TabIndex = 21;
-            this.label11.Text = "DEBE";
-            this.label11.Click += new System.EventHandler(this.label11_Click_1);
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(610, 16);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(55, 18);
-            this.label12.TabIndex = 22;
-            this.label12.Text = "HABER";
+            this.Gpb_partida.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_partida.Controls.Add(this.label3);
+            this.Gpb_partida.Controls.Add(this.Lbl_date);
+            this.Gpb_partida.Controls.Add(this.Dtp_partida);
+            this.Gpb_partida.Controls.Add(this.Lbl_part);
+            this.Gpb_partida.Location = new System.Drawing.Point(116, 183);
+            this.Gpb_partida.Margin = new System.Windows.Forms.Padding(4);
+            this.Gpb_partida.Name = "Gpb_partida";
+            this.Gpb_partida.Size = new System.Drawing.Size(681, 75);
+            this.Gpb_partida.TabIndex = 9;
+            this.Gpb_partida.TabStop = false;
+            this.Gpb_partida.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label3
             // 
@@ -286,120 +122,299 @@
             this.label3.TabIndex = 7;
             this.label3.Text = ".";
             // 
-            // textBox1
+            // Lbl_date
             // 
-            this.textBox1.Location = new System.Drawing.Point(6, 46);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(303, 20);
-            this.textBox1.TabIndex = 16;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.Lbl_date.AutoSize = true;
+            this.Lbl_date.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_date.Location = new System.Drawing.Point(613, 17);
+            this.Lbl_date.Name = "Lbl_date";
+            this.Lbl_date.Size = new System.Drawing.Size(58, 19);
+            this.Lbl_date.TabIndex = 6;
+            this.Lbl_date.Text = "Fecha";
             // 
-            // textBox2
+            // Dtp_partida
             // 
-            this.textBox2.Location = new System.Drawing.Point(6, 46);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(66, 20);
-            this.textBox2.TabIndex = 16;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.Dtp_partida.Location = new System.Drawing.Point(479, 42);
+            this.Dtp_partida.Name = "Dtp_partida";
+            this.Dtp_partida.Size = new System.Drawing.Size(200, 20);
+            this.Dtp_partida.TabIndex = 4;
+            this.Dtp_partida.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
-            // textBox3
+            // Lbl_part
             // 
-            this.textBox3.Location = new System.Drawing.Point(14, 46);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(66, 20);
-            this.textBox3.TabIndex = 17;
+            this.Lbl_part.AutoSize = true;
+            this.Lbl_part.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_part.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_part.Location = new System.Drawing.Point(141, 33);
+            this.Lbl_part.Name = "Lbl_part";
+            this.Lbl_part.Size = new System.Drawing.Size(203, 25);
+            this.Lbl_part.TabIndex = 3;
+            this.Lbl_part.Text = "Partida Contable #";
+            this.Lbl_part.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox4
+            // Gpb_no
             // 
-            this.textBox4.Location = new System.Drawing.Point(14, 46);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(66, 20);
-            this.textBox4.TabIndex = 17;
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.Gpb_no.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_no.Controls.Add(this.Txt_no3);
+            this.Gpb_no.Controls.Add(this.Txt_no2);
+            this.Gpb_no.Controls.Add(this.Txt_no1);
+            this.Gpb_no.Location = new System.Drawing.Point(116, 258);
+            this.Gpb_no.Name = "Gpb_no";
+            this.Gpb_no.Size = new System.Drawing.Size(86, 144);
+            this.Gpb_no.TabIndex = 10;
+            this.Gpb_no.TabStop = false;
+            this.Gpb_no.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
-            // textBox5
+            // Txt_no3
             // 
-            this.textBox5.Location = new System.Drawing.Point(6, 46);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(66, 20);
-            this.textBox5.TabIndex = 17;
+            this.Txt_no3.Location = new System.Drawing.Point(6, 98);
+            this.Txt_no3.Name = "Txt_no3";
+            this.Txt_no3.Size = new System.Drawing.Size(66, 20);
+            this.Txt_no3.TabIndex = 18;
+            this.Txt_no3.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
-            // textBox6
+            // Txt_no2
             // 
-            this.textBox6.Location = new System.Drawing.Point(6, 72);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(66, 20);
-            this.textBox6.TabIndex = 17;
+            this.Txt_no2.Location = new System.Drawing.Point(6, 72);
+            this.Txt_no2.Name = "Txt_no2";
+            this.Txt_no2.Size = new System.Drawing.Size(66, 20);
+            this.Txt_no2.TabIndex = 17;
             // 
-            // textBox7
+            // Txt_no1
             // 
-            this.textBox7.Location = new System.Drawing.Point(14, 72);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(66, 20);
-            this.textBox7.TabIndex = 18;
-            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            this.Txt_no1.Location = new System.Drawing.Point(6, 46);
+            this.Txt_no1.Name = "Txt_no1";
+            this.Txt_no1.Size = new System.Drawing.Size(66, 20);
+            this.Txt_no1.TabIndex = 16;
+            this.Txt_no1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
-            // textBox8
+            // Gpb_encabezado
             // 
-            this.textBox8.Location = new System.Drawing.Point(6, 72);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(303, 20);
-            this.textBox8.TabIndex = 24;
+            this.Gpb_encabezado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_encabezado.Controls.Add(this.Lbl_Habeer);
+            this.Gpb_encabezado.Controls.Add(this.Lbl_Debee);
+            this.Gpb_encabezado.Controls.Add(this.Lbl_Codigo);
+            this.Gpb_encabezado.Controls.Add(this.Lbl_no);
+            this.Gpb_encabezado.Controls.Add(this.Lbl_Cuent);
+            this.Gpb_encabezado.Location = new System.Drawing.Point(116, 258);
+            this.Gpb_encabezado.Name = "Gpb_encabezado";
+            this.Gpb_encabezado.Size = new System.Drawing.Size(681, 40);
+            this.Gpb_encabezado.TabIndex = 15;
+            this.Gpb_encabezado.TabStop = false;
+            this.Gpb_encabezado.Enter += new System.EventHandler(this.groupBox7_Enter);
             // 
-            // textBox9
+            // Lbl_Habeer
             // 
-            this.textBox9.Location = new System.Drawing.Point(14, 72);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(66, 20);
-            this.textBox9.TabIndex = 18;
+            this.Lbl_Habeer.AutoSize = true;
+            this.Lbl_Habeer.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Habeer.Location = new System.Drawing.Point(610, 16);
+            this.Lbl_Habeer.Name = "Lbl_Habeer";
+            this.Lbl_Habeer.Size = new System.Drawing.Size(55, 18);
+            this.Lbl_Habeer.TabIndex = 22;
+            this.Lbl_Habeer.Text = "HABER";
             // 
-            // textBox10
+            // Lbl_Debee
             // 
-            this.textBox10.Location = new System.Drawing.Point(6, 72);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(66, 20);
-            this.textBox10.TabIndex = 18;
+            this.Lbl_Debee.AutoSize = true;
+            this.Lbl_Debee.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Debee.Location = new System.Drawing.Point(523, 16);
+            this.Lbl_Debee.Name = "Lbl_Debee";
+            this.Lbl_Debee.Size = new System.Drawing.Size(44, 18);
+            this.Lbl_Debee.TabIndex = 21;
+            this.Lbl_Debee.Text = "DEBE";
+            this.Lbl_Debee.Click += new System.EventHandler(this.label11_Click_1);
             // 
-            // textBox11
+            // Lbl_Codigo
             // 
-            this.textBox11.Location = new System.Drawing.Point(6, 98);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(66, 20);
-            this.textBox11.TabIndex = 18;
-            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
+            this.Lbl_Codigo.AutoSize = true;
+            this.Lbl_Codigo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Codigo.Location = new System.Drawing.Point(106, 16);
+            this.Lbl_Codigo.Name = "Lbl_Codigo";
+            this.Lbl_Codigo.Size = new System.Drawing.Size(64, 18);
+            this.Lbl_Codigo.TabIndex = 19;
+            this.Lbl_Codigo.Text = "Código";
+            this.Lbl_Codigo.Click += new System.EventHandler(this.label9_Click_2);
             // 
-            // textBox12
+            // Lbl_no
             // 
-            this.textBox12.Location = new System.Drawing.Point(14, 100);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(66, 20);
-            this.textBox12.TabIndex = 19;
+            this.Lbl_no.AutoSize = true;
+            this.Lbl_no.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_no.Location = new System.Drawing.Point(21, 16);
+            this.Lbl_no.Name = "Lbl_no";
+            this.Lbl_no.Size = new System.Drawing.Size(33, 18);
+            this.Lbl_no.TabIndex = 18;
+            this.Lbl_no.Text = "No.";
+            this.Lbl_no.Click += new System.EventHandler(this.label8_Click_1);
             // 
-            // textBox13
+            // Lbl_Cuent
             // 
-            this.textBox13.Location = new System.Drawing.Point(6, 100);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(303, 20);
-            this.textBox13.TabIndex = 25;
+            this.Lbl_Cuent.AutoSize = true;
+            this.Lbl_Cuent.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_Cuent.Location = new System.Drawing.Point(304, 16);
+            this.Lbl_Cuent.Name = "Lbl_Cuent";
+            this.Lbl_Cuent.Size = new System.Drawing.Size(62, 18);
+            this.Lbl_Cuent.TabIndex = 20;
+            this.Lbl_Cuent.Text = "Cuenta";
+            this.Lbl_Cuent.Click += new System.EventHandler(this.label10_Click_1);
             // 
-            // textBox14
+            // Gpb_codigo
             // 
-            this.textBox14.Location = new System.Drawing.Point(14, 100);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(66, 20);
-            this.textBox14.TabIndex = 19;
-            this.textBox14.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            this.Gpb_codigo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_codigo.Controls.Add(this.Txt_cod3);
+            this.Gpb_codigo.Controls.Add(this.Txt_cod2);
+            this.Gpb_codigo.Controls.Add(this.Txt_cod1);
+            this.Gpb_codigo.Location = new System.Drawing.Point(206, 258);
+            this.Gpb_codigo.Name = "Gpb_codigo";
+            this.Gpb_codigo.Size = new System.Drawing.Size(86, 144);
+            this.Gpb_codigo.TabIndex = 11;
+            this.Gpb_codigo.TabStop = false;
             // 
-            // textBox15
+            // Txt_cod3
             // 
-            this.textBox15.Location = new System.Drawing.Point(6, 100);
-            this.textBox15.Name = "textBox15";
-            this.textBox15.Size = new System.Drawing.Size(66, 20);
-            this.textBox15.TabIndex = 19;
-            this.textBox15.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
+            this.Txt_cod3.Location = new System.Drawing.Point(14, 100);
+            this.Txt_cod3.Name = "Txt_cod3";
+            this.Txt_cod3.Size = new System.Drawing.Size(66, 20);
+            this.Txt_cod3.TabIndex = 19;
+            // 
+            // Txt_cod2
+            // 
+            this.Txt_cod2.Location = new System.Drawing.Point(14, 72);
+            this.Txt_cod2.Name = "Txt_cod2";
+            this.Txt_cod2.Size = new System.Drawing.Size(66, 20);
+            this.Txt_cod2.TabIndex = 18;
+            this.Txt_cod2.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
+            // 
+            // Txt_cod1
+            // 
+            this.Txt_cod1.Location = new System.Drawing.Point(14, 46);
+            this.Txt_cod1.Name = "Txt_cod1";
+            this.Txt_cod1.Size = new System.Drawing.Size(66, 20);
+            this.Txt_cod1.TabIndex = 17;
+            // 
+            // Gpb_cuenta
+            // 
+            this.Gpb_cuenta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_cuenta.Controls.Add(this.Txt_cuenta3);
+            this.Gpb_cuenta.Controls.Add(this.Txt_cuenta2);
+            this.Gpb_cuenta.Controls.Add(this.Txt_cuenta1);
+            this.Gpb_cuenta.Location = new System.Drawing.Point(298, 258);
+            this.Gpb_cuenta.Name = "Gpb_cuenta";
+            this.Gpb_cuenta.Size = new System.Drawing.Size(315, 144);
+            this.Gpb_cuenta.TabIndex = 12;
+            this.Gpb_cuenta.TabStop = false;
+            this.Gpb_cuenta.Enter += new System.EventHandler(this.groupBox4_Enter);
+            // 
+            // Txt_cuenta3
+            // 
+            this.Txt_cuenta3.Location = new System.Drawing.Point(6, 100);
+            this.Txt_cuenta3.Multiline = true;
+            this.Txt_cuenta3.Name = "Txt_cuenta3";
+            this.Txt_cuenta3.Size = new System.Drawing.Size(303, 20);
+            this.Txt_cuenta3.TabIndex = 25;
+            // 
+            // Txt_cuenta2
+            // 
+            this.Txt_cuenta2.Location = new System.Drawing.Point(6, 72);
+            this.Txt_cuenta2.Multiline = true;
+            this.Txt_cuenta2.Name = "Txt_cuenta2";
+            this.Txt_cuenta2.Size = new System.Drawing.Size(303, 20);
+            this.Txt_cuenta2.TabIndex = 24;
+            // 
+            // Txt_cuenta1
+            // 
+            this.Txt_cuenta1.Location = new System.Drawing.Point(6, 46);
+            this.Txt_cuenta1.Multiline = true;
+            this.Txt_cuenta1.Name = "Txt_cuenta1";
+            this.Txt_cuenta1.Size = new System.Drawing.Size(303, 20);
+            this.Txt_cuenta1.TabIndex = 16;
+            this.Txt_cuenta1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // Gpb_debe
+            // 
+            this.Gpb_debe.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_debe.Controls.Add(this.Txt_total1);
+            this.Gpb_debe.Controls.Add(this.Txt_db3);
+            this.Gpb_debe.Controls.Add(this.Txt_db2);
+            this.Gpb_debe.Controls.Add(this.Txt_db1);
+            this.Gpb_debe.Location = new System.Drawing.Point(619, 258);
+            this.Gpb_debe.Name = "Gpb_debe";
+            this.Gpb_debe.Size = new System.Drawing.Size(86, 189);
+            this.Gpb_debe.TabIndex = 13;
+            this.Gpb_debe.TabStop = false;
+            this.Gpb_debe.Enter += new System.EventHandler(this.groupBox5_Enter);
+            // 
+            // Txt_total1
+            // 
+            this.Txt_total1.Location = new System.Drawing.Point(14, 150);
+            this.Txt_total1.Name = "Txt_total1";
+            this.Txt_total1.Size = new System.Drawing.Size(66, 20);
+            this.Txt_total1.TabIndex = 20;
+            // 
+            // Txt_db3
+            // 
+            this.Txt_db3.Location = new System.Drawing.Point(14, 100);
+            this.Txt_db3.Name = "Txt_db3";
+            this.Txt_db3.Size = new System.Drawing.Size(66, 20);
+            this.Txt_db3.TabIndex = 19;
+            this.Txt_db3.TextChanged += new System.EventHandler(this.textBox14_TextChanged);
+            // 
+            // Txt_db2
+            // 
+            this.Txt_db2.Location = new System.Drawing.Point(14, 72);
+            this.Txt_db2.Name = "Txt_db2";
+            this.Txt_db2.Size = new System.Drawing.Size(66, 20);
+            this.Txt_db2.TabIndex = 18;
+            // 
+            // Txt_db1
+            // 
+            this.Txt_db1.Location = new System.Drawing.Point(14, 46);
+            this.Txt_db1.Name = "Txt_db1";
+            this.Txt_db1.Size = new System.Drawing.Size(66, 20);
+            this.Txt_db1.TabIndex = 17;
+            this.Txt_db1.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            // 
+            // Gpb_Haber
+            // 
+            this.Gpb_Haber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
+            this.Gpb_Haber.Controls.Add(this.Txt_total2);
+            this.Gpb_Haber.Controls.Add(this.Txt_hr3);
+            this.Gpb_Haber.Controls.Add(this.Txt_hr2);
+            this.Gpb_Haber.Controls.Add(this.Txt_hr1);
+            this.Gpb_Haber.Location = new System.Drawing.Point(711, 258);
+            this.Gpb_Haber.Name = "Gpb_Haber";
+            this.Gpb_Haber.Size = new System.Drawing.Size(86, 189);
+            this.Gpb_Haber.TabIndex = 14;
+            this.Gpb_Haber.TabStop = false;
+            // 
+            // Txt_total2
+            // 
+            this.Txt_total2.Location = new System.Drawing.Point(10, 150);
+            this.Txt_total2.Name = "Txt_total2";
+            this.Txt_total2.Size = new System.Drawing.Size(66, 20);
+            this.Txt_total2.TabIndex = 20;
+            // 
+            // Txt_hr3
+            // 
+            this.Txt_hr3.Location = new System.Drawing.Point(6, 100);
+            this.Txt_hr3.Name = "Txt_hr3";
+            this.Txt_hr3.Size = new System.Drawing.Size(66, 20);
+            this.Txt_hr3.TabIndex = 19;
+            this.Txt_hr3.TextChanged += new System.EventHandler(this.textBox15_TextChanged);
+            // 
+            // Txt_hr2
+            // 
+            this.Txt_hr2.Location = new System.Drawing.Point(6, 72);
+            this.Txt_hr2.Name = "Txt_hr2";
+            this.Txt_hr2.Size = new System.Drawing.Size(66, 20);
+            this.Txt_hr2.TabIndex = 18;
+            // 
+            // Txt_hr1
+            // 
+            this.Txt_hr1.Location = new System.Drawing.Point(6, 46);
+            this.Txt_hr1.Name = "Txt_hr1";
+            this.Txt_hr1.Size = new System.Drawing.Size(66, 20);
+            this.Txt_hr1.TabIndex = 17;
+            this.Txt_hr1.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // textBox16
             // 
@@ -409,53 +424,40 @@
             this.textBox16.Size = new System.Drawing.Size(485, 39);
             this.textBox16.TabIndex = 26;
             // 
-            // textBox17
-            // 
-            this.textBox17.Location = new System.Drawing.Point(14, 150);
-            this.textBox17.Name = "textBox17";
-            this.textBox17.Size = new System.Drawing.Size(66, 20);
-            this.textBox17.TabIndex = 20;
-            // 
-            // textBox18
-            // 
-            this.textBox18.Location = new System.Drawing.Point(10, 150);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(66, 20);
-            this.textBox18.TabIndex = 20;
-            // 
             // IngresoPoliza
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(933, 700);
             this.Controls.Add(this.textBox16);
-            this.Controls.Add(this.groupBox7);
-            this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox5);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.diseño1);
+            this.Controls.Add(this.Gpb_encabezado);
+            this.Controls.Add(this.Gpb_Haber);
+            this.Controls.Add(this.Gpb_debe);
+            this.Controls.Add(this.Gpb_cuenta);
+            this.Controls.Add(this.Gpb_codigo);
+            this.Controls.Add(this.Gpb_no);
+            this.Controls.Add(this.Gpb_partida);
+            this.Controls.Add(this.Pic_nav);
+            this.Controls.Add(this.Pnl_ingresoPoliza);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "IngresoPoliza";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "IngresoPoliza";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox7.ResumeLayout(false);
-            this.groupBox7.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
-            this.groupBox5.PerformLayout();
-            this.groupBox6.ResumeLayout(false);
-            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Pic_nav)).EndInit();
+            this.Gpb_partida.ResumeLayout(false);
+            this.Gpb_partida.PerformLayout();
+            this.Gpb_no.ResumeLayout(false);
+            this.Gpb_no.PerformLayout();
+            this.Gpb_encabezado.ResumeLayout(false);
+            this.Gpb_encabezado.PerformLayout();
+            this.Gpb_codigo.ResumeLayout(false);
+            this.Gpb_codigo.PerformLayout();
+            this.Gpb_cuenta.ResumeLayout(false);
+            this.Gpb_cuenta.PerformLayout();
+            this.Gpb_debe.ResumeLayout(false);
+            this.Gpb_debe.PerformLayout();
+            this.Gpb_Haber.ResumeLayout(false);
+            this.Gpb_Haber.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -463,41 +465,41 @@
 
         #endregion
 
-        private DiseñoVentana.Diseño diseño1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.GroupBox groupBox6;
-        private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
+        private DiseñoVentana.Diseño Pnl_ingresoPoliza;
+        private System.Windows.Forms.PictureBox Pic_nav;
+        private System.Windows.Forms.GroupBox Gpb_partida;
+        private System.Windows.Forms.DateTimePicker Dtp_partida;
+        private System.Windows.Forms.Label Lbl_part;
+        private System.Windows.Forms.GroupBox Gpb_codigo;
+        private System.Windows.Forms.GroupBox Gpb_no;
+        private System.Windows.Forms.GroupBox Gpb_Haber;
+        private System.Windows.Forms.GroupBox Gpb_debe;
+        private System.Windows.Forms.GroupBox Gpb_cuenta;
+        private System.Windows.Forms.Label Lbl_date;
+        private System.Windows.Forms.GroupBox Gpb_encabezado;
+        private System.Windows.Forms.Label Lbl_no;
+        private System.Windows.Forms.Label Lbl_Codigo;
+        private System.Windows.Forms.Label Lbl_Cuent;
+        private System.Windows.Forms.Label Lbl_Debee;
+        private System.Windows.Forms.Label Lbl_Habeer;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox15;
-        private System.Windows.Forms.TextBox textBox14;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox Txt_cuenta1;
+        private System.Windows.Forms.TextBox Txt_no1;
+        private System.Windows.Forms.TextBox Txt_db1;
+        private System.Windows.Forms.TextBox Txt_cod1;
+        private System.Windows.Forms.TextBox Txt_hr1;
+        private System.Windows.Forms.TextBox Txt_hr2;
+        private System.Windows.Forms.TextBox Txt_db2;
+        private System.Windows.Forms.TextBox Txt_cuenta2;
+        private System.Windows.Forms.TextBox Txt_cod2;
+        private System.Windows.Forms.TextBox Txt_no3;
+        private System.Windows.Forms.TextBox Txt_no2;
+        private System.Windows.Forms.TextBox Txt_hr3;
+        private System.Windows.Forms.TextBox Txt_db3;
+        private System.Windows.Forms.TextBox Txt_cuenta3;
+        private System.Windows.Forms.TextBox Txt_cod3;
         private System.Windows.Forms.TextBox textBox16;
-        private System.Windows.Forms.TextBox textBox18;
-        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.TextBox Txt_total2;
+        private System.Windows.Forms.TextBox Txt_total1;
     }
 }

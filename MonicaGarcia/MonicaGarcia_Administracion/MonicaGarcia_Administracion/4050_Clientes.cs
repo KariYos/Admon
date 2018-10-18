@@ -10,20 +10,11 @@ using System.Windows.Forms;
 
 namespace MonicaGarcia_Administracion
 {
-    public partial class Form1 : Form
+    public partial class _4050_Clientes : Form
     {
-        public Form1()
+        public _4050_Clientes()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btn_Seleccionar_Click(object sender, EventArgs e)
-        {
         }
     }
 }

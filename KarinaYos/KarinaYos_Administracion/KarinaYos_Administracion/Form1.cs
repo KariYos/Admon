@@ -28,5 +28,21 @@ namespace KarinaYos_Administracion
             abrir.ShowDialog();
           
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void diseño1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            new AltaCxP().Show();
+
+        }
     }
 }

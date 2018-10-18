@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MonicaGarcia_Administracion
+namespace Listado_de_precios
 {
     public partial class Form1 : Form
     {
@@ -17,13 +17,14 @@ namespace MonicaGarcia_Administracion
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btn_Seleccionar_Click(object sender, EventArgs e)
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
+
         }
     }
 }
