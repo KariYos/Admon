@@ -21,5 +21,10 @@ namespace JazzminZavala_Administracion
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
     }
 }
