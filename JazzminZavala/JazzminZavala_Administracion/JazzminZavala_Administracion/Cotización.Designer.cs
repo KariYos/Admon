@@ -40,7 +40,7 @@
             this.Btn_aPedido = new System.Windows.Forms.Button();
             this.Gpb_datosc = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.Lbl_numCotizacion = new System.Windows.Forms.Label();
+            this.Lbl_nCotizacion = new System.Windows.Forms.Label();
             this.Dtp_fechaC = new System.Windows.Forms.DateTimePicker();
             this.Lbl_cotizacion = new System.Windows.Forms.Label();
             this.Txt_direccionC = new System.Windows.Forms.TextBox();
@@ -142,7 +142,7 @@
             // 
             this.Gpb_datosc.BackColor = System.Drawing.Color.Transparent;
             this.Gpb_datosc.Controls.Add(this.button2);
-            this.Gpb_datosc.Controls.Add(this.Lbl_numCotizacion);
+            this.Gpb_datosc.Controls.Add(this.Lbl_nCotizacion);
             this.Gpb_datosc.Controls.Add(this.Dtp_fechaC);
             this.Gpb_datosc.Controls.Add(this.Lbl_cotizacion);
             this.Gpb_datosc.Controls.Add(this.Txt_direccionC);
@@ -174,17 +174,17 @@
             this.button2.TabIndex = 51;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // Lbl_numCotizacion
+            // Lbl_nCotizacion
             // 
-            this.Lbl_numCotizacion.AutoSize = true;
-            this.Lbl_numCotizacion.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_numCotizacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_numCotizacion.ForeColor = System.Drawing.Color.Red;
-            this.Lbl_numCotizacion.Location = new System.Drawing.Point(838, 25);
-            this.Lbl_numCotizacion.Name = "Lbl_numCotizacion";
-            this.Lbl_numCotizacion.Size = new System.Drawing.Size(19, 19);
-            this.Lbl_numCotizacion.TabIndex = 11;
-            this.Lbl_numCotizacion.Text = "#";
+            this.Lbl_nCotizacion.AutoSize = true;
+            this.Lbl_nCotizacion.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_nCotizacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_nCotizacion.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_nCotizacion.Location = new System.Drawing.Point(838, 25);
+            this.Lbl_nCotizacion.Name = "Lbl_nCotizacion";
+            this.Lbl_nCotizacion.Size = new System.Drawing.Size(19, 19);
+            this.Lbl_nCotizacion.TabIndex = 11;
+            this.Lbl_nCotizacion.Text = "#";
             // 
             // Dtp_fechaC
             // 
@@ -582,7 +582,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox Gpb_datosc;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label Lbl_numCotizacion;
+        private System.Windows.Forms.Label Lbl_nCotizacion;
         private System.Windows.Forms.DateTimePicker Dtp_fechaC;
         private System.Windows.Forms.Label Lbl_cotizacion;
         private System.Windows.Forms.TextBox Txt_direccionC;
