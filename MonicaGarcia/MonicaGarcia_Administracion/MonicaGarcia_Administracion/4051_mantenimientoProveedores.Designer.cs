@@ -30,28 +30,28 @@
         {
             this.diseño1 = new DiseñoVentana.Diseño();
             this.Gpv_datosP = new System.Windows.Forms.GroupBox();
+            this.Cmb_Producto = new System.Windows.Forms.ComboBox();
             this.Txt_nombreProveedor = new System.Windows.Forms.TextBox();
+            this.Cmb_Tipo = new System.Windows.Forms.ComboBox();
             this.Txt_codigoProveedor = new System.Windows.Forms.TextBox();
+            this.Txt_codicoProducto = new System.Windows.Forms.TextBox();
             this.Lbl_codigoP = new System.Windows.Forms.Label();
+            this.Lbl_productoP = new System.Windows.Forms.Label();
             this.Lbl_nombreP = new System.Windows.Forms.Label();
+            this.Lbl_tipo = new System.Windows.Forms.Label();
+            this.Txt_codigotipoP = new System.Windows.Forms.TextBox();
             this.Txt_nitProveedor = new System.Windows.Forms.TextBox();
             this.Lbl_nitP = new System.Windows.Forms.Label();
             this.Gpb_contacto = new System.Windows.Forms.GroupBox();
+            this.Txt_telefono2 = new System.Windows.Forms.TextBox();
+            this.Lbl_telefono2 = new System.Windows.Forms.Label();
             this.Lbl_correoP = new System.Windows.Forms.Label();
             this.Txt_correoProveedor = new System.Windows.Forms.TextBox();
             this.Lbl_direccionP = new System.Windows.Forms.Label();
             this.Lbl_Telefono2P = new System.Windows.Forms.Label();
             this.Txt_direccionProveedor = new System.Windows.Forms.TextBox();
             this.Txt_telefono2Proveedor = new System.Windows.Forms.TextBox();
-            this.Cmb_Producto = new System.Windows.Forms.ComboBox();
-            this.Cmb_Tipo = new System.Windows.Forms.ComboBox();
-            this.Txt_codicoProducto = new System.Windows.Forms.TextBox();
-            this.Lbl_productoP = new System.Windows.Forms.Label();
-            this.Lbl_tipo = new System.Windows.Forms.Label();
-            this.Txt_codigotipoP = new System.Windows.Forms.TextBox();
             this.navegador1 = new CapaDiseno.Navegador();
-            this.Txt_telefono2 = new System.Windows.Forms.TextBox();
-            this.Lbl_telefono2 = new System.Windows.Forms.Label();
             this.Gpv_datosP.SuspendLayout();
             this.Gpb_contacto.SuspendLayout();
             this.SuspendLayout();
@@ -89,6 +89,15 @@
             this.Gpv_datosP.TabStop = false;
             this.Gpv_datosP.Text = "Datos Personales";
             // 
+            // Cmb_Producto
+            // 
+            this.Cmb_Producto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cmb_Producto.FormattingEnabled = true;
+            this.Cmb_Producto.Location = new System.Drawing.Point(283, 241);
+            this.Cmb_Producto.Name = "Cmb_Producto";
+            this.Cmb_Producto.Size = new System.Drawing.Size(511, 27);
+            this.Cmb_Producto.TabIndex = 16;
+            // 
             // Txt_nombreProveedor
             // 
             this.Txt_nombreProveedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -96,6 +105,16 @@
             this.Txt_nombreProveedor.Name = "Txt_nombreProveedor";
             this.Txt_nombreProveedor.Size = new System.Drawing.Size(599, 27);
             this.Txt_nombreProveedor.TabIndex = 7;
+            this.Txt_nombreProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_nombreProveedor_KeyPress);
+            // 
+            // Cmb_Tipo
+            // 
+            this.Cmb_Tipo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cmb_Tipo.FormattingEnabled = true;
+            this.Cmb_Tipo.Location = new System.Drawing.Point(283, 195);
+            this.Cmb_Tipo.Name = "Cmb_Tipo";
+            this.Cmb_Tipo.Size = new System.Drawing.Size(511, 27);
+            this.Cmb_Tipo.TabIndex = 17;
             // 
             // Txt_codigoProveedor
             // 
@@ -104,6 +123,16 @@
             this.Txt_codigoProveedor.Name = "Txt_codigoProveedor";
             this.Txt_codigoProveedor.Size = new System.Drawing.Size(244, 27);
             this.Txt_codigoProveedor.TabIndex = 8;
+            this.Txt_codigoProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_codigoProveedor_KeyPress);
+            // 
+            // Txt_codicoProducto
+            // 
+            this.Txt_codicoProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_codicoProducto.Location = new System.Drawing.Point(193, 238);
+            this.Txt_codicoProducto.Name = "Txt_codicoProducto";
+            this.Txt_codicoProducto.ReadOnly = true;
+            this.Txt_codicoProducto.Size = new System.Drawing.Size(73, 27);
+            this.Txt_codicoProducto.TabIndex = 15;
             // 
             // Lbl_codigoP
             // 
@@ -116,6 +145,17 @@
             this.Lbl_codigoP.TabIndex = 0;
             this.Lbl_codigoP.Text = "Codigo";
             // 
+            // Lbl_productoP
+            // 
+            this.Lbl_productoP.AutoSize = true;
+            this.Lbl_productoP.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_productoP.Location = new System.Drawing.Point(91, 245);
+            this.Lbl_productoP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_productoP.Name = "Lbl_productoP";
+            this.Lbl_productoP.Size = new System.Drawing.Size(78, 19);
+            this.Lbl_productoP.TabIndex = 13;
+            this.Lbl_productoP.Text = "Producto";
+            // 
             // Lbl_nombreP
             // 
             this.Lbl_nombreP.AutoSize = true;
@@ -127,13 +167,34 @@
             this.Lbl_nombreP.TabIndex = 1;
             this.Lbl_nombreP.Text = "Nombre";
             // 
+            // Lbl_tipo
+            // 
+            this.Lbl_tipo.AutoSize = true;
+            this.Lbl_tipo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_tipo.Location = new System.Drawing.Point(91, 199);
+            this.Lbl_tipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_tipo.Name = "Lbl_tipo";
+            this.Lbl_tipo.Size = new System.Drawing.Size(41, 19);
+            this.Lbl_tipo.TabIndex = 12;
+            this.Lbl_tipo.Text = "Tipo";
+            // 
+            // Txt_codigotipoP
+            // 
+            this.Txt_codigotipoP.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_codigotipoP.Location = new System.Drawing.Point(193, 193);
+            this.Txt_codigotipoP.Name = "Txt_codigotipoP";
+            this.Txt_codigotipoP.ReadOnly = true;
+            this.Txt_codigotipoP.Size = new System.Drawing.Size(73, 27);
+            this.Txt_codigotipoP.TabIndex = 14;
+            // 
             // Txt_nitProveedor
             // 
             this.Txt_nitProveedor.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nitProveedor.Location = new System.Drawing.Point(195, 149);
+            this.Txt_nitProveedor.Location = new System.Drawing.Point(195, 150);
             this.Txt_nitProveedor.Name = "Txt_nitProveedor";
             this.Txt_nitProveedor.Size = new System.Drawing.Size(599, 27);
             this.Txt_nitProveedor.TabIndex = 11;
+            this.Txt_nitProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_nitProveedor_KeyPress);
             // 
             // Lbl_nitP
             // 
@@ -165,6 +226,26 @@
             this.Gpb_contacto.Text = "Contacto";
             this.Gpb_contacto.Enter += new System.EventHandler(this.Gpb_contacto_Enter);
             // 
+            // Txt_telefono2
+            // 
+            this.Txt_telefono2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_telefono2.Location = new System.Drawing.Point(555, 102);
+            this.Txt_telefono2.Name = "Txt_telefono2";
+            this.Txt_telefono2.Size = new System.Drawing.Size(238, 27);
+            this.Txt_telefono2.TabIndex = 21;
+            this.Txt_telefono2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_telefono2_KeyPress);
+            // 
+            // Lbl_telefono2
+            // 
+            this.Lbl_telefono2.AutoSize = true;
+            this.Lbl_telefono2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_telefono2.Location = new System.Drawing.Point(468, 105);
+            this.Lbl_telefono2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Lbl_telefono2.Name = "Lbl_telefono2";
+            this.Lbl_telefono2.Size = new System.Drawing.Size(65, 19);
+            this.Lbl_telefono2.TabIndex = 22;
+            this.Lbl_telefono2.Text = "Celular";
+            // 
             // Lbl_correoP
             // 
             this.Lbl_correoP.AutoSize = true;
@@ -183,6 +264,7 @@
             this.Txt_correoProveedor.Name = "Txt_correoProveedor";
             this.Txt_correoProveedor.Size = new System.Drawing.Size(601, 27);
             this.Txt_correoProveedor.TabIndex = 17;
+            this.Txt_correoProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_correoProveedor_KeyPress);
             // 
             // Lbl_direccionP
             // 
@@ -213,6 +295,7 @@
             this.Txt_direccionProveedor.Name = "Txt_direccionProveedor";
             this.Txt_direccionProveedor.Size = new System.Drawing.Size(601, 27);
             this.Txt_direccionProveedor.TabIndex = 12;
+            this.Txt_direccionProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_direccionProveedor_KeyPress);
             // 
             // Txt_telefono2Proveedor
             // 
@@ -221,64 +304,7 @@
             this.Txt_telefono2Proveedor.Name = "Txt_telefono2Proveedor";
             this.Txt_telefono2Proveedor.Size = new System.Drawing.Size(244, 27);
             this.Txt_telefono2Proveedor.TabIndex = 13;
-            // 
-            // Cmb_Producto
-            // 
-            this.Cmb_Producto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cmb_Producto.FormattingEnabled = true;
-            this.Cmb_Producto.Location = new System.Drawing.Point(283, 241);
-            this.Cmb_Producto.Name = "Cmb_Producto";
-            this.Cmb_Producto.Size = new System.Drawing.Size(511, 27);
-            this.Cmb_Producto.TabIndex = 16;
-            // 
-            // Cmb_Tipo
-            // 
-            this.Cmb_Tipo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cmb_Tipo.FormattingEnabled = true;
-            this.Cmb_Tipo.Location = new System.Drawing.Point(283, 195);
-            this.Cmb_Tipo.Name = "Cmb_Tipo";
-            this.Cmb_Tipo.Size = new System.Drawing.Size(511, 27);
-            this.Cmb_Tipo.TabIndex = 17;
-            // 
-            // Txt_codicoProducto
-            // 
-            this.Txt_codicoProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_codicoProducto.Location = new System.Drawing.Point(193, 238);
-            this.Txt_codicoProducto.Name = "Txt_codicoProducto";
-            this.Txt_codicoProducto.ReadOnly = true;
-            this.Txt_codicoProducto.Size = new System.Drawing.Size(73, 27);
-            this.Txt_codicoProducto.TabIndex = 15;
-            // 
-            // Lbl_productoP
-            // 
-            this.Lbl_productoP.AutoSize = true;
-            this.Lbl_productoP.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_productoP.Location = new System.Drawing.Point(91, 245);
-            this.Lbl_productoP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl_productoP.Name = "Lbl_productoP";
-            this.Lbl_productoP.Size = new System.Drawing.Size(78, 19);
-            this.Lbl_productoP.TabIndex = 13;
-            this.Lbl_productoP.Text = "Producto";
-            // 
-            // Lbl_tipo
-            // 
-            this.Lbl_tipo.AutoSize = true;
-            this.Lbl_tipo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_tipo.Location = new System.Drawing.Point(91, 199);
-            this.Lbl_tipo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl_tipo.Name = "Lbl_tipo";
-            this.Lbl_tipo.Size = new System.Drawing.Size(41, 19);
-            this.Lbl_tipo.TabIndex = 12;
-            this.Lbl_tipo.Text = "Tipo";
-            // 
-            // Txt_codigotipoP
-            // 
-            this.Txt_codigotipoP.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_codigotipoP.Location = new System.Drawing.Point(193, 193);
-            this.Txt_codigotipoP.Name = "Txt_codigotipoP";
-            this.Txt_codigotipoP.ReadOnly = true;
-            this.Txt_codigotipoP.Size = new System.Drawing.Size(73, 27);
-            this.Txt_codigotipoP.TabIndex = 14;
+            this.Txt_telefono2Proveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_telefono2Proveedor_KeyPress);
             // 
             // navegador1
             // 
@@ -291,25 +317,6 @@
             this.navegador1.Size = new System.Drawing.Size(857, 60);
             this.navegador1.TabIndex = 22;
             this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
-            // 
-            // Txt_telefono2
-            // 
-            this.Txt_telefono2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_telefono2.Location = new System.Drawing.Point(555, 102);
-            this.Txt_telefono2.Name = "Txt_telefono2";
-            this.Txt_telefono2.Size = new System.Drawing.Size(238, 27);
-            this.Txt_telefono2.TabIndex = 21;
-            // 
-            // Lbl_telefono2
-            // 
-            this.Lbl_telefono2.AutoSize = true;
-            this.Lbl_telefono2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_telefono2.Location = new System.Drawing.Point(468, 105);
-            this.Lbl_telefono2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Lbl_telefono2.Name = "Lbl_telefono2";
-            this.Lbl_telefono2.Size = new System.Drawing.Size(65, 19);
-            this.Lbl_telefono2.TabIndex = 22;
-            this.Lbl_telefono2.Text = "Celular";
             // 
             // _4051_mantenimientoProveedores
             // 

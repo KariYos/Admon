@@ -134,6 +134,7 @@
             this.Txt_ComisionCobrador.Name = "Txt_ComisionCobrador";
             this.Txt_ComisionCobrador.Size = new System.Drawing.Size(440, 27);
             this.Txt_ComisionCobrador.TabIndex = 6;
+            this.Txt_ComisionCobrador.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_ComisionCobrador_KeyPress);
             // 
             // Txt_nombreCobrador
             // 

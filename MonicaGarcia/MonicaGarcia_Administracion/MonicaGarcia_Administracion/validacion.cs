@@ -85,6 +85,18 @@ namespace MonicaGarcia_Administracion
                 MessageBox.Show("El numero de nit es inválido.", "Error de caracteres", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        public void proValidarPrecios(KeyPressEventArgs tecla) {
+
+            if (Char.IsDigit(tecla.KeyChar)) { tecla.Handled = false; }
+            else if (Char.IsControl(tecla.KeyChar)) { tecla.Handled = false; }
+            else if (Char.IsSeparator(tecla.KeyChar)) { tecla.Handled = false; }
+            else if (tecla.KeyChar.ToString().Equals(".")) { tecla.Handled = false; }
+            else
+            {
+                tecla.Handled = true;
+                MessageBox.Show("El valor ingresado no está en el formato correcto", "Error de caracteres", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         public void proComprobarFormatoEmail(string sCorreo)
         {
             String sFormato;

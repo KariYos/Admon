@@ -134,6 +134,7 @@
             this.Txt_ComisionVendedor.Name = "Txt_ComisionVendedor";
             this.Txt_ComisionVendedor.Size = new System.Drawing.Size(440, 27);
             this.Txt_ComisionVendedor.TabIndex = 6;
+            this.Txt_ComisionVendedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_ComisionVendedor_KeyPress);
             // 
             // Txt_nombreVededor
             // 

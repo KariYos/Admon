@@ -14,6 +14,7 @@ namespace MonicaGarcia_Administracion
     public partial class _4053_Cobradores : Form
     {
         Navegador nav = new Navegador();
+        validacion val = new validacion();
         public _4053_Cobradores()
         {
             InitializeComponent();
@@ -42,6 +43,11 @@ namespace MonicaGarcia_Administracion
         private void Gpb_DatosCobrador_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void Txt_ComisionCobrador_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarPrecios(e);
         }
     }
 }

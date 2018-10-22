@@ -14,6 +14,7 @@ namespace MonicaGarcia_Administracion
     public partial class _4051_mantenimientoProveedores : Form
     {
         Navegador nav = new Navegador();
+        validacion val = new validacion();
         public _4051_mantenimientoProveedores()
         {
             InitializeComponent();
@@ -37,6 +38,41 @@ namespace MonicaGarcia_Administracion
         private void navegador1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void Txt_codigoProveedor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarNumeros(e);
+        }
+
+        private void Txt_nombreProveedor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarLetras(e);
+        }
+
+        private void Txt_nitProveedor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarNit(e);
+        }
+
+        private void Txt_direccionProveedor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarNumerosyLetras(e);
+        }
+
+        private void Txt_telefono2Proveedor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarNumeros(e);
+        }
+
+        private void Txt_telefono2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarNumeros(e);
+        }
+
+        private void Txt_correoProveedor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            val.proValidarCorreo(e);
         }
     }
 }
