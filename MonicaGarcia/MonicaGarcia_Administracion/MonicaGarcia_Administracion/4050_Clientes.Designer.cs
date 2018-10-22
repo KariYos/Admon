@@ -50,6 +50,7 @@
             this.Txt_telefono1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Txt_Correo = new System.Windows.Forms.TextBox();
+            this.Txt_codicoProducto = new System.Windows.Forms.TextBox();
             this.Gpb_Datos.SuspendLayout();
             this.Gpb_contacto.SuspendLayout();
             this.SuspendLayout();
@@ -79,6 +80,7 @@
             // Gpb_Datos
             // 
             this.Gpb_Datos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(193)))), ((int)(((byte)(195)))));
+            this.Gpb_Datos.Controls.Add(this.Txt_codicoProducto);
             this.Gpb_Datos.Controls.Add(this.cmb_Cobrador);
             this.Gpb_Datos.Controls.Add(this.Lbl_Cobrador);
             this.Gpb_Datos.Controls.Add(this.Txt_nombre);
@@ -103,9 +105,9 @@
             // 
             this.cmb_Cobrador.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_Cobrador.FormattingEnabled = true;
-            this.cmb_Cobrador.Location = new System.Drawing.Point(255, 281);
+            this.cmb_Cobrador.Location = new System.Drawing.Point(335, 281);
             this.cmb_Cobrador.Name = "cmb_Cobrador";
-            this.cmb_Cobrador.Size = new System.Drawing.Size(527, 27);
+            this.cmb_Cobrador.Size = new System.Drawing.Size(447, 27);
             this.cmb_Cobrador.TabIndex = 14;
             // 
             // Lbl_Cobrador
@@ -300,6 +302,15 @@
             this.Txt_Correo.TabIndex = 17;
             this.Txt_Correo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_Correo_KeyPress);
             // 
+            // Txt_codicoProducto
+            // 
+            this.Txt_codicoProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_codicoProducto.Location = new System.Drawing.Point(256, 281);
+            this.Txt_codicoProducto.Name = "Txt_codicoProducto";
+            this.Txt_codicoProducto.ReadOnly = true;
+            this.Txt_codicoProducto.Size = new System.Drawing.Size(73, 27);
+            this.Txt_codicoProducto.TabIndex = 16;
+            // 
             // _4050_Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -345,5 +356,6 @@
         private System.Windows.Forms.Label Lbl_nit;
         private System.Windows.Forms.ComboBox cmb_Cobrador;
         private System.Windows.Forms.Label Lbl_Cobrador;
+        private System.Windows.Forms.TextBox Txt_codicoProducto;
     }
 }
