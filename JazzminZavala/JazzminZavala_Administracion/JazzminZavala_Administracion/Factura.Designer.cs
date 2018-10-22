@@ -36,6 +36,13 @@
             this.label2 = new System.Windows.Forms.Label();
             this.diseño1 = new DiseñoVentana.Diseño();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.Gpb_datosVendedor = new System.Windows.Forms.GroupBox();
+            this.Txt_codigoV = new System.Windows.Forms.TextBox();
+            this.Lbl_codigoV = new System.Windows.Forms.Label();
+            this.Txt_nombreV = new System.Windows.Forms.TextBox();
+            this.Lbl_nombreV = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.Gpb_datosf = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
             this.Lbl_numSerie = new System.Windows.Forms.Label();
@@ -50,38 +57,21 @@
             this.Lbl_nombref = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.Gpb_detallef = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.Txt_credit = new System.Windows.Forms.TextBox();
-            this.Lbl_credit = new System.Windows.Forms.Label();
+            this.Lbl_tarjetadf = new System.Windows.Forms.Label();
             this.Cmb_formaPago = new System.Windows.Forms.ComboBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Lbl_reC = new System.Windows.Forms.Label();
-            this.Lbl_recaTotal = new System.Windows.Forms.Label();
-            this.Lbl_recargo = new System.Windows.Forms.Label();
-            this.Lbl_totalFf = new System.Windows.Forms.Label();
-            this.Lbl_desc = new System.Windows.Forms.Label();
-            this.Lbl_subFf = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.Lbl_subF = new System.Windows.Forms.Label();
-            this.Lbl_total = new System.Windows.Forms.Label();
-            this.Lbl_descuentos = new System.Windows.Forms.Label();
-            this.Lbl_subtotal = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Btn_BuscarExamen = new System.Windows.Forms.Button();
-            this.Lbl_codigof = new System.Windows.Forms.Label();
+            this.Lbl_porc = new System.Windows.Forms.Label();
+            this.Lbl_codigodf = new System.Windows.Forms.Label();
             this.Txt_codigof = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.Lbl_agregar = new System.Windows.Forms.Label();
             this.Btn_agregar = new System.Windows.Forms.Button();
-            this.Lbl_descuentto = new System.Windows.Forms.Label();
-            this.Lbl_preciouf = new System.Windows.Forms.Label();
-            this.Lbl_descripcionff = new System.Windows.Forms.Label();
-            this.Lbl_nombredf = new System.Windows.Forms.Label();
-            this.Lbl_totalf = new System.Windows.Forms.Label();
+            this.Lbl_descuentodf = new System.Windows.Forms.Label();
+            this.Lbl_precioudf = new System.Windows.Forms.Label();
+            this.Lbl_descridf = new System.Windows.Forms.Label();
+            this.Lbl_cantdf = new System.Windows.Forms.Label();
+            this.Lbl_formaPagodf = new System.Windows.Forms.Label();
             this.Txt_descuentof = new System.Windows.Forms.TextBox();
             this.Txt_preciouf = new System.Windows.Forms.TextBox();
-            this.Btn_guardar = new System.Windows.Forms.Button();
-            this.Lbl_cargarf = new System.Windows.Forms.Label();
             this.Txt_descripcion = new System.Windows.Forms.TextBox();
             this.Txt_cantidadf = new System.Windows.Forms.TextBox();
             this.Dgb_facturaf = new System.Windows.Forms.DataGridView();
@@ -92,23 +82,29 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Gpb_laboratoriof = new System.Windows.Forms.GroupBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Lbl_reC = new System.Windows.Forms.Label();
+            this.Lbl_recaTotal = new System.Windows.Forms.Label();
+            this.Lbl_recargo = new System.Windows.Forms.Label();
+            this.Lbl_totalFf = new System.Windows.Forms.Label();
+            this.Lbl_desc = new System.Windows.Forms.Label();
+            this.Lbl_subFf = new System.Windows.Forms.Label();
+            this.Lbl_qTotal = new System.Windows.Forms.Label();
+            this.Lbl_qDesc = new System.Windows.Forms.Label();
+            this.Lbl_subF = new System.Windows.Forms.Label();
+            this.Lbl_total = new System.Windows.Forms.Label();
+            this.Lbl_descuentos = new System.Windows.Forms.Label();
+            this.Lbl_subtotal = new System.Windows.Forms.Label();
+            this.Gpb_empresa = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.Gpb_datosVendedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.Gpb_datosf.SuspendLayout();
             this.Gpb_detallef.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgb_facturaf)).BeginInit();
-            this.Gpb_laboratoriof.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.Gpb_empresa.SuspendLayout();
             this.SuspendLayout();
             // 
             // label2
@@ -125,7 +121,7 @@
             // diseño1
             // 
             this.diseño1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.diseño1.Forma = null;
+            this.diseño1.Forma = this;
             this.diseño1.Location = new System.Drawing.Point(0, 0);
             this.diseño1.Name = "diseño1";
             this.diseño1.Size = new System.Drawing.Size(933, 700);
@@ -134,15 +130,94 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.groupBox2);
+            this.panel1.Controls.Add(this.Gpb_datosVendedor);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.Gpb_datosf);
             this.panel1.Controls.Add(this.Gpb_detallef);
-            this.panel1.Controls.Add(this.Gpb_laboratoriof);
+            this.panel1.Controls.Add(this.Gpb_empresa);
             this.panel1.Location = new System.Drawing.Point(0, 40);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(933, 660);
             this.panel1.TabIndex = 25;
+            // 
+            // Gpb_datosVendedor
+            // 
+            this.Gpb_datosVendedor.BackColor = System.Drawing.Color.Transparent;
+            this.Gpb_datosVendedor.Controls.Add(this.Txt_codigoV);
+            this.Gpb_datosVendedor.Controls.Add(this.Lbl_codigoV);
+            this.Gpb_datosVendedor.Controls.Add(this.Txt_nombreV);
+            this.Gpb_datosVendedor.Controls.Add(this.Lbl_nombreV);
+            this.Gpb_datosVendedor.Controls.Add(this.textBox6);
+            this.Gpb_datosVendedor.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_datosVendedor.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Gpb_datosVendedor.Location = new System.Drawing.Point(26, 235);
+            this.Gpb_datosVendedor.Name = "Gpb_datosVendedor";
+            this.Gpb_datosVendedor.Size = new System.Drawing.Size(881, 52);
+            this.Gpb_datosVendedor.TabIndex = 56;
+            this.Gpb_datosVendedor.TabStop = false;
+            this.Gpb_datosVendedor.Text = "Vendedor";
+            // 
+            // Txt_codigoV
+            // 
+            this.Txt_codigoV.BackColor = System.Drawing.Color.White;
+            this.Txt_codigoV.Enabled = false;
+            this.Txt_codigoV.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_codigoV.Location = new System.Drawing.Point(172, 22);
+            this.Txt_codigoV.Multiline = true;
+            this.Txt_codigoV.Name = "Txt_codigoV";
+            this.Txt_codigoV.Size = new System.Drawing.Size(138, 20);
+            this.Txt_codigoV.TabIndex = 57;
+            // 
+            // Lbl_codigoV
+            // 
+            this.Lbl_codigoV.AutoSize = true;
+            this.Lbl_codigoV.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_codigoV.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_codigoV.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_codigoV.Location = new System.Drawing.Point(97, 22);
+            this.Lbl_codigoV.Name = "Lbl_codigoV";
+            this.Lbl_codigoV.Size = new System.Drawing.Size(64, 18);
+            this.Lbl_codigoV.TabIndex = 56;
+            this.Lbl_codigoV.Text = "Código";
+            // 
+            // Txt_nombreV
+            // 
+            this.Txt_nombreV.BackColor = System.Drawing.Color.White;
+            this.Txt_nombreV.Enabled = false;
+            this.Txt_nombreV.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_nombreV.Location = new System.Drawing.Point(398, 22);
+            this.Txt_nombreV.Multiline = true;
+            this.Txt_nombreV.Name = "Txt_nombreV";
+            this.Txt_nombreV.Size = new System.Drawing.Size(379, 20);
+            this.Txt_nombreV.TabIndex = 55;
+            // 
+            // Lbl_nombreV
+            // 
+            this.Lbl_nombreV.AutoSize = true;
+            this.Lbl_nombreV.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_nombreV.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_nombreV.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_nombreV.Location = new System.Drawing.Point(323, 22);
+            this.Lbl_nombreV.Name = "Lbl_nombreV";
+            this.Lbl_nombreV.Size = new System.Drawing.Size(68, 18);
+            this.Lbl_nombreV.TabIndex = 54;
+            this.Lbl_nombreV.Text = "Nombre";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(218, 167);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 26);
+            this.textBox6.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::JazzminZavala_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_8_14_11_PM;
+            this.pictureBox1.Location = new System.Drawing.Point(34, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(873, 72);
+            this.pictureBox1.TabIndex = 48;
+            this.pictureBox1.TabStop = false;
             // 
             // Gpb_datosf
             // 
@@ -304,25 +379,21 @@
             // Gpb_detallef
             // 
             this.Gpb_detallef.BackColor = System.Drawing.Color.Transparent;
-            this.Gpb_detallef.Controls.Add(this.label6);
             this.Gpb_detallef.Controls.Add(this.Txt_credit);
-            this.Gpb_detallef.Controls.Add(this.Lbl_credit);
+            this.Gpb_detallef.Controls.Add(this.Lbl_tarjetadf);
             this.Gpb_detallef.Controls.Add(this.Cmb_formaPago);
-            this.Gpb_detallef.Controls.Add(this.label4);
-            this.Gpb_detallef.Controls.Add(this.Btn_BuscarExamen);
-            this.Gpb_detallef.Controls.Add(this.Lbl_codigof);
+            this.Gpb_detallef.Controls.Add(this.Lbl_porc);
+            this.Gpb_detallef.Controls.Add(this.Lbl_codigodf);
             this.Gpb_detallef.Controls.Add(this.Txt_codigof);
-            this.Gpb_detallef.Controls.Add(this.label12);
+            this.Gpb_detallef.Controls.Add(this.Lbl_agregar);
             this.Gpb_detallef.Controls.Add(this.Btn_agregar);
-            this.Gpb_detallef.Controls.Add(this.Lbl_descuentto);
-            this.Gpb_detallef.Controls.Add(this.Lbl_preciouf);
-            this.Gpb_detallef.Controls.Add(this.Lbl_descripcionff);
-            this.Gpb_detallef.Controls.Add(this.Lbl_nombredf);
-            this.Gpb_detallef.Controls.Add(this.Lbl_totalf);
+            this.Gpb_detallef.Controls.Add(this.Lbl_descuentodf);
+            this.Gpb_detallef.Controls.Add(this.Lbl_precioudf);
+            this.Gpb_detallef.Controls.Add(this.Lbl_descridf);
+            this.Gpb_detallef.Controls.Add(this.Lbl_cantdf);
+            this.Gpb_detallef.Controls.Add(this.Lbl_formaPagodf);
             this.Gpb_detallef.Controls.Add(this.Txt_descuentof);
             this.Gpb_detallef.Controls.Add(this.Txt_preciouf);
-            this.Gpb_detallef.Controls.Add(this.Btn_guardar);
-            this.Gpb_detallef.Controls.Add(this.Lbl_cargarf);
             this.Gpb_detallef.Controls.Add(this.Txt_descripcion);
             this.Gpb_detallef.Controls.Add(this.Txt_cantidadf);
             this.Gpb_detallef.Controls.Add(this.Dgb_facturaf);
@@ -336,17 +407,6 @@
             this.Gpb_detallef.TabStop = false;
             this.Gpb_detallef.Text = "Detalle factura";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(27, 77);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(40, 13);
-            this.label6.TabIndex = 57;
-            this.label6.Text = "Buscar";
-            // 
             // Txt_credit
             // 
             this.Txt_credit.BackColor = System.Drawing.Color.White;
@@ -357,17 +417,17 @@
             this.Txt_credit.Size = new System.Drawing.Size(157, 20);
             this.Txt_credit.TabIndex = 52;
             // 
-            // Lbl_credit
+            // Lbl_tarjetadf
             // 
-            this.Lbl_credit.AutoSize = true;
-            this.Lbl_credit.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_credit.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_credit.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_credit.Location = new System.Drawing.Point(80, 281);
-            this.Lbl_credit.Name = "Lbl_credit";
-            this.Lbl_credit.Size = new System.Drawing.Size(139, 18);
-            this.Lbl_credit.TabIndex = 56;
-            this.Lbl_credit.Text = "No Tarjeta crédito";
+            this.Lbl_tarjetadf.AutoSize = true;
+            this.Lbl_tarjetadf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_tarjetadf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_tarjetadf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_tarjetadf.Location = new System.Drawing.Point(80, 281);
+            this.Lbl_tarjetadf.Name = "Lbl_tarjetadf";
+            this.Lbl_tarjetadf.Size = new System.Drawing.Size(139, 18);
+            this.Lbl_tarjetadf.TabIndex = 56;
+            this.Lbl_tarjetadf.Text = "No Tarjeta crédito";
             // 
             // Cmb_formaPago
             // 
@@ -383,302 +443,126 @@
             this.Cmb_formaPago.Size = new System.Drawing.Size(157, 26);
             this.Cmb_formaPago.TabIndex = 55;
             // 
-            // groupBox1
+            // Lbl_porc
             // 
-            this.groupBox1.Controls.Add(this.Lbl_reC);
-            this.groupBox1.Controls.Add(this.Lbl_recaTotal);
-            this.groupBox1.Controls.Add(this.Lbl_recargo);
-            this.groupBox1.Controls.Add(this.Lbl_totalFf);
-            this.groupBox1.Controls.Add(this.Lbl_desc);
-            this.groupBox1.Controls.Add(this.Lbl_subFf);
-            this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.Lbl_subF);
-            this.groupBox1.Controls.Add(this.Lbl_total);
-            this.groupBox1.Controls.Add(this.Lbl_descuentos);
-            this.groupBox1.Controls.Add(this.Lbl_subtotal);
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox1.Location = new System.Drawing.Point(384, 220);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(266, 86);
-            this.groupBox1.TabIndex = 54;
-            this.groupBox1.TabStop = false;
+            this.Lbl_porc.AutoSize = true;
+            this.Lbl_porc.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_porc.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_porc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_porc.Location = new System.Drawing.Point(735, 50);
+            this.Lbl_porc.Name = "Lbl_porc";
+            this.Lbl_porc.Size = new System.Drawing.Size(25, 22);
+            this.Lbl_porc.TabIndex = 53;
+            this.Lbl_porc.Text = "%";
             // 
-            // Lbl_reC
+            // Lbl_codigodf
             // 
-            this.Lbl_reC.AutoSize = true;
-            this.Lbl_reC.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_reC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_reC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_reC.Location = new System.Drawing.Point(227, 46);
-            this.Lbl_reC.Name = "Lbl_reC";
-            this.Lbl_reC.Size = new System.Drawing.Size(12, 18);
-            this.Lbl_reC.TabIndex = 68;
-            this.Lbl_reC.Text = ".";
-            // 
-            // Lbl_recaTotal
-            // 
-            this.Lbl_recaTotal.AutoSize = true;
-            this.Lbl_recaTotal.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_recaTotal.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_recaTotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_recaTotal.Location = new System.Drawing.Point(243, 46);
-            this.Lbl_recaTotal.Name = "Lbl_recaTotal";
-            this.Lbl_recaTotal.Size = new System.Drawing.Size(21, 18);
-            this.Lbl_recaTotal.TabIndex = 67;
-            this.Lbl_recaTotal.Text = "%";
-            // 
-            // Lbl_recargo
-            // 
-            this.Lbl_recargo.AutoSize = true;
-            this.Lbl_recargo.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_recargo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_recargo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_recargo.Location = new System.Drawing.Point(159, 46);
-            this.Lbl_recargo.Name = "Lbl_recargo";
-            this.Lbl_recargo.Size = new System.Drawing.Size(72, 18);
-            this.Lbl_recargo.TabIndex = 66;
-            this.Lbl_recargo.Text = "Recargo";
-            // 
-            // Lbl_totalFf
-            // 
-            this.Lbl_totalFf.AutoSize = true;
-            this.Lbl_totalFf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_totalFf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_totalFf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_totalFf.Location = new System.Drawing.Point(124, 63);
-            this.Lbl_totalFf.Name = "Lbl_totalFf";
-            this.Lbl_totalFf.Size = new System.Drawing.Size(12, 18);
-            this.Lbl_totalFf.TabIndex = 62;
-            this.Lbl_totalFf.Text = ".";
-            // 
-            // Lbl_desc
-            // 
-            this.Lbl_desc.AutoSize = true;
-            this.Lbl_desc.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_desc.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_desc.ForeColor = System.Drawing.Color.White;
-            this.Lbl_desc.Location = new System.Drawing.Point(124, 31);
-            this.Lbl_desc.Name = "Lbl_desc";
-            this.Lbl_desc.Size = new System.Drawing.Size(12, 18);
-            this.Lbl_desc.TabIndex = 62;
-            this.Lbl_desc.Text = ".";
-            // 
-            // Lbl_subFf
-            // 
-            this.Lbl_subFf.AutoSize = true;
-            this.Lbl_subFf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_subFf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_subFf.ForeColor = System.Drawing.Color.White;
-            this.Lbl_subFf.Location = new System.Drawing.Point(124, 15);
-            this.Lbl_subFf.Name = "Lbl_subFf";
-            this.Lbl_subFf.Size = new System.Drawing.Size(12, 18);
-            this.Lbl_subFf.TabIndex = 61;
-            this.Lbl_subFf.Text = ".";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.BackColor = System.Drawing.Color.Transparent;
-            this.label19.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label19.Location = new System.Drawing.Point(105, 63);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(25, 18);
-            this.label19.TabIndex = 60;
-            this.label19.Text = "Q.";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.Color.Transparent;
-            this.label18.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label18.Location = new System.Drawing.Point(105, 33);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(25, 18);
-            this.label18.TabIndex = 59;
-            this.label18.Text = "Q.";
-            // 
-            // Lbl_subF
-            // 
-            this.Lbl_subF.AutoSize = true;
-            this.Lbl_subF.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_subF.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_subF.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_subF.Location = new System.Drawing.Point(105, 15);
-            this.Lbl_subF.Name = "Lbl_subF";
-            this.Lbl_subF.Size = new System.Drawing.Size(25, 18);
-            this.Lbl_subF.TabIndex = 58;
-            this.Lbl_subF.Text = "Q.";
-            // 
-            // Lbl_total
-            // 
-            this.Lbl_total.AutoSize = true;
-            this.Lbl_total.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_total.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_total.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_total.Location = new System.Drawing.Point(6, 62);
-            this.Lbl_total.Name = "Lbl_total";
-            this.Lbl_total.Size = new System.Drawing.Size(42, 18);
-            this.Lbl_total.TabIndex = 57;
-            this.Lbl_total.Text = "Total";
-            // 
-            // Lbl_descuentos
-            // 
-            this.Lbl_descuentos.AutoSize = true;
-            this.Lbl_descuentos.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_descuentos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_descuentos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_descuentos.Location = new System.Drawing.Point(6, 31);
-            this.Lbl_descuentos.Name = "Lbl_descuentos";
-            this.Lbl_descuentos.Size = new System.Drawing.Size(87, 18);
-            this.Lbl_descuentos.TabIndex = 56;
-            this.Lbl_descuentos.Text = "Descuento";
-            // 
-            // Lbl_subtotal
-            // 
-            this.Lbl_subtotal.AutoSize = true;
-            this.Lbl_subtotal.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_subtotal.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_subtotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_subtotal.Location = new System.Drawing.Point(6, 13);
-            this.Lbl_subtotal.Name = "Lbl_subtotal";
-            this.Lbl_subtotal.Size = new System.Drawing.Size(75, 18);
-            this.Lbl_subtotal.TabIndex = 55;
-            this.Lbl_subtotal.Text = "Sub-Total";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(752, 49);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 22);
-            this.label4.TabIndex = 53;
-            this.label4.Text = "%";
-            // 
-            // Btn_BuscarExamen
-            // 
-            this.Btn_BuscarExamen.BackColor = System.Drawing.Color.White;
-            this.Btn_BuscarExamen.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_BuscarExamen.Location = new System.Drawing.Point(26, 33);
-            this.Btn_BuscarExamen.Margin = new System.Windows.Forms.Padding(4);
-            this.Btn_BuscarExamen.Name = "Btn_BuscarExamen";
-            this.Btn_BuscarExamen.Size = new System.Drawing.Size(41, 38);
-            this.Btn_BuscarExamen.TabIndex = 52;
-            this.Btn_BuscarExamen.UseVisualStyleBackColor = false;
-            // 
-            // Lbl_codigof
-            // 
-            this.Lbl_codigof.AutoSize = true;
-            this.Lbl_codigof.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_codigof.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_codigof.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_codigof.Location = new System.Drawing.Point(85, 32);
-            this.Lbl_codigof.Name = "Lbl_codigof";
-            this.Lbl_codigof.Size = new System.Drawing.Size(64, 18);
-            this.Lbl_codigof.TabIndex = 49;
-            this.Lbl_codigof.Text = "Codigo";
+            this.Lbl_codigodf.AutoSize = true;
+            this.Lbl_codigodf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_codigodf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_codigodf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_codigodf.Location = new System.Drawing.Point(68, 33);
+            this.Lbl_codigodf.Name = "Lbl_codigodf";
+            this.Lbl_codigodf.Size = new System.Drawing.Size(64, 18);
+            this.Lbl_codigodf.TabIndex = 49;
+            this.Lbl_codigodf.Text = "Codigo";
             // 
             // Txt_codigof
             // 
             this.Txt_codigof.BackColor = System.Drawing.Color.White;
             this.Txt_codigof.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_codigof.Location = new System.Drawing.Point(83, 50);
+            this.Txt_codigof.Location = new System.Drawing.Point(66, 51);
             this.Txt_codigof.Multiline = true;
             this.Txt_codigof.Name = "Txt_codigof";
             this.Txt_codigof.Size = new System.Drawing.Size(100, 20);
             this.Txt_codigof.TabIndex = 50;
             // 
-            // label12
+            // Lbl_agregar
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(789, 74);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(44, 13);
-            this.label12.TabIndex = 48;
-            this.label12.Text = "Agregar";
+            this.Lbl_agregar.AutoSize = true;
+            this.Lbl_agregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_agregar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_agregar.Location = new System.Drawing.Point(772, 75);
+            this.Lbl_agregar.Name = "Lbl_agregar";
+            this.Lbl_agregar.Size = new System.Drawing.Size(44, 13);
+            this.Lbl_agregar.TabIndex = 48;
+            this.Lbl_agregar.Text = "Agregar";
             // 
             // Btn_agregar
             // 
             this.Btn_agregar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_agregar.Location = new System.Drawing.Point(784, 30);
+            this.Btn_agregar.Location = new System.Drawing.Point(767, 31);
             this.Btn_agregar.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_agregar.Name = "Btn_agregar";
             this.Btn_agregar.Size = new System.Drawing.Size(53, 44);
             this.Btn_agregar.TabIndex = 47;
             this.Btn_agregar.UseVisualStyleBackColor = true;
             // 
-            // Lbl_descuentto
+            // Lbl_descuentodf
             // 
-            this.Lbl_descuentto.AutoSize = true;
-            this.Lbl_descuentto.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_descuentto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_descuentto.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_descuentto.Location = new System.Drawing.Point(609, 32);
-            this.Lbl_descuentto.Name = "Lbl_descuentto";
-            this.Lbl_descuentto.Size = new System.Drawing.Size(87, 18);
-            this.Lbl_descuentto.TabIndex = 45;
-            this.Lbl_descuentto.Text = "Descuento";
+            this.Lbl_descuentodf.AutoSize = true;
+            this.Lbl_descuentodf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_descuentodf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_descuentodf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_descuentodf.Location = new System.Drawing.Point(592, 33);
+            this.Lbl_descuentodf.Name = "Lbl_descuentodf";
+            this.Lbl_descuentodf.Size = new System.Drawing.Size(87, 18);
+            this.Lbl_descuentodf.TabIndex = 45;
+            this.Lbl_descuentodf.Text = "Descuento";
             // 
-            // Lbl_preciouf
+            // Lbl_precioudf
             // 
-            this.Lbl_preciouf.AutoSize = true;
-            this.Lbl_preciouf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_preciouf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_preciouf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_preciouf.Location = new System.Drawing.Point(478, 32);
-            this.Lbl_preciouf.Name = "Lbl_preciouf";
-            this.Lbl_preciouf.Size = new System.Drawing.Size(115, 18);
-            this.Lbl_preciouf.TabIndex = 44;
-            this.Lbl_preciouf.Text = "Precio Unitario";
+            this.Lbl_precioudf.AutoSize = true;
+            this.Lbl_precioudf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_precioudf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_precioudf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_precioudf.Location = new System.Drawing.Point(461, 33);
+            this.Lbl_precioudf.Name = "Lbl_precioudf";
+            this.Lbl_precioudf.Size = new System.Drawing.Size(115, 18);
+            this.Lbl_precioudf.TabIndex = 44;
+            this.Lbl_precioudf.Text = "Precio Unitario";
             // 
-            // Lbl_descripcionff
+            // Lbl_descridf
             // 
-            this.Lbl_descripcionff.AutoSize = true;
-            this.Lbl_descripcionff.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_descripcionff.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_descripcionff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_descripcionff.Location = new System.Drawing.Point(276, 32);
-            this.Lbl_descripcionff.Name = "Lbl_descripcionff";
-            this.Lbl_descripcionff.Size = new System.Drawing.Size(97, 18);
-            this.Lbl_descripcionff.TabIndex = 43;
-            this.Lbl_descripcionff.Text = "Descripción";
+            this.Lbl_descridf.AutoSize = true;
+            this.Lbl_descridf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_descridf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_descridf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_descridf.Location = new System.Drawing.Point(259, 33);
+            this.Lbl_descridf.Name = "Lbl_descridf";
+            this.Lbl_descridf.Size = new System.Drawing.Size(97, 18);
+            this.Lbl_descridf.TabIndex = 43;
+            this.Lbl_descridf.Text = "Descripción";
             // 
-            // Lbl_nombredf
+            // Lbl_cantdf
             // 
-            this.Lbl_nombredf.AutoSize = true;
-            this.Lbl_nombredf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_nombredf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nombredf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_nombredf.Location = new System.Drawing.Point(194, 32);
-            this.Lbl_nombredf.Name = "Lbl_nombredf";
-            this.Lbl_nombredf.Size = new System.Drawing.Size(77, 18);
-            this.Lbl_nombredf.TabIndex = 23;
-            this.Lbl_nombredf.Text = "Cantidad";
+            this.Lbl_cantdf.AutoSize = true;
+            this.Lbl_cantdf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_cantdf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_cantdf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_cantdf.Location = new System.Drawing.Point(177, 33);
+            this.Lbl_cantdf.Name = "Lbl_cantdf";
+            this.Lbl_cantdf.Size = new System.Drawing.Size(77, 18);
+            this.Lbl_cantdf.TabIndex = 23;
+            this.Lbl_cantdf.Text = "Cantidad";
             // 
-            // Lbl_totalf
+            // Lbl_formaPagodf
             // 
-            this.Lbl_totalf.AutoSize = true;
-            this.Lbl_totalf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_totalf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_totalf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_totalf.Location = new System.Drawing.Point(80, 242);
-            this.Lbl_totalf.Name = "Lbl_totalf";
-            this.Lbl_totalf.Size = new System.Drawing.Size(98, 18);
-            this.Lbl_totalf.TabIndex = 33;
-            this.Lbl_totalf.Text = "Forma pago";
+            this.Lbl_formaPagodf.AutoSize = true;
+            this.Lbl_formaPagodf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_formaPagodf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_formaPagodf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_formaPagodf.Location = new System.Drawing.Point(80, 242);
+            this.Lbl_formaPagodf.Name = "Lbl_formaPagodf";
+            this.Lbl_formaPagodf.Size = new System.Drawing.Size(98, 18);
+            this.Lbl_formaPagodf.TabIndex = 33;
+            this.Lbl_formaPagodf.Text = "Forma pago";
             // 
             // Txt_descuentof
             // 
             this.Txt_descuentof.BackColor = System.Drawing.Color.White;
             this.Txt_descuentof.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_descuentof.Location = new System.Drawing.Point(605, 50);
+            this.Txt_descuentof.Location = new System.Drawing.Point(588, 51);
             this.Txt_descuentof.Multiline = true;
             this.Txt_descuentof.Name = "Txt_descuentof";
             this.Txt_descuentof.Size = new System.Drawing.Size(141, 20);
@@ -689,39 +573,18 @@
             this.Txt_preciouf.BackColor = System.Drawing.Color.White;
             this.Txt_preciouf.Enabled = false;
             this.Txt_preciouf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_preciouf.Location = new System.Drawing.Point(475, 50);
+            this.Txt_preciouf.Location = new System.Drawing.Point(458, 51);
             this.Txt_preciouf.Multiline = true;
             this.Txt_preciouf.Name = "Txt_preciouf";
             this.Txt_preciouf.Size = new System.Drawing.Size(124, 20);
             this.Txt_preciouf.TabIndex = 40;
-            // 
-            // Btn_guardar
-            // 
-            this.Btn_guardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Btn_guardar.Location = new System.Drawing.Point(682, 244);
-            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(4);
-            this.Btn_guardar.Name = "Btn_guardar";
-            this.Btn_guardar.Size = new System.Drawing.Size(53, 44);
-            this.Btn_guardar.TabIndex = 37;
-            this.Btn_guardar.UseVisualStyleBackColor = true;
-            // 
-            // Lbl_cargarf
-            // 
-            this.Lbl_cargarf.AutoSize = true;
-            this.Lbl_cargarf.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_cargarf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_cargarf.Location = new System.Drawing.Point(691, 287);
-            this.Lbl_cargarf.Name = "Lbl_cargarf";
-            this.Lbl_cargarf.Size = new System.Drawing.Size(38, 13);
-            this.Lbl_cargarf.TabIndex = 38;
-            this.Lbl_cargarf.Text = "Cargar";
             // 
             // Txt_descripcion
             // 
             this.Txt_descripcion.BackColor = System.Drawing.Color.White;
             this.Txt_descripcion.Enabled = false;
             this.Txt_descripcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_descripcion.Location = new System.Drawing.Point(273, 50);
+            this.Txt_descripcion.Location = new System.Drawing.Point(256, 51);
             this.Txt_descripcion.Multiline = true;
             this.Txt_descripcion.Name = "Txt_descripcion";
             this.Txt_descripcion.Size = new System.Drawing.Size(194, 20);
@@ -731,7 +594,7 @@
             // 
             this.Txt_cantidadf.BackColor = System.Drawing.Color.White;
             this.Txt_cantidadf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_cantidadf.Location = new System.Drawing.Point(192, 50);
+            this.Txt_cantidadf.Location = new System.Drawing.Point(175, 51);
             this.Txt_cantidadf.Multiline = true;
             this.Txt_cantidadf.Name = "Txt_cantidadf";
             this.Txt_cantidadf.Size = new System.Drawing.Size(76, 20);
@@ -820,18 +683,183 @@
             this.Column5.HeaderText = "Total";
             this.Column5.Name = "Column5";
             // 
-            // Gpb_laboratoriof
+            // groupBox1
             // 
-            this.Gpb_laboratoriof.BackColor = System.Drawing.Color.Transparent;
-            this.Gpb_laboratoriof.Controls.Add(this.label1);
-            this.Gpb_laboratoriof.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_laboratoriof.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Gpb_laboratoriof.Location = new System.Drawing.Point(26, 104);
-            this.Gpb_laboratoriof.Name = "Gpb_laboratoriof";
-            this.Gpb_laboratoriof.Size = new System.Drawing.Size(881, 26);
-            this.Gpb_laboratoriof.TabIndex = 18;
-            this.Gpb_laboratoriof.TabStop = false;
-            this.Gpb_laboratoriof.Text = "COLCHONERIA";
+            this.groupBox1.Controls.Add(this.Lbl_reC);
+            this.groupBox1.Controls.Add(this.Lbl_recaTotal);
+            this.groupBox1.Controls.Add(this.Lbl_recargo);
+            this.groupBox1.Controls.Add(this.Lbl_totalFf);
+            this.groupBox1.Controls.Add(this.Lbl_desc);
+            this.groupBox1.Controls.Add(this.Lbl_subFf);
+            this.groupBox1.Controls.Add(this.Lbl_qTotal);
+            this.groupBox1.Controls.Add(this.Lbl_qDesc);
+            this.groupBox1.Controls.Add(this.Lbl_subF);
+            this.groupBox1.Controls.Add(this.Lbl_total);
+            this.groupBox1.Controls.Add(this.Lbl_descuentos);
+            this.groupBox1.Controls.Add(this.Lbl_subtotal);
+            this.groupBox1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.groupBox1.Location = new System.Drawing.Point(384, 220);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(266, 86);
+            this.groupBox1.TabIndex = 54;
+            this.groupBox1.TabStop = false;
+            // 
+            // Lbl_reC
+            // 
+            this.Lbl_reC.AutoSize = true;
+            this.Lbl_reC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_reC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_reC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_reC.Location = new System.Drawing.Point(227, 46);
+            this.Lbl_reC.Name = "Lbl_reC";
+            this.Lbl_reC.Size = new System.Drawing.Size(12, 18);
+            this.Lbl_reC.TabIndex = 68;
+            this.Lbl_reC.Text = ".";
+            // 
+            // Lbl_recaTotal
+            // 
+            this.Lbl_recaTotal.AutoSize = true;
+            this.Lbl_recaTotal.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_recaTotal.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_recaTotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_recaTotal.Location = new System.Drawing.Point(243, 46);
+            this.Lbl_recaTotal.Name = "Lbl_recaTotal";
+            this.Lbl_recaTotal.Size = new System.Drawing.Size(21, 18);
+            this.Lbl_recaTotal.TabIndex = 67;
+            this.Lbl_recaTotal.Text = "%";
+            // 
+            // Lbl_recargo
+            // 
+            this.Lbl_recargo.AutoSize = true;
+            this.Lbl_recargo.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_recargo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_recargo.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_recargo.Location = new System.Drawing.Point(159, 46);
+            this.Lbl_recargo.Name = "Lbl_recargo";
+            this.Lbl_recargo.Size = new System.Drawing.Size(72, 18);
+            this.Lbl_recargo.TabIndex = 66;
+            this.Lbl_recargo.Text = "Recargo";
+            // 
+            // Lbl_totalFf
+            // 
+            this.Lbl_totalFf.AutoSize = true;
+            this.Lbl_totalFf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_totalFf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_totalFf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_totalFf.Location = new System.Drawing.Point(124, 63);
+            this.Lbl_totalFf.Name = "Lbl_totalFf";
+            this.Lbl_totalFf.Size = new System.Drawing.Size(12, 18);
+            this.Lbl_totalFf.TabIndex = 62;
+            this.Lbl_totalFf.Text = ".";
+            // 
+            // Lbl_desc
+            // 
+            this.Lbl_desc.AutoSize = true;
+            this.Lbl_desc.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_desc.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_desc.ForeColor = System.Drawing.Color.White;
+            this.Lbl_desc.Location = new System.Drawing.Point(124, 31);
+            this.Lbl_desc.Name = "Lbl_desc";
+            this.Lbl_desc.Size = new System.Drawing.Size(12, 18);
+            this.Lbl_desc.TabIndex = 62;
+            this.Lbl_desc.Text = ".";
+            // 
+            // Lbl_subFf
+            // 
+            this.Lbl_subFf.AutoSize = true;
+            this.Lbl_subFf.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_subFf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_subFf.ForeColor = System.Drawing.Color.White;
+            this.Lbl_subFf.Location = new System.Drawing.Point(124, 15);
+            this.Lbl_subFf.Name = "Lbl_subFf";
+            this.Lbl_subFf.Size = new System.Drawing.Size(12, 18);
+            this.Lbl_subFf.TabIndex = 61;
+            this.Lbl_subFf.Text = ".";
+            // 
+            // Lbl_qTotal
+            // 
+            this.Lbl_qTotal.AutoSize = true;
+            this.Lbl_qTotal.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_qTotal.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_qTotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_qTotal.Location = new System.Drawing.Point(105, 63);
+            this.Lbl_qTotal.Name = "Lbl_qTotal";
+            this.Lbl_qTotal.Size = new System.Drawing.Size(25, 18);
+            this.Lbl_qTotal.TabIndex = 60;
+            this.Lbl_qTotal.Text = "Q.";
+            // 
+            // Lbl_qDesc
+            // 
+            this.Lbl_qDesc.AutoSize = true;
+            this.Lbl_qDesc.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_qDesc.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_qDesc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_qDesc.Location = new System.Drawing.Point(105, 33);
+            this.Lbl_qDesc.Name = "Lbl_qDesc";
+            this.Lbl_qDesc.Size = new System.Drawing.Size(25, 18);
+            this.Lbl_qDesc.TabIndex = 59;
+            this.Lbl_qDesc.Text = "Q.";
+            // 
+            // Lbl_subF
+            // 
+            this.Lbl_subF.AutoSize = true;
+            this.Lbl_subF.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_subF.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_subF.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_subF.Location = new System.Drawing.Point(105, 15);
+            this.Lbl_subF.Name = "Lbl_subF";
+            this.Lbl_subF.Size = new System.Drawing.Size(25, 18);
+            this.Lbl_subF.TabIndex = 58;
+            this.Lbl_subF.Text = "Q.";
+            // 
+            // Lbl_total
+            // 
+            this.Lbl_total.AutoSize = true;
+            this.Lbl_total.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_total.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_total.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_total.Location = new System.Drawing.Point(6, 62);
+            this.Lbl_total.Name = "Lbl_total";
+            this.Lbl_total.Size = new System.Drawing.Size(42, 18);
+            this.Lbl_total.TabIndex = 57;
+            this.Lbl_total.Text = "Total";
+            // 
+            // Lbl_descuentos
+            // 
+            this.Lbl_descuentos.AutoSize = true;
+            this.Lbl_descuentos.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_descuentos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_descuentos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_descuentos.Location = new System.Drawing.Point(6, 31);
+            this.Lbl_descuentos.Name = "Lbl_descuentos";
+            this.Lbl_descuentos.Size = new System.Drawing.Size(87, 18);
+            this.Lbl_descuentos.TabIndex = 56;
+            this.Lbl_descuentos.Text = "Descuento";
+            // 
+            // Lbl_subtotal
+            // 
+            this.Lbl_subtotal.AutoSize = true;
+            this.Lbl_subtotal.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_subtotal.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_subtotal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_subtotal.Location = new System.Drawing.Point(6, 13);
+            this.Lbl_subtotal.Name = "Lbl_subtotal";
+            this.Lbl_subtotal.Size = new System.Drawing.Size(75, 18);
+            this.Lbl_subtotal.TabIndex = 55;
+            this.Lbl_subtotal.Text = "Sub-Total";
+            // 
+            // Gpb_empresa
+            // 
+            this.Gpb_empresa.BackColor = System.Drawing.Color.Transparent;
+            this.Gpb_empresa.Controls.Add(this.label1);
+            this.Gpb_empresa.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_empresa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Gpb_empresa.Location = new System.Drawing.Point(26, 104);
+            this.Gpb_empresa.Name = "Gpb_empresa";
+            this.Gpb_empresa.Size = new System.Drawing.Size(881, 26);
+            this.Gpb_empresa.TabIndex = 18;
+            this.Gpb_empresa.TabStop = false;
+            this.Gpb_empresa.Text = "COLCHONERIA";
             // 
             // label1
             // 
@@ -842,85 +870,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 28);
             this.label1.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::JazzminZavala_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_8_14_11_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(34, 15);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(873, 72);
-            this.pictureBox1.TabIndex = 48;
-            this.pictureBox1.TabStop = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(398, 22);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(379, 20);
-            this.textBox1.TabIndex = 55;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(323, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(68, 18);
-            this.label3.TabIndex = 54;
-            this.label3.Text = "Nombre";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox2.Controls.Add(this.textBox3);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.textBox1);
-            this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.textBox6);
-            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox2.Location = new System.Drawing.Point(26, 235);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(881, 52);
-            this.groupBox2.TabIndex = 56;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Vendedor";
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(218, 167);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 26);
-            this.textBox6.TabIndex = 0;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.White;
-            this.textBox3.Enabled = false;
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(172, 22);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(138, 20);
-            this.textBox3.TabIndex = 57;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(97, 22);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 18);
-            this.label5.TabIndex = 56;
-            this.label5.Text = "Código";
             // 
             // Factura
             // 
@@ -937,18 +886,18 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Factura";
             this.panel1.ResumeLayout(false);
+            this.Gpb_datosVendedor.ResumeLayout(false);
+            this.Gpb_datosVendedor.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.Gpb_datosf.ResumeLayout(false);
             this.Gpb_datosf.PerformLayout();
             this.Gpb_detallef.ResumeLayout(false);
             this.Gpb_detallef.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Dgb_facturaf)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Dgb_facturaf)).EndInit();
-            this.Gpb_laboratoriof.ResumeLayout(false);
-            this.Gpb_laboratoriof.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.Gpb_empresa.ResumeLayout(false);
+            this.Gpb_empresa.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -972,9 +921,8 @@
         private System.Windows.Forms.Label Lbl_nombref;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.GroupBox Gpb_detallef;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox Txt_credit;
-        private System.Windows.Forms.Label Lbl_credit;
+        private System.Windows.Forms.Label Lbl_tarjetadf;
         private System.Windows.Forms.ComboBox Cmb_formaPago;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label Lbl_reC;
@@ -983,27 +931,24 @@
         private System.Windows.Forms.Label Lbl_totalFf;
         private System.Windows.Forms.Label Lbl_desc;
         private System.Windows.Forms.Label Lbl_subFf;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label Lbl_qTotal;
+        private System.Windows.Forms.Label Lbl_qDesc;
         private System.Windows.Forms.Label Lbl_subF;
         private System.Windows.Forms.Label Lbl_total;
         private System.Windows.Forms.Label Lbl_descuentos;
         private System.Windows.Forms.Label Lbl_subtotal;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button Btn_BuscarExamen;
-        private System.Windows.Forms.Label Lbl_codigof;
+        private System.Windows.Forms.Label Lbl_porc;
+        private System.Windows.Forms.Label Lbl_codigodf;
         private System.Windows.Forms.TextBox Txt_codigof;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label Lbl_agregar;
         private System.Windows.Forms.Button Btn_agregar;
-        private System.Windows.Forms.Label Lbl_descuentto;
-        private System.Windows.Forms.Label Lbl_preciouf;
-        private System.Windows.Forms.Label Lbl_descripcionff;
-        private System.Windows.Forms.Label Lbl_nombredf;
-        private System.Windows.Forms.Label Lbl_totalf;
+        private System.Windows.Forms.Label Lbl_descuentodf;
+        private System.Windows.Forms.Label Lbl_precioudf;
+        private System.Windows.Forms.Label Lbl_descridf;
+        private System.Windows.Forms.Label Lbl_cantdf;
+        private System.Windows.Forms.Label Lbl_formaPagodf;
         private System.Windows.Forms.TextBox Txt_descuentof;
         private System.Windows.Forms.TextBox Txt_preciouf;
-        private System.Windows.Forms.Button Btn_guardar;
-        private System.Windows.Forms.Label Lbl_cargarf;
         private System.Windows.Forms.TextBox Txt_descripcion;
         private System.Windows.Forms.TextBox Txt_cantidadf;
         private System.Windows.Forms.DataGridView Dgb_facturaf;
@@ -1014,14 +959,14 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.GroupBox Gpb_laboratoriof;
+        private System.Windows.Forms.GroupBox Gpb_empresa;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.GroupBox Gpb_datosVendedor;
+        private System.Windows.Forms.TextBox Txt_codigoV;
+        private System.Windows.Forms.Label Lbl_codigoV;
+        private System.Windows.Forms.TextBox Txt_nombreV;
+        private System.Windows.Forms.Label Lbl_nombreV;
         private System.Windows.Forms.TextBox textBox6;
     }
 }

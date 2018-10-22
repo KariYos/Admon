@@ -36,25 +36,26 @@
             this.diseño1 = new DiseñoVentana.Diseño();
             this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.Gpb_datosf = new System.Windows.Forms.GroupBox();
+            this.Btn_aFactura = new System.Windows.Forms.Button();
+            this.Btn_aPedido = new System.Windows.Forms.Button();
+            this.Gpb_datosc = new System.Windows.Forms.GroupBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.Lbl_numSerie = new System.Windows.Forms.Label();
-            this.Dtp_fechaf = new System.Windows.Forms.DateTimePicker();
-            this.Lbl_serie = new System.Windows.Forms.Label();
-            this.Txt_direccionf = new System.Windows.Forms.TextBox();
-            this.Lbl_fechaf = new System.Windows.Forms.Label();
-            this.Txt_nitf = new System.Windows.Forms.TextBox();
-            this.Lbl_direccionf = new System.Windows.Forms.Label();
-            this.Txt_nombref = new System.Windows.Forms.TextBox();
+            this.Lbl_nCotizacion = new System.Windows.Forms.Label();
+            this.Dtp_fechaC = new System.Windows.Forms.DateTimePicker();
+            this.Lbl_cotizacion = new System.Windows.Forms.Label();
+            this.Txt_direccionC = new System.Windows.Forms.TextBox();
+            this.Lbl_fechaC = new System.Windows.Forms.Label();
+            this.Txt_nitC = new System.Windows.Forms.TextBox();
+            this.Lbl_direccionC = new System.Windows.Forms.Label();
+            this.Txt_nombreC = new System.Windows.Forms.TextBox();
             this.Lbl_nitf = new System.Windows.Forms.Label();
             this.Lbl_nombref = new System.Windows.Forms.Label();
             this.Cbo_formaenvio = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.Lbl_formaenvio = new System.Windows.Forms.Label();
-            this.Gpb_laboratoriof = new System.Windows.Forms.GroupBox();
+            this.Lbl_formaenvioC = new System.Windows.Forms.Label();
+            this.Gpb_empresa = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.Gpb_datosdepedido = new System.Windows.Forms.GroupBox();
+            this.Gpb_detalleC = new System.Windows.Forms.GroupBox();
             this.Dgb_facturaf = new System.Windows.Forms.DataGridView();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,23 +63,22 @@
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label4 = new System.Windows.Forms.Label();
-            this.Lbl_codigof = new System.Windows.Forms.Label();
-            this.Txt_codigof = new System.Windows.Forms.TextBox();
-            this.Lbl_descuentto = new System.Windows.Forms.Label();
-            this.Lbl_descripcionff = new System.Windows.Forms.Label();
-            this.Lbl_nombredf = new System.Windows.Forms.Label();
-            this.Txt_descuentof = new System.Windows.Forms.TextBox();
-            this.Txt_descripcion = new System.Windows.Forms.TextBox();
-            this.Txt_cantidadf = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Lbl_porcentajeC = new System.Windows.Forms.Label();
+            this.Lbl_codigoC = new System.Windows.Forms.Label();
+            this.Txt_codigoC = new System.Windows.Forms.TextBox();
+            this.Lbl_descuentoC = new System.Windows.Forms.Label();
+            this.Lbl_descripcionC = new System.Windows.Forms.Label();
+            this.Lbl_cantidadC = new System.Windows.Forms.Label();
+            this.Txt_descuentoC = new System.Windows.Forms.TextBox();
+            this.Txt_descripcionC = new System.Windows.Forms.TextBox();
+            this.Txt_cantidadC = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.Gpb_datosf.SuspendLayout();
-            this.Gpb_laboratoriof.SuspendLayout();
-            this.Gpb_datosdepedido.SuspendLayout();
+            this.Gpb_datosc.SuspendLayout();
+            this.Gpb_empresa.SuspendLayout();
+            this.Gpb_detalleC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgb_facturaf)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // diseño1
@@ -104,11 +104,11 @@
             // 
             // panel1
             // 
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.Gpb_datosf);
-            this.panel1.Controls.Add(this.Gpb_laboratoriof);
-            this.panel1.Controls.Add(this.Gpb_datosdepedido);
+            this.panel1.Controls.Add(this.Btn_aFactura);
+            this.panel1.Controls.Add(this.Btn_aPedido);
+            this.panel1.Controls.Add(this.Gpb_datosc);
+            this.panel1.Controls.Add(this.Gpb_empresa);
+            this.panel1.Controls.Add(this.Gpb_detalleC);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Location = new System.Drawing.Point(1, 40);
             this.panel1.Name = "panel1";
@@ -116,39 +116,52 @@
             this.panel1.TabIndex = 25;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // pictureBox1
+            // Btn_aFactura
             // 
-            this.pictureBox1.Image = global::JazzminZavala_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_8_14_11_PM;
-            this.pictureBox1.Location = new System.Drawing.Point(26, 19);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(873, 72);
-            this.pictureBox1.TabIndex = 48;
-            this.pictureBox1.TabStop = false;
+            this.Btn_aFactura.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_aFactura.Location = new System.Drawing.Point(775, 590);
+            this.Btn_aFactura.Name = "Btn_aFactura";
+            this.Btn_aFactura.Size = new System.Drawing.Size(132, 42);
+            this.Btn_aFactura.TabIndex = 53;
+            this.Btn_aFactura.Text = "Convertir en Factura";
+            this.Btn_aFactura.UseVisualStyleBackColor = true;
+            this.Btn_aFactura.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Gpb_datosf
+            // Btn_aPedido
             // 
-            this.Gpb_datosf.BackColor = System.Drawing.Color.Transparent;
-            this.Gpb_datosf.Controls.Add(this.button2);
-            this.Gpb_datosf.Controls.Add(this.Lbl_numSerie);
-            this.Gpb_datosf.Controls.Add(this.Dtp_fechaf);
-            this.Gpb_datosf.Controls.Add(this.Lbl_serie);
-            this.Gpb_datosf.Controls.Add(this.Txt_direccionf);
-            this.Gpb_datosf.Controls.Add(this.Lbl_fechaf);
-            this.Gpb_datosf.Controls.Add(this.Txt_nitf);
-            this.Gpb_datosf.Controls.Add(this.Lbl_direccionf);
-            this.Gpb_datosf.Controls.Add(this.Txt_nombref);
-            this.Gpb_datosf.Controls.Add(this.Lbl_nitf);
-            this.Gpb_datosf.Controls.Add(this.Lbl_nombref);
-            this.Gpb_datosf.Controls.Add(this.Cbo_formaenvio);
-            this.Gpb_datosf.Controls.Add(this.textBox2);
-            this.Gpb_datosf.Controls.Add(this.Lbl_formaenvio);
-            this.Gpb_datosf.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_datosf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Gpb_datosf.Location = new System.Drawing.Point(26, 144);
-            this.Gpb_datosf.Name = "Gpb_datosf";
-            this.Gpb_datosf.Size = new System.Drawing.Size(881, 134);
-            this.Gpb_datosf.TabIndex = 51;
-            this.Gpb_datosf.TabStop = false;
+            this.Btn_aPedido.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_aPedido.Location = new System.Drawing.Point(637, 590);
+            this.Btn_aPedido.Name = "Btn_aPedido";
+            this.Btn_aPedido.Size = new System.Drawing.Size(132, 42);
+            this.Btn_aPedido.TabIndex = 52;
+            this.Btn_aPedido.Text = "Convertir en Pedido";
+            this.Btn_aPedido.UseVisualStyleBackColor = true;
+            this.Btn_aPedido.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Gpb_datosc
+            // 
+            this.Gpb_datosc.BackColor = System.Drawing.Color.Transparent;
+            this.Gpb_datosc.Controls.Add(this.button2);
+            this.Gpb_datosc.Controls.Add(this.Lbl_nCotizacion);
+            this.Gpb_datosc.Controls.Add(this.Dtp_fechaC);
+            this.Gpb_datosc.Controls.Add(this.Lbl_cotizacion);
+            this.Gpb_datosc.Controls.Add(this.Txt_direccionC);
+            this.Gpb_datosc.Controls.Add(this.Lbl_fechaC);
+            this.Gpb_datosc.Controls.Add(this.Txt_nitC);
+            this.Gpb_datosc.Controls.Add(this.Lbl_direccionC);
+            this.Gpb_datosc.Controls.Add(this.Txt_nombreC);
+            this.Gpb_datosc.Controls.Add(this.Lbl_nitf);
+            this.Gpb_datosc.Controls.Add(this.Lbl_nombref);
+            this.Gpb_datosc.Controls.Add(this.Cbo_formaenvio);
+            this.Gpb_datosc.Controls.Add(this.textBox2);
+            this.Gpb_datosc.Controls.Add(this.Lbl_formaenvioC);
+            this.Gpb_datosc.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_datosc.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Gpb_datosc.Location = new System.Drawing.Point(26, 144);
+            this.Gpb_datosc.Name = "Gpb_datosc";
+            this.Gpb_datosc.Size = new System.Drawing.Size(881, 134);
+            this.Gpb_datosc.TabIndex = 51;
+            this.Gpb_datosc.TabStop = false;
             // 
             // button2
             // 
@@ -161,97 +174,97 @@
             this.button2.TabIndex = 51;
             this.button2.UseVisualStyleBackColor = false;
             // 
-            // Lbl_numSerie
+            // Lbl_nCotizacion
             // 
-            this.Lbl_numSerie.AutoSize = true;
-            this.Lbl_numSerie.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_numSerie.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_numSerie.ForeColor = System.Drawing.Color.Red;
-            this.Lbl_numSerie.Location = new System.Drawing.Point(838, 25);
-            this.Lbl_numSerie.Name = "Lbl_numSerie";
-            this.Lbl_numSerie.Size = new System.Drawing.Size(19, 19);
-            this.Lbl_numSerie.TabIndex = 11;
-            this.Lbl_numSerie.Text = "#";
+            this.Lbl_nCotizacion.AutoSize = true;
+            this.Lbl_nCotizacion.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_nCotizacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_nCotizacion.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_nCotizacion.Location = new System.Drawing.Point(838, 25);
+            this.Lbl_nCotizacion.Name = "Lbl_nCotizacion";
+            this.Lbl_nCotizacion.Size = new System.Drawing.Size(19, 19);
+            this.Lbl_nCotizacion.TabIndex = 11;
+            this.Lbl_nCotizacion.Text = "#";
             // 
-            // Dtp_fechaf
+            // Dtp_fechaC
             // 
-            this.Dtp_fechaf.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(216)))), ((int)(((byte)(246)))));
-            this.Dtp_fechaf.CustomFormat = "dd-MM-yy";
-            this.Dtp_fechaf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Dtp_fechaf.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.Dtp_fechaf.Location = new System.Drawing.Point(570, 28);
-            this.Dtp_fechaf.Name = "Dtp_fechaf";
-            this.Dtp_fechaf.Size = new System.Drawing.Size(104, 26);
-            this.Dtp_fechaf.TabIndex = 22;
+            this.Dtp_fechaC.CalendarMonthBackground = System.Drawing.Color.FromArgb(((int)(((byte)(206)))), ((int)(((byte)(216)))), ((int)(((byte)(246)))));
+            this.Dtp_fechaC.CustomFormat = "dd-MM-yy";
+            this.Dtp_fechaC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Dtp_fechaC.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.Dtp_fechaC.Location = new System.Drawing.Point(570, 28);
+            this.Dtp_fechaC.Name = "Dtp_fechaC";
+            this.Dtp_fechaC.Size = new System.Drawing.Size(104, 26);
+            this.Dtp_fechaC.TabIndex = 22;
             // 
-            // Lbl_serie
+            // Lbl_cotizacion
             // 
-            this.Lbl_serie.AutoSize = true;
-            this.Lbl_serie.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_serie.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_serie.ForeColor = System.Drawing.Color.Red;
-            this.Lbl_serie.Location = new System.Drawing.Point(721, 25);
-            this.Lbl_serie.Name = "Lbl_serie";
-            this.Lbl_serie.Size = new System.Drawing.Size(121, 19);
-            this.Lbl_serie.TabIndex = 10;
-            this.Lbl_serie.Text = "Cotizacion No.";
+            this.Lbl_cotizacion.AutoSize = true;
+            this.Lbl_cotizacion.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_cotizacion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_cotizacion.ForeColor = System.Drawing.Color.Red;
+            this.Lbl_cotizacion.Location = new System.Drawing.Point(721, 25);
+            this.Lbl_cotizacion.Name = "Lbl_cotizacion";
+            this.Lbl_cotizacion.Size = new System.Drawing.Size(121, 19);
+            this.Lbl_cotizacion.TabIndex = 10;
+            this.Lbl_cotizacion.Text = "Cotizacion No.";
             // 
-            // Txt_direccionf
+            // Txt_direccionC
             // 
-            this.Txt_direccionf.BackColor = System.Drawing.Color.White;
-            this.Txt_direccionf.Enabled = false;
-            this.Txt_direccionf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_direccionf.Location = new System.Drawing.Point(376, 63);
-            this.Txt_direccionf.Multiline = true;
-            this.Txt_direccionf.Name = "Txt_direccionf";
-            this.Txt_direccionf.Size = new System.Drawing.Size(298, 20);
-            this.Txt_direccionf.TabIndex = 11;
+            this.Txt_direccionC.BackColor = System.Drawing.Color.White;
+            this.Txt_direccionC.Enabled = false;
+            this.Txt_direccionC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_direccionC.Location = new System.Drawing.Point(376, 63);
+            this.Txt_direccionC.Multiline = true;
+            this.Txt_direccionC.Name = "Txt_direccionC";
+            this.Txt_direccionC.Size = new System.Drawing.Size(298, 20);
+            this.Txt_direccionC.TabIndex = 11;
             // 
-            // Lbl_fechaf
+            // Lbl_fechaC
             // 
-            this.Lbl_fechaf.AutoSize = true;
-            this.Lbl_fechaf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_fechaf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_fechaf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_fechaf.Location = new System.Drawing.Point(514, 32);
-            this.Lbl_fechaf.Name = "Lbl_fechaf";
-            this.Lbl_fechaf.Size = new System.Drawing.Size(54, 18);
-            this.Lbl_fechaf.TabIndex = 10;
-            this.Lbl_fechaf.Text = "Fecha";
+            this.Lbl_fechaC.AutoSize = true;
+            this.Lbl_fechaC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_fechaC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_fechaC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_fechaC.Location = new System.Drawing.Point(514, 32);
+            this.Lbl_fechaC.Name = "Lbl_fechaC";
+            this.Lbl_fechaC.Size = new System.Drawing.Size(54, 18);
+            this.Lbl_fechaC.TabIndex = 10;
+            this.Lbl_fechaC.Text = "Fecha";
             // 
-            // Txt_nitf
+            // Txt_nitC
             // 
-            this.Txt_nitf.BackColor = System.Drawing.Color.White;
-            this.Txt_nitf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nitf.Location = new System.Drawing.Point(107, 63);
-            this.Txt_nitf.Multiline = true;
-            this.Txt_nitf.Name = "Txt_nitf";
-            this.Txt_nitf.Size = new System.Drawing.Size(135, 20);
-            this.Txt_nitf.TabIndex = 9;
-            this.Txt_nitf.Text = "C/F";
+            this.Txt_nitC.BackColor = System.Drawing.Color.White;
+            this.Txt_nitC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_nitC.Location = new System.Drawing.Point(107, 63);
+            this.Txt_nitC.Multiline = true;
+            this.Txt_nitC.Name = "Txt_nitC";
+            this.Txt_nitC.Size = new System.Drawing.Size(135, 20);
+            this.Txt_nitC.TabIndex = 9;
+            this.Txt_nitC.Text = "C/F";
             // 
-            // Lbl_direccionf
+            // Lbl_direccionC
             // 
-            this.Lbl_direccionf.AutoSize = true;
-            this.Lbl_direccionf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_direccionf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_direccionf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_direccionf.Location = new System.Drawing.Point(292, 64);
-            this.Lbl_direccionf.Name = "Lbl_direccionf";
-            this.Lbl_direccionf.Size = new System.Drawing.Size(81, 18);
-            this.Lbl_direccionf.TabIndex = 7;
-            this.Lbl_direccionf.Text = "Dirección";
+            this.Lbl_direccionC.AutoSize = true;
+            this.Lbl_direccionC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_direccionC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_direccionC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_direccionC.Location = new System.Drawing.Point(292, 64);
+            this.Lbl_direccionC.Name = "Lbl_direccionC";
+            this.Lbl_direccionC.Size = new System.Drawing.Size(81, 18);
+            this.Lbl_direccionC.TabIndex = 7;
+            this.Lbl_direccionC.Text = "Dirección";
             // 
-            // Txt_nombref
+            // Txt_nombreC
             // 
-            this.Txt_nombref.BackColor = System.Drawing.Color.White;
-            this.Txt_nombref.Enabled = false;
-            this.Txt_nombref.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nombref.Location = new System.Drawing.Point(107, 29);
-            this.Txt_nombref.Multiline = true;
-            this.Txt_nombref.Name = "Txt_nombref";
-            this.Txt_nombref.Size = new System.Drawing.Size(379, 20);
-            this.Txt_nombref.TabIndex = 4;
+            this.Txt_nombreC.BackColor = System.Drawing.Color.White;
+            this.Txt_nombreC.Enabled = false;
+            this.Txt_nombreC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_nombreC.Location = new System.Drawing.Point(107, 29);
+            this.Txt_nombreC.Multiline = true;
+            this.Txt_nombreC.Name = "Txt_nombreC";
+            this.Txt_nombreC.Size = new System.Drawing.Size(379, 20);
+            this.Txt_nombreC.TabIndex = 4;
             // 
             // Lbl_nitf
             // 
@@ -293,29 +306,29 @@
             this.textBox2.Size = new System.Drawing.Size(100, 29);
             this.textBox2.TabIndex = 0;
             // 
-            // Lbl_formaenvio
+            // Lbl_formaenvioC
             // 
-            this.Lbl_formaenvio.AutoSize = true;
-            this.Lbl_formaenvio.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_formaenvio.Location = new System.Drawing.Point(292, 99);
-            this.Lbl_formaenvio.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.Lbl_formaenvio.Name = "Lbl_formaenvio";
-            this.Lbl_formaenvio.Size = new System.Drawing.Size(121, 18);
-            this.Lbl_formaenvio.TabIndex = 5;
-            this.Lbl_formaenvio.Text = "Forma de Envio";
+            this.Lbl_formaenvioC.AutoSize = true;
+            this.Lbl_formaenvioC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_formaenvioC.Location = new System.Drawing.Point(292, 99);
+            this.Lbl_formaenvioC.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.Lbl_formaenvioC.Name = "Lbl_formaenvioC";
+            this.Lbl_formaenvioC.Size = new System.Drawing.Size(121, 18);
+            this.Lbl_formaenvioC.TabIndex = 5;
+            this.Lbl_formaenvioC.Text = "Forma de Envio";
             // 
-            // Gpb_laboratoriof
+            // Gpb_empresa
             // 
-            this.Gpb_laboratoriof.BackColor = System.Drawing.Color.Transparent;
-            this.Gpb_laboratoriof.Controls.Add(this.label1);
-            this.Gpb_laboratoriof.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_laboratoriof.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Gpb_laboratoriof.Location = new System.Drawing.Point(26, 110);
-            this.Gpb_laboratoriof.Name = "Gpb_laboratoriof";
-            this.Gpb_laboratoriof.Size = new System.Drawing.Size(881, 26);
-            this.Gpb_laboratoriof.TabIndex = 50;
-            this.Gpb_laboratoriof.TabStop = false;
-            this.Gpb_laboratoriof.Text = "COLCHONERIA";
+            this.Gpb_empresa.BackColor = System.Drawing.Color.Transparent;
+            this.Gpb_empresa.Controls.Add(this.label1);
+            this.Gpb_empresa.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_empresa.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Gpb_empresa.Location = new System.Drawing.Point(26, 110);
+            this.Gpb_empresa.Name = "Gpb_empresa";
+            this.Gpb_empresa.Size = new System.Drawing.Size(881, 26);
+            this.Gpb_empresa.TabIndex = 50;
+            this.Gpb_empresa.TabStop = false;
+            this.Gpb_empresa.Text = "COLCHONERIA";
             // 
             // label1
             // 
@@ -327,25 +340,25 @@
             this.label1.Size = new System.Drawing.Size(0, 28);
             this.label1.TabIndex = 0;
             // 
-            // Gpb_datosdepedido
+            // Gpb_detalleC
             // 
-            this.Gpb_datosdepedido.Controls.Add(this.Dgb_facturaf);
-            this.Gpb_datosdepedido.Controls.Add(this.label4);
-            this.Gpb_datosdepedido.Controls.Add(this.Lbl_codigof);
-            this.Gpb_datosdepedido.Controls.Add(this.Txt_codigof);
-            this.Gpb_datosdepedido.Controls.Add(this.Lbl_descuentto);
-            this.Gpb_datosdepedido.Controls.Add(this.Lbl_descripcionff);
-            this.Gpb_datosdepedido.Controls.Add(this.Lbl_nombredf);
-            this.Gpb_datosdepedido.Controls.Add(this.Txt_descuentof);
-            this.Gpb_datosdepedido.Controls.Add(this.Txt_descripcion);
-            this.Gpb_datosdepedido.Controls.Add(this.Txt_cantidadf);
-            this.Gpb_datosdepedido.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_datosdepedido.Location = new System.Drawing.Point(26, 284);
-            this.Gpb_datosdepedido.Name = "Gpb_datosdepedido";
-            this.Gpb_datosdepedido.Size = new System.Drawing.Size(881, 296);
-            this.Gpb_datosdepedido.TabIndex = 49;
-            this.Gpb_datosdepedido.TabStop = false;
-            this.Gpb_datosdepedido.Text = "Detalle Pedido";
+            this.Gpb_detalleC.Controls.Add(this.Dgb_facturaf);
+            this.Gpb_detalleC.Controls.Add(this.Lbl_porcentajeC);
+            this.Gpb_detalleC.Controls.Add(this.Lbl_codigoC);
+            this.Gpb_detalleC.Controls.Add(this.Txt_codigoC);
+            this.Gpb_detalleC.Controls.Add(this.Lbl_descuentoC);
+            this.Gpb_detalleC.Controls.Add(this.Lbl_descripcionC);
+            this.Gpb_detalleC.Controls.Add(this.Lbl_cantidadC);
+            this.Gpb_detalleC.Controls.Add(this.Txt_descuentoC);
+            this.Gpb_detalleC.Controls.Add(this.Txt_descripcionC);
+            this.Gpb_detalleC.Controls.Add(this.Txt_cantidadC);
+            this.Gpb_detalleC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_detalleC.Location = new System.Drawing.Point(26, 284);
+            this.Gpb_detalleC.Name = "Gpb_detalleC";
+            this.Gpb_detalleC.Size = new System.Drawing.Size(881, 296);
+            this.Gpb_detalleC.TabIndex = 49;
+            this.Gpb_detalleC.TabStop = false;
+            this.Gpb_detalleC.Text = "Detalle Cotización";
             // 
             // Dgb_facturaf
             // 
@@ -423,128 +436,115 @@
             this.Column5.HeaderText = "Total";
             this.Column5.Name = "Column5";
             // 
-            // label4
+            // Lbl_porcentajeC
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label4.Location = new System.Drawing.Point(711, 45);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 22);
-            this.label4.TabIndex = 64;
-            this.label4.Text = "%";
+            this.Lbl_porcentajeC.AutoSize = true;
+            this.Lbl_porcentajeC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_porcentajeC.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_porcentajeC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_porcentajeC.Location = new System.Drawing.Point(711, 45);
+            this.Lbl_porcentajeC.Name = "Lbl_porcentajeC";
+            this.Lbl_porcentajeC.Size = new System.Drawing.Size(25, 22);
+            this.Lbl_porcentajeC.TabIndex = 64;
+            this.Lbl_porcentajeC.Text = "%";
             // 
-            // Lbl_codigof
+            // Lbl_codigoC
             // 
-            this.Lbl_codigof.AutoSize = true;
-            this.Lbl_codigof.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_codigof.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_codigof.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_codigof.Location = new System.Drawing.Point(176, 28);
-            this.Lbl_codigof.Name = "Lbl_codigof";
-            this.Lbl_codigof.Size = new System.Drawing.Size(64, 18);
-            this.Lbl_codigof.TabIndex = 62;
-            this.Lbl_codigof.Text = "Codigo";
+            this.Lbl_codigoC.AutoSize = true;
+            this.Lbl_codigoC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_codigoC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_codigoC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_codigoC.Location = new System.Drawing.Point(176, 28);
+            this.Lbl_codigoC.Name = "Lbl_codigoC";
+            this.Lbl_codigoC.Size = new System.Drawing.Size(64, 18);
+            this.Lbl_codigoC.TabIndex = 62;
+            this.Lbl_codigoC.Text = "Codigo";
             // 
-            // Txt_codigof
+            // Txt_codigoC
             // 
-            this.Txt_codigof.BackColor = System.Drawing.Color.White;
-            this.Txt_codigof.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_codigof.Location = new System.Drawing.Point(174, 46);
-            this.Txt_codigof.Multiline = true;
-            this.Txt_codigof.Name = "Txt_codigof";
-            this.Txt_codigof.Size = new System.Drawing.Size(100, 20);
-            this.Txt_codigof.TabIndex = 63;
+            this.Txt_codigoC.BackColor = System.Drawing.Color.White;
+            this.Txt_codigoC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_codigoC.Location = new System.Drawing.Point(174, 46);
+            this.Txt_codigoC.Multiline = true;
+            this.Txt_codigoC.Name = "Txt_codigoC";
+            this.Txt_codigoC.Size = new System.Drawing.Size(100, 20);
+            this.Txt_codigoC.TabIndex = 63;
             // 
-            // Lbl_descuentto
+            // Lbl_descuentoC
             // 
-            this.Lbl_descuentto.AutoSize = true;
-            this.Lbl_descuentto.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_descuentto.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_descuentto.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_descuentto.Location = new System.Drawing.Point(568, 28);
-            this.Lbl_descuentto.Name = "Lbl_descuentto";
-            this.Lbl_descuentto.Size = new System.Drawing.Size(87, 18);
-            this.Lbl_descuentto.TabIndex = 61;
-            this.Lbl_descuentto.Text = "Descuento";
+            this.Lbl_descuentoC.AutoSize = true;
+            this.Lbl_descuentoC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_descuentoC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_descuentoC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_descuentoC.Location = new System.Drawing.Point(568, 28);
+            this.Lbl_descuentoC.Name = "Lbl_descuentoC";
+            this.Lbl_descuentoC.Size = new System.Drawing.Size(87, 18);
+            this.Lbl_descuentoC.TabIndex = 61;
+            this.Lbl_descuentoC.Text = "Descuento";
             // 
-            // Lbl_descripcionff
+            // Lbl_descripcionC
             // 
-            this.Lbl_descripcionff.AutoSize = true;
-            this.Lbl_descripcionff.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_descripcionff.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_descripcionff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_descripcionff.Location = new System.Drawing.Point(367, 28);
-            this.Lbl_descripcionff.Name = "Lbl_descripcionff";
-            this.Lbl_descripcionff.Size = new System.Drawing.Size(97, 18);
-            this.Lbl_descripcionff.TabIndex = 59;
-            this.Lbl_descripcionff.Text = "Descripción";
+            this.Lbl_descripcionC.AutoSize = true;
+            this.Lbl_descripcionC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_descripcionC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_descripcionC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_descripcionC.Location = new System.Drawing.Point(367, 28);
+            this.Lbl_descripcionC.Name = "Lbl_descripcionC";
+            this.Lbl_descripcionC.Size = new System.Drawing.Size(97, 18);
+            this.Lbl_descripcionC.TabIndex = 59;
+            this.Lbl_descripcionC.Text = "Descripción";
             // 
-            // Lbl_nombredf
+            // Lbl_cantidadC
             // 
-            this.Lbl_nombredf.AutoSize = true;
-            this.Lbl_nombredf.BackColor = System.Drawing.Color.Transparent;
-            this.Lbl_nombredf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_nombredf.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Lbl_nombredf.Location = new System.Drawing.Point(285, 28);
-            this.Lbl_nombredf.Name = "Lbl_nombredf";
-            this.Lbl_nombredf.Size = new System.Drawing.Size(77, 18);
-            this.Lbl_nombredf.TabIndex = 54;
-            this.Lbl_nombredf.Text = "Cantidad";
+            this.Lbl_cantidadC.AutoSize = true;
+            this.Lbl_cantidadC.BackColor = System.Drawing.Color.Transparent;
+            this.Lbl_cantidadC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Lbl_cantidadC.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Lbl_cantidadC.Location = new System.Drawing.Point(285, 28);
+            this.Lbl_cantidadC.Name = "Lbl_cantidadC";
+            this.Lbl_cantidadC.Size = new System.Drawing.Size(77, 18);
+            this.Lbl_cantidadC.TabIndex = 54;
+            this.Lbl_cantidadC.Text = "Cantidad";
             // 
-            // Txt_descuentof
+            // Txt_descuentoC
             // 
-            this.Txt_descuentof.BackColor = System.Drawing.Color.White;
-            this.Txt_descuentof.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_descuentof.Location = new System.Drawing.Point(564, 46);
-            this.Txt_descuentof.Multiline = true;
-            this.Txt_descuentof.Name = "Txt_descuentof";
-            this.Txt_descuentof.Size = new System.Drawing.Size(141, 20);
-            this.Txt_descuentof.TabIndex = 58;
+            this.Txt_descuentoC.BackColor = System.Drawing.Color.White;
+            this.Txt_descuentoC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_descuentoC.Location = new System.Drawing.Point(564, 46);
+            this.Txt_descuentoC.Multiline = true;
+            this.Txt_descuentoC.Name = "Txt_descuentoC";
+            this.Txt_descuentoC.Size = new System.Drawing.Size(141, 20);
+            this.Txt_descuentoC.TabIndex = 58;
             // 
-            // Txt_descripcion
+            // Txt_descripcionC
             // 
-            this.Txt_descripcion.BackColor = System.Drawing.Color.White;
-            this.Txt_descripcion.Enabled = false;
-            this.Txt_descripcion.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_descripcion.Location = new System.Drawing.Point(364, 46);
-            this.Txt_descripcion.Multiline = true;
-            this.Txt_descripcion.Name = "Txt_descripcion";
-            this.Txt_descripcion.Size = new System.Drawing.Size(194, 20);
-            this.Txt_descripcion.TabIndex = 56;
+            this.Txt_descripcionC.BackColor = System.Drawing.Color.White;
+            this.Txt_descripcionC.Enabled = false;
+            this.Txt_descripcionC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_descripcionC.Location = new System.Drawing.Point(364, 46);
+            this.Txt_descripcionC.Multiline = true;
+            this.Txt_descripcionC.Name = "Txt_descripcionC";
+            this.Txt_descripcionC.Size = new System.Drawing.Size(194, 20);
+            this.Txt_descripcionC.TabIndex = 56;
             // 
-            // Txt_cantidadf
+            // Txt_cantidadC
             // 
-            this.Txt_cantidadf.BackColor = System.Drawing.Color.White;
-            this.Txt_cantidadf.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_cantidadf.Location = new System.Drawing.Point(283, 46);
-            this.Txt_cantidadf.Multiline = true;
-            this.Txt_cantidadf.Name = "Txt_cantidadf";
-            this.Txt_cantidadf.Size = new System.Drawing.Size(76, 20);
-            this.Txt_cantidadf.TabIndex = 55;
+            this.Txt_cantidadC.BackColor = System.Drawing.Color.White;
+            this.Txt_cantidadC.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_cantidadC.Location = new System.Drawing.Point(283, 46);
+            this.Txt_cantidadC.Multiline = true;
+            this.Txt_cantidadC.Name = "Txt_cantidadC";
+            this.Txt_cantidadC.Size = new System.Drawing.Size(76, 20);
+            this.Txt_cantidadC.TabIndex = 55;
             // 
-            // button1
+            // pictureBox1
             // 
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(637, 590);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(132, 42);
-            this.button1.TabIndex = 52;
-            this.button1.Text = "Convertir en Pedido";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(775, 590);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(132, 42);
-            this.button3.TabIndex = 53;
-            this.button3.Text = "Convertir en Factura";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.pictureBox1.Image = global::JazzminZavala_Administracion.Properties.Resources.WhatsApp_Image_2018_10_15_at_8_14_11_PM;
+            this.pictureBox1.Location = new System.Drawing.Point(26, 19);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(873, 72);
+            this.pictureBox1.TabIndex = 48;
+            this.pictureBox1.TabStop = false;
             // 
             // Cotización
             // 
@@ -561,14 +561,14 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cotización";
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.Gpb_datosf.ResumeLayout(false);
-            this.Gpb_datosf.PerformLayout();
-            this.Gpb_laboratoriof.ResumeLayout(false);
-            this.Gpb_laboratoriof.PerformLayout();
-            this.Gpb_datosdepedido.ResumeLayout(false);
-            this.Gpb_datosdepedido.PerformLayout();
+            this.Gpb_datosc.ResumeLayout(false);
+            this.Gpb_datosc.PerformLayout();
+            this.Gpb_empresa.ResumeLayout(false);
+            this.Gpb_empresa.PerformLayout();
+            this.Gpb_detalleC.ResumeLayout(false);
+            this.Gpb_detalleC.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgb_facturaf)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -580,24 +580,24 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.GroupBox Gpb_datosf;
+        private System.Windows.Forms.GroupBox Gpb_datosc;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label Lbl_numSerie;
-        private System.Windows.Forms.DateTimePicker Dtp_fechaf;
-        private System.Windows.Forms.Label Lbl_serie;
-        private System.Windows.Forms.TextBox Txt_direccionf;
-        private System.Windows.Forms.Label Lbl_fechaf;
-        private System.Windows.Forms.TextBox Txt_nitf;
-        private System.Windows.Forms.Label Lbl_direccionf;
-        private System.Windows.Forms.TextBox Txt_nombref;
+        private System.Windows.Forms.Label Lbl_nCotizacion;
+        private System.Windows.Forms.DateTimePicker Dtp_fechaC;
+        private System.Windows.Forms.Label Lbl_cotizacion;
+        private System.Windows.Forms.TextBox Txt_direccionC;
+        private System.Windows.Forms.Label Lbl_fechaC;
+        private System.Windows.Forms.TextBox Txt_nitC;
+        private System.Windows.Forms.Label Lbl_direccionC;
+        private System.Windows.Forms.TextBox Txt_nombreC;
         private System.Windows.Forms.Label Lbl_nitf;
         private System.Windows.Forms.Label Lbl_nombref;
         private System.Windows.Forms.ComboBox Cbo_formaenvio;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label Lbl_formaenvio;
-        private System.Windows.Forms.GroupBox Gpb_laboratoriof;
+        private System.Windows.Forms.Label Lbl_formaenvioC;
+        private System.Windows.Forms.GroupBox Gpb_empresa;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox Gpb_datosdepedido;
+        private System.Windows.Forms.GroupBox Gpb_detalleC;
         private System.Windows.Forms.DataGridView Dgb_facturaf;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -605,16 +605,16 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label Lbl_codigof;
-        private System.Windows.Forms.TextBox Txt_codigof;
-        private System.Windows.Forms.Label Lbl_descuentto;
-        private System.Windows.Forms.Label Lbl_descripcionff;
-        private System.Windows.Forms.Label Lbl_nombredf;
-        private System.Windows.Forms.TextBox Txt_descuentof;
-        private System.Windows.Forms.TextBox Txt_descripcion;
-        private System.Windows.Forms.TextBox Txt_cantidadf;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label Lbl_porcentajeC;
+        private System.Windows.Forms.Label Lbl_codigoC;
+        private System.Windows.Forms.TextBox Txt_codigoC;
+        private System.Windows.Forms.Label Lbl_descuentoC;
+        private System.Windows.Forms.Label Lbl_descripcionC;
+        private System.Windows.Forms.Label Lbl_cantidadC;
+        private System.Windows.Forms.TextBox Txt_descuentoC;
+        private System.Windows.Forms.TextBox Txt_descripcionC;
+        private System.Windows.Forms.TextBox Txt_cantidadC;
+        private System.Windows.Forms.Button Btn_aFactura;
+        private System.Windows.Forms.Button Btn_aPedido;
     }
 }
