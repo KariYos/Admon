@@ -1,6 +1,6 @@
 ﻿namespace MonicaGarcia_Administracion
 {
-    partial class _4050_Clientes
+    partial class _4050_Mantenimiento_de_Clientes
     {
         /// <summary>
         /// Required designer variable.
@@ -31,6 +31,7 @@
             this.diseño1 = new DiseñoVentana.Diseño();
             this.navegador1 = new CapaDiseno.Navegador();
             this.Gpb_Datos = new System.Windows.Forms.GroupBox();
+            this.Txt_codicoProducto = new System.Windows.Forms.TextBox();
             this.cmb_Cobrador = new System.Windows.Forms.ComboBox();
             this.Lbl_Cobrador = new System.Windows.Forms.Label();
             this.Txt_nombre = new System.Windows.Forms.TextBox();
@@ -50,7 +51,6 @@
             this.Txt_telefono1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.Txt_Correo = new System.Windows.Forms.TextBox();
-            this.Txt_codicoProducto = new System.Windows.Forms.TextBox();
             this.Gpb_Datos.SuspendLayout();
             this.Gpb_contacto.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +63,7 @@
             this.diseño1.Name = "diseño1";
             this.diseño1.Size = new System.Drawing.Size(933, 700);
             this.diseño1.TabIndex = 0;
-            this.diseño1.Titulo = "4050_Clientes";
+            this.diseño1.Titulo = "4050_Mantenimiento de Clientes";
             this.diseño1.Load += new System.EventHandler(this.diseño1_Load);
             // 
             // navegador1
@@ -71,11 +71,11 @@
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.navegador1.DataGr = null;
             this.navegador1.Forma = this;
-            this.navegador1.Location = new System.Drawing.Point(37, 75);
+            this.navegador1.Location = new System.Drawing.Point(39, 63);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
             this.navegador1.Size = new System.Drawing.Size(857, 60);
-            this.navegador1.TabIndex = 9;
+            this.navegador1.TabIndex = 1;
             // 
             // Gpb_Datos
             // 
@@ -94,12 +94,21 @@
             this.Gpb_Datos.Controls.Add(this.Lbl_codigo);
             this.Gpb_Datos.Controls.Add(this.Lbl_nit);
             this.Gpb_Datos.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_Datos.Location = new System.Drawing.Point(37, 168);
+            this.Gpb_Datos.Location = new System.Drawing.Point(39, 156);
             this.Gpb_Datos.Name = "Gpb_Datos";
             this.Gpb_Datos.Size = new System.Drawing.Size(857, 337);
-            this.Gpb_Datos.TabIndex = 15;
+            this.Gpb_Datos.TabIndex = 16;
             this.Gpb_Datos.TabStop = false;
             this.Gpb_Datos.Text = "Datos Personales";
+            // 
+            // Txt_codicoProducto
+            // 
+            this.Txt_codicoProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_codicoProducto.Location = new System.Drawing.Point(256, 281);
+            this.Txt_codicoProducto.Name = "Txt_codicoProducto";
+            this.Txt_codicoProducto.ReadOnly = true;
+            this.Txt_codicoProducto.Size = new System.Drawing.Size(73, 27);
+            this.Txt_codicoProducto.TabIndex = 16;
             // 
             // cmb_Cobrador
             // 
@@ -128,7 +137,6 @@
             this.Txt_nombre.Name = "Txt_nombre";
             this.Txt_nombre.Size = new System.Drawing.Size(526, 27);
             this.Txt_nombre.TabIndex = 7;
-            this.Txt_nombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_nombre_KeyPress);
             // 
             // Txt_apellido
             // 
@@ -137,7 +145,6 @@
             this.Txt_apellido.Name = "Txt_apellido";
             this.Txt_apellido.Size = new System.Drawing.Size(526, 27);
             this.Txt_apellido.TabIndex = 9;
-            this.Txt_apellido.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_apellido_KeyPress);
             // 
             // Lbl_Apellido
             // 
@@ -157,7 +164,6 @@
             this.Txt_direccion.Name = "Txt_direccion";
             this.Txt_direccion.Size = new System.Drawing.Size(526, 27);
             this.Txt_direccion.TabIndex = 12;
-            this.Txt_direccion.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_direccion_KeyPress);
             // 
             // Txt_nit
             // 
@@ -167,7 +173,6 @@
             this.Txt_nit.Name = "Txt_nit";
             this.Txt_nit.Size = new System.Drawing.Size(526, 27);
             this.Txt_nit.TabIndex = 11;
-            this.Txt_nit.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_nit_KeyPress);
             // 
             // Txt_codigo
             // 
@@ -177,7 +182,6 @@
             this.Txt_codigo.Name = "Txt_codigo";
             this.Txt_codigo.Size = new System.Drawing.Size(237, 27);
             this.Txt_codigo.TabIndex = 8;
-            this.Txt_codigo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_codigo_KeyPress);
             // 
             // Lbl_nombre
             // 
@@ -233,10 +237,10 @@
             this.Gpb_contacto.Controls.Add(this.label1);
             this.Gpb_contacto.Controls.Add(this.Txt_Correo);
             this.Gpb_contacto.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_contacto.Location = new System.Drawing.Point(37, 521);
+            this.Gpb_contacto.Location = new System.Drawing.Point(39, 516);
             this.Gpb_contacto.Name = "Gpb_contacto";
             this.Gpb_contacto.Size = new System.Drawing.Size(857, 150);
-            this.Gpb_contacto.TabIndex = 18;
+            this.Gpb_contacto.TabIndex = 19;
             this.Gpb_contacto.TabStop = false;
             this.Gpb_contacto.Text = "Contacto";
             // 
@@ -248,7 +252,6 @@
             this.Txt_telefono2.Name = "Txt_telefono2";
             this.Txt_telefono2.Size = new System.Drawing.Size(197, 27);
             this.Txt_telefono2.TabIndex = 19;
-            this.Txt_telefono2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_telefono2_KeyPress);
             // 
             // Lbl_telefono2
             // 
@@ -280,7 +283,6 @@
             this.Txt_telefono1.Name = "Txt_telefono1";
             this.Txt_telefono1.Size = new System.Drawing.Size(216, 27);
             this.Txt_telefono1.TabIndex = 13;
-            this.Txt_telefono1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_telefono1_KeyPress);
             // 
             // label1
             // 
@@ -300,30 +302,21 @@
             this.Txt_Correo.Name = "Txt_Correo";
             this.Txt_Correo.Size = new System.Drawing.Size(527, 27);
             this.Txt_Correo.TabIndex = 17;
-            this.Txt_Correo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_Correo_KeyPress);
             // 
-            // Txt_codicoProducto
-            // 
-            this.Txt_codicoProducto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_codicoProducto.Location = new System.Drawing.Point(256, 281);
-            this.Txt_codicoProducto.Name = "Txt_codicoProducto";
-            this.Txt_codicoProducto.ReadOnly = true;
-            this.Txt_codicoProducto.Size = new System.Drawing.Size(73, 27);
-            this.Txt_codicoProducto.TabIndex = 16;
-            // 
-            // _4050_Clientes
+            // _4050_Mantenimiento_de_Clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(193)))), ((int)(((byte)(195)))));
             this.ClientSize = new System.Drawing.Size(933, 700);
             this.Controls.Add(this.Gpb_contacto);
-            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.Gpb_Datos);
+            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.diseño1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "_4050_Clientes";
+            this.Name = "_4050_Mantenimiento_de_Clientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "_4050_Clientes";
+            this.Text = "_4050_Mantenimiento_de_Clientes";
             this.Gpb_Datos.ResumeLayout(false);
             this.Gpb_Datos.PerformLayout();
             this.Gpb_contacto.ResumeLayout(false);
@@ -336,14 +329,10 @@
 
         private DiseñoVentana.Diseño diseño1;
         private CapaDiseno.Navegador navegador1;
-        private System.Windows.Forms.GroupBox Gpb_contacto;
-        private System.Windows.Forms.TextBox Txt_telefono2;
-        private System.Windows.Forms.Label Lbl_telefono2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox Txt_telefono1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox Txt_Correo;
         private System.Windows.Forms.GroupBox Gpb_Datos;
+        private System.Windows.Forms.TextBox Txt_codicoProducto;
+        private System.Windows.Forms.ComboBox cmb_Cobrador;
+        private System.Windows.Forms.Label Lbl_Cobrador;
         private System.Windows.Forms.TextBox Txt_nombre;
         private System.Windows.Forms.TextBox Txt_apellido;
         private System.Windows.Forms.Label Lbl_Apellido;
@@ -354,8 +343,12 @@
         private System.Windows.Forms.Label Lbl_Direccion;
         private System.Windows.Forms.Label Lbl_codigo;
         private System.Windows.Forms.Label Lbl_nit;
-        private System.Windows.Forms.ComboBox cmb_Cobrador;
-        private System.Windows.Forms.Label Lbl_Cobrador;
-        private System.Windows.Forms.TextBox Txt_codicoProducto;
+        private System.Windows.Forms.GroupBox Gpb_contacto;
+        private System.Windows.Forms.TextBox Txt_telefono2;
+        private System.Windows.Forms.Label Lbl_telefono2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox Txt_telefono1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox Txt_Correo;
     }
 }

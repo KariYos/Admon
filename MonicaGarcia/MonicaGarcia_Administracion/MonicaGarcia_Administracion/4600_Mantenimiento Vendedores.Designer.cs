@@ -1,6 +1,6 @@
 ﻿namespace MonicaGarcia_Administracion
 {
-    partial class _4052_Vendedor
+    partial class _4600_Mantenimiento_Vendedores
     {
         /// <summary>
         /// Required designer variable.
@@ -55,7 +55,7 @@
             this.diseño1.Name = "diseño1";
             this.diseño1.Size = new System.Drawing.Size(933, 700);
             this.diseño1.TabIndex = 0;
-            this.diseño1.Titulo = "4052_Vendedor";
+            this.diseño1.Titulo = "4060_Mantenimiento Vendedores";
             this.diseño1.Load += new System.EventHandler(this.diseño1_Load);
             // 
             // Gpb_DatosVendedor
@@ -75,13 +75,12 @@
             this.Gpb_DatosVendedor.Controls.Add(this.Lbl_empleado);
             this.Gpb_DatosVendedor.Controls.Add(this.Lbl_Comision);
             this.Gpb_DatosVendedor.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_DatosVendedor.Location = new System.Drawing.Point(73, 215);
+            this.Gpb_DatosVendedor.Location = new System.Drawing.Point(72, 199);
             this.Gpb_DatosVendedor.Name = "Gpb_DatosVendedor";
             this.Gpb_DatosVendedor.Size = new System.Drawing.Size(777, 438);
-            this.Gpb_DatosVendedor.TabIndex = 16;
+            this.Gpb_DatosVendedor.TabIndex = 17;
             this.Gpb_DatosVendedor.TabStop = false;
             this.Gpb_DatosVendedor.Text = "Datos ";
-            this.Gpb_DatosVendedor.Enter += new System.EventHandler(this.Gpb_DatosVendedor_Enter);
             // 
             // rdb_nodisponible
             // 
@@ -134,7 +133,6 @@
             this.Txt_ComisionVendedor.Name = "Txt_ComisionVendedor";
             this.Txt_ComisionVendedor.Size = new System.Drawing.Size(440, 27);
             this.Txt_ComisionVendedor.TabIndex = 6;
-            this.Txt_ComisionVendedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_ComisionVendedor_KeyPress);
             // 
             // Txt_nombreVededor
             // 
@@ -223,24 +221,25 @@
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.navegador1.DataGr = null;
             this.navegador1.Forma = this;
-            this.navegador1.Location = new System.Drawing.Point(38, 90);
+            this.navegador1.Location = new System.Drawing.Point(38, 84);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
             this.navegador1.Size = new System.Drawing.Size(857, 60);
-            this.navegador1.TabIndex = 17;
+            this.navegador1.TabIndex = 18;
             // 
-            // _4052_Vendedor
+            // _4600_Mantenimiento_Vendedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(193)))), ((int)(((byte)(195)))));
             this.ClientSize = new System.Drawing.Size(933, 700);
             this.Controls.Add(this.navegador1);
             this.Controls.Add(this.Gpb_DatosVendedor);
             this.Controls.Add(this.diseño1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "_4052_Vendedor";
+            this.Name = "_4600_Mantenimiento_Vendedores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "_4052_Vendedor";
+            this.Text = "_4600_Mantenimiento_Vendedores";
             this.Gpb_DatosVendedor.ResumeLayout(false);
             this.Gpb_DatosVendedor.PerformLayout();
             this.ResumeLayout(false);
@@ -250,7 +249,11 @@
         #endregion
 
         private DiseñoVentana.Diseño diseño1;
+        private CapaDiseno.Navegador navegador1;
         private System.Windows.Forms.GroupBox Gpb_DatosVendedor;
+        private System.Windows.Forms.RadioButton rdb_nodisponible;
+        private System.Windows.Forms.RadioButton rdb_disponible;
+        private System.Windows.Forms.Label Lbl_estatus;
         private System.Windows.Forms.ComboBox cmb_Empleado;
         private System.Windows.Forms.TextBox Txt_ComisionVendedor;
         private System.Windows.Forms.TextBox Txt_nombreVededor;
@@ -261,9 +264,5 @@
         private System.Windows.Forms.Label Lbl_codigoV;
         private System.Windows.Forms.Label Lbl_empleado;
         private System.Windows.Forms.Label Lbl_Comision;
-        private System.Windows.Forms.RadioButton rdb_nodisponible;
-        private System.Windows.Forms.RadioButton rdb_disponible;
-        private System.Windows.Forms.Label Lbl_estatus;
-        private CapaDiseno.Navegador navegador1;
     }
 }

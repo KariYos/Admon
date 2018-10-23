@@ -11,18 +11,12 @@ using CapaDiseno;
 
 namespace MonicaGarcia_Administracion
 {
-    public partial class _4052_Vendedor : Form
+    public partial class _4001_Mantenimiento_de_proveedor : Form
     {
         Navegador nav = new Navegador();
-        validacion val = new validacion();
-        public _4052_Vendedor()
+        public _4001_Mantenimiento_de_proveedor()
         {
             InitializeComponent();
-        }
-
-        private void Gpb_DatosVendedor_Enter(object sender, EventArgs e)
-        {
-
         }
 
         private void diseño1_Load(object sender, EventArgs e)
@@ -30,9 +24,9 @@ namespace MonicaGarcia_Administracion
 
         }
 
-        private void Txt_ComisionVendedor_KeyPress(object sender, KeyPressEventArgs e)
+        private void Gpv_datosP_Enter(object sender, EventArgs e)
         {
-            val.proValidarPrecios(e);
+
         }
     }
 }

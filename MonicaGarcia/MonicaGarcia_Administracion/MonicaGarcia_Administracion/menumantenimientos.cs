@@ -19,22 +19,23 @@ namespace MonicaGarcia_Administracion
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new _4050_Clientes().Show();
+            new _4050_Mantenimiento_de_Clientes().Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new _4051_mantenimientoProveedores().Show();
+            new _4001_Mantenimiento_de_proveedor().Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            new _4052_Vendedor().Show();
+            new _4600_Mantenimiento_Vendedores().Show();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            new _4053_Cobradores().Show();
+
+            new _4601_Mantenimiento_Cobradores().Show();
         }
     }
 }

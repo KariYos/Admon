@@ -1,6 +1,6 @@
 ﻿namespace MonicaGarcia_Administracion
 {
-    partial class _4051_mantenimientoProveedores
+    partial class _4001_Mantenimiento_de_proveedor
     {
         /// <summary>
         /// Required designer variable.
@@ -64,7 +64,7 @@
             this.diseño1.Name = "diseño1";
             this.diseño1.Size = new System.Drawing.Size(933, 700);
             this.diseño1.TabIndex = 0;
-            this.diseño1.Titulo = "4051_Proveedores";
+            this.diseño1.Titulo = "4001_Mantenimiento de Proveedor";
             this.diseño1.Load += new System.EventHandler(this.diseño1_Load);
             // 
             // Gpv_datosP
@@ -82,12 +82,13 @@
             this.Gpv_datosP.Controls.Add(this.Txt_nitProveedor);
             this.Gpv_datosP.Controls.Add(this.Lbl_nitP);
             this.Gpv_datosP.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpv_datosP.Location = new System.Drawing.Point(39, 167);
+            this.Gpv_datosP.Location = new System.Drawing.Point(38, 172);
             this.Gpv_datosP.Name = "Gpv_datosP";
             this.Gpv_datosP.Size = new System.Drawing.Size(857, 299);
-            this.Gpv_datosP.TabIndex = 16;
+            this.Gpv_datosP.TabIndex = 17;
             this.Gpv_datosP.TabStop = false;
             this.Gpv_datosP.Text = "Datos Personales";
+            this.Gpv_datosP.Enter += new System.EventHandler(this.Gpv_datosP_Enter);
             // 
             // Cmb_Producto
             // 
@@ -105,7 +106,6 @@
             this.Txt_nombreProveedor.Name = "Txt_nombreProveedor";
             this.Txt_nombreProveedor.Size = new System.Drawing.Size(599, 27);
             this.Txt_nombreProveedor.TabIndex = 7;
-            this.Txt_nombreProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_nombreProveedor_KeyPress);
             // 
             // Cmb_Tipo
             // 
@@ -123,7 +123,6 @@
             this.Txt_codigoProveedor.Name = "Txt_codigoProveedor";
             this.Txt_codigoProveedor.Size = new System.Drawing.Size(244, 27);
             this.Txt_codigoProveedor.TabIndex = 8;
-            this.Txt_codigoProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_codigoProveedor_KeyPress);
             // 
             // Txt_codicoProducto
             // 
@@ -194,7 +193,6 @@
             this.Txt_nitProveedor.Name = "Txt_nitProveedor";
             this.Txt_nitProveedor.Size = new System.Drawing.Size(599, 27);
             this.Txt_nitProveedor.TabIndex = 11;
-            this.Txt_nitProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_nitProveedor_KeyPress);
             // 
             // Lbl_nitP
             // 
@@ -218,13 +216,12 @@
             this.Gpb_contacto.Controls.Add(this.Txt_direccionProveedor);
             this.Gpb_contacto.Controls.Add(this.Txt_telefono2Proveedor);
             this.Gpb_contacto.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_contacto.Location = new System.Drawing.Point(39, 483);
+            this.Gpb_contacto.Location = new System.Drawing.Point(39, 489);
             this.Gpb_contacto.Name = "Gpb_contacto";
             this.Gpb_contacto.Size = new System.Drawing.Size(857, 190);
-            this.Gpb_contacto.TabIndex = 17;
+            this.Gpb_contacto.TabIndex = 18;
             this.Gpb_contacto.TabStop = false;
             this.Gpb_contacto.Text = "Contacto";
-            this.Gpb_contacto.Enter += new System.EventHandler(this.Gpb_contacto_Enter);
             // 
             // Txt_telefono2
             // 
@@ -233,7 +230,6 @@
             this.Txt_telefono2.Name = "Txt_telefono2";
             this.Txt_telefono2.Size = new System.Drawing.Size(238, 27);
             this.Txt_telefono2.TabIndex = 21;
-            this.Txt_telefono2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_telefono2_KeyPress);
             // 
             // Lbl_telefono2
             // 
@@ -264,7 +260,6 @@
             this.Txt_correoProveedor.Name = "Txt_correoProveedor";
             this.Txt_correoProveedor.Size = new System.Drawing.Size(601, 27);
             this.Txt_correoProveedor.TabIndex = 17;
-            this.Txt_correoProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_correoProveedor_KeyPress);
             // 
             // Lbl_direccionP
             // 
@@ -295,7 +290,6 @@
             this.Txt_direccionProveedor.Name = "Txt_direccionProveedor";
             this.Txt_direccionProveedor.Size = new System.Drawing.Size(601, 27);
             this.Txt_direccionProveedor.TabIndex = 12;
-            this.Txt_direccionProveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_direccionProveedor_KeyPress);
             // 
             // Txt_telefono2Proveedor
             // 
@@ -304,34 +298,32 @@
             this.Txt_telefono2Proveedor.Name = "Txt_telefono2Proveedor";
             this.Txt_telefono2Proveedor.Size = new System.Drawing.Size(244, 27);
             this.Txt_telefono2Proveedor.TabIndex = 13;
-            this.Txt_telefono2Proveedor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Txt_telefono2Proveedor_KeyPress);
             // 
             // navegador1
             // 
             this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.navegador1.DataGr = null;
             this.navegador1.Forma = this;
-            this.navegador1.Location = new System.Drawing.Point(39, 69);
+            this.navegador1.Location = new System.Drawing.Point(40, 73);
             this.navegador1.Name = "navegador1";
             this.navegador1.Procedimiento = null;
             this.navegador1.Size = new System.Drawing.Size(857, 60);
-            this.navegador1.TabIndex = 22;
-            this.navegador1.Load += new System.EventHandler(this.navegador1_Load);
+            this.navegador1.TabIndex = 19;
             // 
-            // _4051_mantenimientoProveedores
+            // _4001_Mantenimiento_de_proveedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(193)))), ((int)(((byte)(192)))), ((int)(((byte)(195)))));
             this.ClientSize = new System.Drawing.Size(933, 700);
+            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.Gpb_contacto);
             this.Controls.Add(this.Gpv_datosP);
-            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.diseño1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "_4051_mantenimientoProveedores";
+            this.Name = "_4001_Mantenimiento_de_proveedor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "_4051_mantenimientoProveedores";
+            this.Text = "_4001_Mantenimiento_de_proveedor";
             this.Gpv_datosP.ResumeLayout(false);
             this.Gpv_datosP.PerformLayout();
             this.Gpb_contacto.ResumeLayout(false);
@@ -344,27 +336,27 @@
 
         private DiseñoVentana.Diseño diseño1;
         private System.Windows.Forms.GroupBox Gpv_datosP;
+        private System.Windows.Forms.ComboBox Cmb_Producto;
         private System.Windows.Forms.TextBox Txt_nombreProveedor;
-        private System.Windows.Forms.TextBox Txt_nitProveedor;
+        private System.Windows.Forms.ComboBox Cmb_Tipo;
         private System.Windows.Forms.TextBox Txt_codigoProveedor;
+        private System.Windows.Forms.TextBox Txt_codicoProducto;
         private System.Windows.Forms.Label Lbl_codigoP;
+        private System.Windows.Forms.Label Lbl_productoP;
         private System.Windows.Forms.Label Lbl_nombreP;
+        private System.Windows.Forms.Label Lbl_tipo;
+        private System.Windows.Forms.TextBox Txt_codigotipoP;
+        private System.Windows.Forms.TextBox Txt_nitProveedor;
         private System.Windows.Forms.Label Lbl_nitP;
+        private CapaDiseno.Navegador navegador1;
         private System.Windows.Forms.GroupBox Gpb_contacto;
+        private System.Windows.Forms.TextBox Txt_telefono2;
+        private System.Windows.Forms.Label Lbl_telefono2;
         private System.Windows.Forms.Label Lbl_correoP;
         private System.Windows.Forms.TextBox Txt_correoProveedor;
         private System.Windows.Forms.Label Lbl_direccionP;
         private System.Windows.Forms.Label Lbl_Telefono2P;
         private System.Windows.Forms.TextBox Txt_direccionProveedor;
         private System.Windows.Forms.TextBox Txt_telefono2Proveedor;
-        private System.Windows.Forms.ComboBox Cmb_Producto;
-        private System.Windows.Forms.ComboBox Cmb_Tipo;
-        private System.Windows.Forms.TextBox Txt_codicoProducto;
-        private System.Windows.Forms.Label Lbl_productoP;
-        private System.Windows.Forms.Label Lbl_tipo;
-        private System.Windows.Forms.TextBox Txt_codigotipoP;
-        private CapaDiseno.Navegador navegador1;
-        private System.Windows.Forms.TextBox Txt_telefono2;
-        private System.Windows.Forms.Label Lbl_telefono2;
     }
 }
