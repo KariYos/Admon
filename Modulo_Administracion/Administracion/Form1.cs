@@ -121,5 +121,10 @@ namespace Administracion
         {
             MessageBox.Show("Aiuda");
         }
+
+        private void mantenimientoClientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
