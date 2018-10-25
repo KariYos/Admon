@@ -33,13 +33,14 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.Cod_Vendedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Vendedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.total_vendido = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.Cod_Vendedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Vendedor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.total_vendido = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Comicion_total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,10 +66,11 @@
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Cod_Vendedor,
             this.Vendedor,
-            this.total_vendido});
+            this.total_vendido,
+            this.Comicion_total});
             this.dataGridView1.Location = new System.Drawing.Point(12, 238);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(342, 188);
+            this.dataGridView1.Size = new System.Drawing.Size(600, 188);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -88,21 +90,6 @@
             this.label2.TabIndex = 3;
             this.label2.Text = "Tatal en ventas";
             this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // Cod_Vendedor
-            // 
-            this.Cod_Vendedor.HeaderText = "Codigo Vendedor";
-            this.Cod_Vendedor.Name = "Cod_Vendedor";
-            // 
-            // Vendedor
-            // 
-            this.Vendedor.HeaderText = "Vendedor";
-            this.Vendedor.Name = "Vendedor";
-            // 
-            // total_vendido
-            // 
-            this.total_vendido.HeaderText = "Total x Factura";
-            this.total_vendido.Name = "total_vendido";
             // 
             // textBox3
             // 
@@ -136,6 +123,26 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Comision Total";
             // 
+            // Cod_Vendedor
+            // 
+            this.Cod_Vendedor.HeaderText = "Codigo Vendedor";
+            this.Cod_Vendedor.Name = "Cod_Vendedor";
+            // 
+            // Vendedor
+            // 
+            this.Vendedor.HeaderText = "Vendedor";
+            this.Vendedor.Name = "Vendedor";
+            // 
+            // total_vendido
+            // 
+            this.total_vendido.HeaderText = "Total x Factura";
+            this.total_vendido.Name = "total_vendido";
+            // 
+            // Comicion_total
+            // 
+            this.Comicion_total.HeaderText = "Comicion total";
+            this.Comicion_total.Name = "Comicion_total";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -165,13 +172,14 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cod_Vendedor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Vendedor;
-        private System.Windows.Forms.DataGridViewTextBoxColumn total_vendido;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Cod_Vendedor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Vendedor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn total_vendido;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Comicion_total;
     }
 }
 

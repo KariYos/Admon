@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             this.LISTADO = new System.Windows.Forms.DataGridView();
-            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio_unitario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Precio_por_Mayor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -42,6 +37,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio_venta = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Precio_por_Mayor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.LISTADO)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,37 +54,13 @@
             this.Codigo,
             this.Nombre,
             this.Precio,
-            this.Precio_unitario,
+            this.Precio_venta,
             this.Precio_por_Mayor});
-            this.LISTADO.Location = new System.Drawing.Point(18, 199);
+            this.LISTADO.Location = new System.Drawing.Point(-1, 199);
             this.LISTADO.Name = "LISTADO";
-            this.LISTADO.Size = new System.Drawing.Size(617, 211);
+            this.LISTADO.Size = new System.Drawing.Size(883, 211);
             this.LISTADO.TabIndex = 0;
-            // 
-            // Codigo
-            // 
-            this.Codigo.HeaderText = "CodigoProducto";
-            this.Codigo.Name = "Codigo";
-            // 
-            // Nombre
-            // 
-            this.Nombre.HeaderText = "Nombre Producto";
-            this.Nombre.Name = "Nombre";
-            // 
-            // Precio
-            // 
-            this.Precio.HeaderText = "Precio de Compra";
-            this.Precio.Name = "Precio";
-            // 
-            // Precio_unitario
-            // 
-            this.Precio_unitario.HeaderText = "Precio Unitario";
-            this.Precio_unitario.Name = "Precio_unitario";
-            // 
-            // Precio_por_Mayor
-            // 
-            this.Precio_por_Mayor.HeaderText = "Precio Por Mayor";
-            this.Precio_por_Mayor.Name = "Precio_por_Mayor";
+            this.LISTADO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.LISTADO_CellContentClick);
             // 
             // label1
             // 
@@ -149,11 +127,55 @@
             this.textBox4.Size = new System.Drawing.Size(90, 20);
             this.textBox4.TabIndex = 8;
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(166, 120);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(90, 20);
+            this.textBox5.TabIndex = 10;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(31, 123);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(118, 13);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Ingrese Precio mayoreo";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // Codigo
+            // 
+            this.Codigo.HeaderText = "CodigoProducto";
+            this.Codigo.Name = "Codigo";
+            // 
+            // Nombre
+            // 
+            this.Nombre.HeaderText = "Nombre Producto";
+            this.Nombre.Name = "Nombre";
+            // 
+            // Precio
+            // 
+            this.Precio.HeaderText = "Precio de Compra";
+            this.Precio.Name = "Precio";
+            // 
+            // Precio_venta
+            // 
+            this.Precio_venta.HeaderText = "Precio Venta";
+            this.Precio_venta.Name = "Precio_venta";
+            // 
+            // Precio_por_Mayor
+            // 
+            this.Precio_por_Mayor.HeaderText = "Precio Por Mayor";
+            this.Precio_por_Mayor.Name = "Precio_por_Mayor";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(647, 422);
+            this.ClientSize = new System.Drawing.Size(913, 422);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
@@ -165,6 +187,7 @@
             this.Controls.Add(this.LISTADO);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LISTADO)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -174,11 +197,6 @@
         #endregion
 
         private System.Windows.Forms.DataGridView LISTADO;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio_unitario;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Precio_por_Mayor;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
@@ -187,6 +205,13 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio_venta;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Precio_por_Mayor;
     }
 }
 

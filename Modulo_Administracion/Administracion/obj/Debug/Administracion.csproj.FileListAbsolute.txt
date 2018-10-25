@@ -231,3 +231,6 @@ C:\Users\KaRi\Documents\Admin\Admon\Modulo_Administracion\Administracion\obj\Deb
 C:\Users\KaRi\Documents\Admin\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.csproj.GenerateResource.Cache
 C:\Users\KaRi\Documents\Admin\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.exe
 C:\Users\KaRi\Documents\Admin\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.pdb
+C:\Users\Andrea\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\bin\Debug\Administracion.exe.config
+C:\Users\Andrea\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.exe
+C:\Users\Andrea\Source\Repos\KariYos\Admon\Modulo_Administracion\Administracion\obj\Debug\Administracion.pdb
