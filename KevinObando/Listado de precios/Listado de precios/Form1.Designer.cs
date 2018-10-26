@@ -62,9 +62,9 @@
             this.Precio_por_Mayor,
             this.mayoreo2,
             this.mayoreo3});
-            this.LISTADO.Location = new System.Drawing.Point(-1, 251);
+            this.LISTADO.Location = new System.Drawing.Point(34, 261);
             this.LISTADO.Name = "LISTADO";
-            this.LISTADO.Size = new System.Drawing.Size(883, 159);
+            this.LISTADO.Size = new System.Drawing.Size(745, 159);
             this.LISTADO.TabIndex = 0;
             this.LISTADO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.LISTADO_CellContentClick);
             // 
@@ -220,7 +220,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LISTADO);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Listado de Precios por producto";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.LISTADO)).EndInit();
             this.ResumeLayout(false);
