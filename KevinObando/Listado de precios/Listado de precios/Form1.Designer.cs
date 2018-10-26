@@ -31,19 +31,23 @@
             this.LISTADO = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio_venta = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio_por_Mayor = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mayoreo2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mayoreo3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.LISTADO)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,17 +59,19 @@
             this.Nombre,
             this.Precio,
             this.Precio_venta,
-            this.Precio_por_Mayor});
-            this.LISTADO.Location = new System.Drawing.Point(-1, 199);
+            this.Precio_por_Mayor,
+            this.mayoreo2,
+            this.mayoreo3});
+            this.LISTADO.Location = new System.Drawing.Point(-1, 251);
             this.LISTADO.Name = "LISTADO";
-            this.LISTADO.Size = new System.Drawing.Size(883, 211);
+            this.LISTADO.Size = new System.Drawing.Size(883, 159);
             this.LISTADO.TabIndex = 0;
             this.LISTADO.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.LISTADO_CellContentClick);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(31, 17);
+            this.label1.Location = new System.Drawing.Point(31, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 13);
             this.label1.TabIndex = 1;
@@ -73,27 +79,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(130, 14);
+            this.textBox1.Location = new System.Drawing.Point(166, 36);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(90, 20);
             this.textBox1.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(130, 40);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(90, 20);
-            this.textBox2.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(31, 43);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(88, 13);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ingrese Producto";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // textBox3
             // 
@@ -139,10 +128,43 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(31, 123);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(118, 13);
+            this.label5.Size = new System.Drawing.Size(110, 13);
             this.label5.TabIndex = 9;
-            this.label5.Text = "Ingrese Precio mayoreo";
+            this.label5.Text = "Ingrese % por docena";
             this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(166, 147);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(90, 20);
+            this.textBox2.TabIndex = 12;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(31, 150);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(135, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Ingrese % por Medio ciento";
+            this.label2.Click += new System.EventHandler(this.label2_Click_1);
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(166, 178);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(90, 20);
+            this.textBox6.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(31, 181);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(103, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Ingrese % por ciento";
             // 
             // Codigo
             // 
@@ -166,22 +188,34 @@
             // 
             // Precio_por_Mayor
             // 
-            this.Precio_por_Mayor.HeaderText = "Precio Por Mayor";
+            this.Precio_por_Mayor.HeaderText = "Precio por docena";
             this.Precio_por_Mayor.Name = "Precio_por_Mayor";
+            // 
+            // mayoreo2
+            // 
+            this.mayoreo2.HeaderText = "Precio por medio ciento";
+            this.mayoreo2.Name = "mayoreo2";
+            // 
+            // mayoreo3
+            // 
+            this.mayoreo3.HeaderText = "Precio por Ciento";
+            this.mayoreo3.Name = "mayoreo3";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(913, 422);
+            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LISTADO);
@@ -199,19 +233,23 @@
         private System.Windows.Forms.DataGridView LISTADO;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio_venta;
         private System.Windows.Forms.DataGridViewTextBoxColumn Precio_por_Mayor;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mayoreo2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mayoreo3;
     }
 }
 

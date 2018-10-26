@@ -102,9 +102,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(42, 112);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(113, 13);
+            this.label3.Size = new System.Drawing.Size(112, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Ingrese % de comicion";
+            this.label3.Text = "Ingrese % de comision";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form1
