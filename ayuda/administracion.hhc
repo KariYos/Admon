@@ -1,0 +1,123 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<OBJECT type="text/site properties">
+	<param name="ImageType" value="Folder">
+</OBJECT>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="M&oacute;dulo Administraci&oacute;n">
+		<param name="ImageNumber" value="13">
+		</OBJECT>
+	<UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Ventas">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Cotizaci&oacute;n">
+				<param name="Local" value="cotizacion.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Pedido">
+				<param name="Local" value="pedido.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Factura">
+				<param name="Local" value="factura.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Poliza">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Polizas">
+				<param name="Local" value="poliza.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Movimientos Proveedores">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Movimientos Cuentas por Pagar">
+				<param name="Local" value="altaMovCxP.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Conceptos de Cuentas por Pagar">
+				<param name="Local" value="altaConceptosCxP.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Movimientos Clientes">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Altas Conceptos Clientes">
+				<param name="Local" value="AltasConceptoClientes.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Altas de Cuentas por Cobrar">
+				<param name="Local" value="AltasCxC.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Conceptos de Cuentas por Cobrar">
+				<param name="Local" value="ConceptosCxC.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Tabla movimientos por cobrar">
+				<param name="Local" value="TablaMovimientosCobrar.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Movimientos Cuentas por Cobrar">
+				<param name="Local" value="AltasCxC.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+		</UL>
+		<LI> <OBJECT type="text/sitemap">
+			<param name="Name" value="Mantenimiento">
+			<param name="ImageNumber" value="1">
+			</OBJECT>
+		<UL>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento Clientes">
+				<param name="Local" value="clientes.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento Proveedores">
+				<param name="Local" value="proveedores.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantemiento Cobradores">
+				<param name="Local" value="cobradores.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+			<LI> <OBJECT type="text/sitemap">
+				<param name="Name" value="Mantenimiento Vendedores">
+				<param name="Local" value="vendedores.html">
+				<param name="ImageNumber" value="2">
+				</OBJECT>
+		</UL>
+	</UL>
+</UL>
+</BODY></HTML>
