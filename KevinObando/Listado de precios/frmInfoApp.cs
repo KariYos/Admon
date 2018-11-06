@@ -8,23 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Listado_de_precios
+namespace CapaPresentacion
 {
-    public partial class Form2 : Form
+    public partial class frmInfoApp : Form
     {
-        public Form2()
+        public frmInfoApp()
         {
             InitializeComponent();
-        }
-
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
