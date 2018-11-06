@@ -118,9 +118,9 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(22, 208);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(47, 13);
+            this.label26.Size = new System.Drawing.Size(36, 13);
             this.label26.TabIndex = 43;
-            this.label26.Text = "Material:";
+            this.label26.Text = "Linea:";
             this.label26.Click += new System.EventHandler(this.label26_Click);
             // 
             // cboMaterial
