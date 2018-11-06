@@ -48,12 +48,6 @@
             this.dgvProductos = new System.Windows.Forms.DataGridView();
             this.label16 = new System.Windows.Forms.Label();
             this.txtPrecioVenta = new System.Windows.Forms.TextBox();
-            this.cboProveedor = new System.Windows.Forms.ComboBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.cboUnidMed = new System.Windows.Forms.ComboBox();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.cboCategoria = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvProductos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -245,77 +239,11 @@
             this.txtPrecioVenta.TabIndex = 56;
             this.txtPrecioVenta.Text = "0,00";
             // 
-            // cboProveedor
-            // 
-            this.cboProveedor.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cboProveedor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboProveedor.FormattingEnabled = true;
-            this.cboProveedor.Location = new System.Drawing.Point(313, 334);
-            this.cboProveedor.Name = "cboProveedor";
-            this.cboProveedor.Size = new System.Drawing.Size(172, 21);
-            this.cboProveedor.TabIndex = 59;
-            // 
-            // label13
-            // 
-            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(199, 339);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(59, 13);
-            this.label13.TabIndex = 62;
-            this.label13.Text = "Proveedor:";
-            // 
-            // cboUnidMed
-            // 
-            this.cboUnidMed.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cboUnidMed.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboUnidMed.FormattingEnabled = true;
-            this.cboUnidMed.Location = new System.Drawing.Point(313, 304);
-            this.cboUnidMed.Name = "cboUnidMed";
-            this.cboUnidMed.Size = new System.Drawing.Size(172, 21);
-            this.cboUnidMed.TabIndex = 58;
-            // 
-            // label14
-            // 
-            this.label14.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(199, 309);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(56, 13);
-            this.label14.TabIndex = 61;
-            this.label14.Text = "Unid. Med";
-            // 
-            // label15
-            // 
-            this.label15.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(199, 279);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(55, 13);
-            this.label15.TabIndex = 60;
-            this.label15.Text = "Categoria:";
-            // 
-            // cboCategoria
-            // 
-            this.cboCategoria.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cboCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboCategoria.FormattingEnabled = true;
-            this.cboCategoria.Location = new System.Drawing.Point(313, 275);
-            this.cboCategoria.Name = "cboCategoria";
-            this.cboCategoria.Size = new System.Drawing.Size(172, 21);
-            this.cboCategoria.TabIndex = 57;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(847, 579);
-            this.Controls.Add(this.cboProveedor);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.cboUnidMed);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.cboCategoria);
             this.Controls.Add(this.txtPrecioVenta);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.dgvProductos);
@@ -367,12 +295,6 @@
         private System.Windows.Forms.DataGridView dgvProductos;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtPrecioVenta;
-        private System.Windows.Forms.ComboBox cboProveedor;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.ComboBox cboUnidMed;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.ComboBox cboCategoria;
     }
 }
 
