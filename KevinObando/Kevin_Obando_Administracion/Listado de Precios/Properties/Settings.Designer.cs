@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Listado_de_Precios.Properties
+namespace Listado_de_precios.Properties
 {
 
 
