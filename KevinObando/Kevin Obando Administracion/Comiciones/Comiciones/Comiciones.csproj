@@ -33,6 +33,18 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BITACORA">
+      <HintPath>..\..\..\..\..\..\..\..\Desktop\navegador\Navegador\CapaDiseno\bin\Debug\BITACORA.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDatos">
+      <HintPath>..\..\..\..\..\..\..\..\Desktop\navegador\Navegador\CapaLogica\bin\Debug\CapaDatos.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaDiseno">
+      <HintPath>..\..\..\..\..\..\..\..\Desktop\navegador\Navegador\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="CapaLogica">
+      <HintPath>..\..\..\..\..\..\..\..\Desktop\navegador\Navegador\CapaLogica\bin\Debug\CapaLogica.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

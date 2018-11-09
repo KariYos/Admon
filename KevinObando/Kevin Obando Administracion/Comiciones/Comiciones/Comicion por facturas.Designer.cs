@@ -37,13 +37,14 @@
             this.Comicion_total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.navegador1 = new CapaDiseno.Navegador();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(18, 156);
+            this.label1.Location = new System.Drawing.Point(47, 190);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(140, 13);
             this.label1.TabIndex = 0;
@@ -51,7 +52,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(174, 156);
+            this.textBox1.Location = new System.Drawing.Point(203, 190);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 1;
@@ -64,7 +65,7 @@
             this.Vendedor,
             this.total_vendido,
             this.Comicion_total});
-            this.dataGridView1.Location = new System.Drawing.Point(-1, 272);
+            this.dataGridView1.Location = new System.Drawing.Point(28, 306);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(600, 188);
             this.dataGridView1.TabIndex = 2;
@@ -92,7 +93,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(174, 182);
+            this.textBox3.Location = new System.Drawing.Point(203, 216);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 6;
@@ -100,18 +101,31 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(18, 182);
+            this.label3.Location = new System.Drawing.Point(47, 216);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(112, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Ingrese % de comision";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // navegador1
+            // 
+            this.navegador1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.navegador1.DataGr = null;
+            this.navegador1.Location = new System.Drawing.Point(12, 12);
+            this.navegador1.Name = "navegador1";
+            this.navegador1.Procedimiento = null;
+            this.navegador1.pubNombrechm = null;
+            this.navegador1.pubNombreHtml = null;
+            this.navegador1.Size = new System.Drawing.Size(857, 60);
+            this.navegador1.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 460);
+            this.ClientSize = new System.Drawing.Size(889, 532);
+            this.Controls.Add(this.navegador1);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.dataGridView1);
@@ -138,6 +152,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Vendedor;
         private System.Windows.Forms.DataGridViewTextBoxColumn total_vendido;
         private System.Windows.Forms.DataGridViewTextBoxColumn Comicion_total;
+        private CapaDiseno.Navegador navegador1;
     }
 }
 
