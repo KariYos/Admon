@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3778B18A-5DA2-4043-B7F1-9B6AF4FE350B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dll_mantenimientos</RootNamespace>
+    <AssemblyName>Dll_mantenimientos</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CapaDiseno">
+      <HintPath>..\Navegador\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
+    </Reference>
+    <Reference Include="DiseñoVentana, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DiseñoVentana.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="4003_Mantenimiento Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4003_Mantenimiento Proveedor.Designer.cs">
+      <DependentUpon>4003_Mantenimiento Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4053_Mantenimiento Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4053_Mantenimiento Clientes.Designer.cs">
+      <DependentUpon>4053_Mantenimiento Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4065_Alta conceptos cuentas por cobrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4065_Alta conceptos cuentas por cobrar.Designer.cs">
+      <DependentUpon>4065_Alta conceptos cuentas por cobrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4603_Mantenimiento Vendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4603_Mantenimiento Vendedores.Designer.cs">
+      <DependentUpon>4603_Mantenimiento Vendedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="4612_Mantenimiento Cobradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="4612_Mantenimiento Cobradores.Designer.cs">
+      <DependentUpon>4612_Mantenimiento Cobradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="menuprueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuprueba.Designer.cs">
+      <DependentUpon>menuprueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tabla alta conceptos cuentas por cobrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla alta conceptos cuentas por cobrar.Designer.cs">
+      <DependentUpon>Tabla alta conceptos cuentas por cobrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabla Clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla Clientes.Designer.cs">
+      <DependentUpon>Tabla Clientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabla Cobrador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla Cobrador.Designer.cs">
+      <DependentUpon>Tabla Cobrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabla Proveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla Proveedores.Designer.cs">
+      <DependentUpon>Tabla Proveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabla Vendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla Vendedores.Designer.cs">
+      <DependentUpon>Tabla Vendedores.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="4003_Mantenimiento Proveedor.resx">
+      <DependentUpon>4003_Mantenimiento Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4053_Mantenimiento Clientes.resx">
+      <DependentUpon>4053_Mantenimiento Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4065_Alta conceptos cuentas por cobrar.resx">
+      <DependentUpon>4065_Alta conceptos cuentas por cobrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4603_Mantenimiento Vendedores.resx">
+      <DependentUpon>4603_Mantenimiento Vendedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4612_Mantenimiento Cobradores.resx">
+      <DependentUpon>4612_Mantenimiento Cobradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuprueba.resx">
+      <DependentUpon>menuprueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla alta conceptos cuentas por cobrar.resx">
+      <DependentUpon>Tabla alta conceptos cuentas por cobrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla Clientes.resx">
+      <DependentUpon>Tabla Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla Cobrador.resx">
+      <DependentUpon>Tabla Cobrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla Proveedores.resx">
+      <DependentUpon>Tabla Proveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla Vendedores.resx">
+      <DependentUpon>Tabla Vendedores.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
