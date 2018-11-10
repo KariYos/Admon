@@ -1,0 +1,3 @@
+1- La ayuda va dentro de "C:/Ayuda"
+2- Los DLL's está en esta misma carpeta.
+3- Para probar, abre el proyecto "probarDLL"

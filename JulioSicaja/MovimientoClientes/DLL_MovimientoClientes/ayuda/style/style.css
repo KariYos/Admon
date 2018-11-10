@@ -1,0 +1,41 @@
+body{
+	font-family: Century Gothic;
+	text-align: justify;
+}
+
+.contenido{
+	position: relative;
+	margin: auto;
+	width: 95%;
+	height: 400px;
+}
+
+h1{
+	font-size: 18pt;
+}
+
+h3{
+	font-size: 14pt;
+	color: blue;
+}
+
+h4{
+	text-decoration: underline;
+	color: darkred;
+}
+
+p{
+	font-size: 12pt;
+	margin-left: 22px;
+}
+
+.subs{
+	color:dodgerblue;
+	text-decoration: underline;
+	margin-left: 13px;
+}
+
+img{
+	width: 50%;
+	height: 450px;
+}
